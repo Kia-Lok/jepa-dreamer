@@ -1,0 +1,35 @@
+{
+    "name": "mixed_composition_var_390",
+    "num_allied_units": 7,
+    "num_enemy_units": 16,
+    "groups": [
+        {
+            "x": 9.08,
+            "y": 16.86,
+            "faction": "ALLY",
+            "units": {
+                "ROACH": 7
+            }
+        },
+        {
+            "x": 21.82,
+            "y": 17.89,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 16
+            }
+        }
+    ],
+    "attack_point": [
+        11.01,
+        14.97
+    ],
+    "terrain_preset": "OCTAGON",
+    "num_unit_types": 2,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "ROACH": 1
+    }
+}

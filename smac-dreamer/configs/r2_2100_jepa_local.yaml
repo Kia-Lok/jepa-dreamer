@@ -1,0 +1,74 @@
+# R2-2100 frozen-JEPA backend config.
+#
+# Do not start a full run until token parity, action parity, wrapper parity,
+# recursive-rollout parity, and a 5k real-checkpoint smoke run pass.
+
+maps:
+  train:               configs/maps/r2_2100/configs/train
+  validation:          configs/maps/r2_2100/configs/validation
+  blind_iid:           configs/maps/r2_2100/configs/blind_iid
+  blind_compositional: configs/maps/r2_2100/configs/blind_compositional
+
+sampling_mode: shuffled_round_robin
+
+observation:
+  mode: structured
+
+action_masking: true
+mask_threshold: 0.7
+
+world_model:
+  backend: jepa
+  jepa:
+    checkpoint: checkpoints/jepa/model_smoke.pt
+    strict_checkpoint: true
+    freeze_core: true
+    presence_threshold: 0.5
+    feature_dim: null
+    pooling: masked_mean
+    latent_normalization: from_checkpoint
+
+reward:
+  name: smaclite_default
+  params: {}
+
+device: cuda:0
+amp_dtype: bfloat16
+seed: 0
+gamma: 0.997
+steps: 2000000
+env_num: 8
+max_episode_steps: 200
+
+batch_size: 16
+batch_length: 64
+units: 256
+deter: 2048
+imag_horizon: 5
+
+validation:
+  every: 100000
+  run_at_start: false
+  seeds: [0, 1, 2]
+
+buffer:
+  max_size: 500000
+  storage_device: cpu
+  storage_backend: memmap
+  scratch_dir: replay
+
+env_lifecycle:
+  max_episodes_per_worker: 25
+  shutdown_timeout_seconds: 5
+  log_worker_memory: true
+
+system_log_every: 10000
+
+wandb:
+  project: smac-r2dreamer
+  entity: null
+  mode: online
+  tags: [r2_2100, smaclite, multimap, frozen_jepa]
+  run_name: null
+logdir: logs/r2dreamer/r2_2100_jepa
+checkpoint_every_minutes: 15.0

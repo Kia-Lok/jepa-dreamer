@@ -1,0 +1,44 @@
+{
+  "name": "r2g_blind_compositional_2053",
+  "num_allied_units": 5,
+  "num_enemy_units": 9,
+  "groups": [
+    {
+      "x": 6.942,
+      "y": 10.989,
+      "faction": "ALLY",
+      "units": {
+        "STALKER": 4,
+        "COLOSSUS": 1
+      }
+    },
+    {
+      "x": 6.942,
+      "y": 21.29,
+      "faction": "ENEMY",
+      "units": {
+        "MARINE": 6,
+        "MARAUDER": 3
+      }
+    }
+  ],
+  "attack_point": [
+    6.942,
+    10.989
+  ],
+  "terrain_preset": "NARROW",
+  "num_unit_types": 9,
+  "ally_has_shields": true,
+  "enemy_has_shields": false,
+  "unit_type_ids": {
+    "BANELING": 0,
+    "COLOSSUS": 1,
+    "MARAUDER": 2,
+    "MARINE": 3,
+    "MEDIVAC": 4,
+    "SPINE_CRAWLER": 5,
+    "STALKER": 6,
+    "ZEALOT": 7,
+    "ZERGLING": 8
+  }
+}

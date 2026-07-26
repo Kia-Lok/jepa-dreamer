@@ -1,0 +1,55 @@
+{
+    "name": "slight_ally_adv_0478",
+    "num_allied_units": 6,
+    "num_enemy_units": 7,
+    "groups": [
+        {
+            "x": 6.5,
+            "y": 10.5,
+            "faction": "ALLY",
+            "units": {
+                "SPINE_CRAWLER": 3
+            }
+        },
+        {
+            "x": 8.5,
+            "y": 17.5,
+            "faction": "ALLY",
+            "units": {
+                "BANELING": 1,
+                "SPINE_CRAWLER": 2
+            }
+        },
+        {
+            "x": 25.5,
+            "y": 10.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 1,
+                "MARAUDER": 3
+            }
+        },
+        {
+            "x": 23.5,
+            "y": 17.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARAUDER": 3
+            }
+        }
+    ],
+    "attack_point": [
+        6.5,
+        10.5
+    ],
+    "terrain_preset": "RAVINE",
+    "num_unit_types": 4,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "MARAUDER": 1,
+        "MARINE": 2,
+        "SPINE_CRAWLER": 3
+    }
+}

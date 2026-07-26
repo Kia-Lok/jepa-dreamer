@@ -1,0 +1,62 @@
+{
+  "name": "r2g_blind_compositional_1800",
+  "num_allied_units": 9,
+  "num_enemy_units": 5,
+  "groups": [
+    {
+      "x": 9.238,
+      "y": 12.077,
+      "faction": "ALLY",
+      "units": {
+        "MEDIVAC": 1,
+        "MARAUDER": 1,
+        "MARINE": 2
+      }
+    },
+    {
+      "x": 4.838,
+      "y": 12.877,
+      "faction": "ALLY",
+      "units": {
+        "MARAUDER": 2,
+        "MARINE": 3
+      }
+    },
+    {
+      "x": 4.838,
+      "y": 19.522,
+      "faction": "ENEMY",
+      "units": {
+        "STALKER": 2
+      }
+    },
+    {
+      "x": 9.238,
+      "y": 18.722,
+      "faction": "ENEMY",
+      "units": {
+        "STALKER": 1,
+        "ZEALOT": 2
+      }
+    }
+  ],
+  "attack_point": [
+    6.794,
+    12.521
+  ],
+  "terrain_preset": "NARROW",
+  "num_unit_types": 9,
+  "ally_has_shields": false,
+  "enemy_has_shields": true,
+  "unit_type_ids": {
+    "BANELING": 0,
+    "COLOSSUS": 1,
+    "MARAUDER": 2,
+    "MARINE": 3,
+    "MEDIVAC": 4,
+    "SPINE_CRAWLER": 5,
+    "STALKER": 6,
+    "ZEALOT": 7,
+    "ZERGLING": 8
+  }
+}

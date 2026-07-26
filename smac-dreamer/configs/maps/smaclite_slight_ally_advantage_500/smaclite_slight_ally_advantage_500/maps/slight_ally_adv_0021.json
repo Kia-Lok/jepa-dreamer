@@ -1,0 +1,31 @@
+{
+    "name": "slight_ally_adv_0021",
+    "num_allied_units": 1,
+    "num_enemy_units": 1,
+    "groups": [
+        {
+            "x": 5.5,
+            "y": 15.5,
+            "faction": "ALLY",
+            "units": {
+                "BANELING": 1
+            }
+        },
+        {
+            "x": 25.5,
+            "y": 15.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZEALOT": 1
+            }
+        }
+    ],
+    "attack_point": [
+        5.5,
+        15.5
+    ],
+    "terrain_preset": "CHECKERBOARD",
+    "num_unit_types": 0,
+    "ally_has_shields": false,
+    "enemy_has_shields": true
+}

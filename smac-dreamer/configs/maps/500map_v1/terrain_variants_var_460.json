@@ -1,0 +1,37 @@
+{
+    "name": "terrain_variants_var_460",
+    "num_allied_units": 11,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 6.93,
+            "y": 13.34,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 9,
+                "MARAUDER": 2
+            }
+        },
+        {
+            "x": 20.74,
+            "y": 17.95,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 7,
+                "MARAUDER": 2
+            }
+        }
+    ],
+    "attack_point": [
+        10.58,
+        15.04
+    ],
+    "terrain_preset": "RAVINE",
+    "num_unit_types": 2,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "MARAUDER": 0,
+        "MARINE": 1
+    }
+}

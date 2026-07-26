@@ -1,0 +1,37 @@
+{
+    "name": "slight_ally_adv_0103",
+    "num_allied_units": 10,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 24.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 8,
+                "MEDIVAC": 2
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 6,
+                "MEDIVAC": 3
+            }
+        }
+    ],
+    "attack_point": [
+        24.5,
+        16.5
+    ],
+    "terrain_preset": "SIMPLE",
+    "num_unit_types": 2,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "MARINE": 0,
+        "MEDIVAC": 1
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "slight_advantage_var_122",
+    "num_allied_units": 11,
+    "num_enemy_units": 14,
+    "groups": [
+        {
+            "x": 9.66,
+            "y": 14.15,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 7,
+                "ZEALOT": 4
+            }
+        },
+        {
+            "x": 21.35,
+            "y": 18.84,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 10,
+                "ZEALOT": 4
+            }
+        }
+    ],
+    "attack_point": [
+        9.9,
+        17.52
+    ],
+    "terrain_preset": "NARROW",
+    "num_unit_types": 2,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "MARINE": 0,
+        "ZEALOT": 1
+    }
+}

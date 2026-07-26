@@ -1,0 +1,38 @@
+{
+    "name": "slight_ally_adv_0129",
+    "num_allied_units": 7,
+    "num_enemy_units": 6,
+    "groups": [
+        {
+            "x": 24.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 2,
+                "COLOSSUS": 5
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZEALOT": 1,
+                "COLOSSUS": 5
+            }
+        }
+    ],
+    "attack_point": [
+        24.5,
+        16.5
+    ],
+    "terrain_preset": "SIMPLE",
+    "num_unit_types": 3,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "COLOSSUS": 0,
+        "STALKER": 1,
+        "ZEALOT": 2
+    }
+}

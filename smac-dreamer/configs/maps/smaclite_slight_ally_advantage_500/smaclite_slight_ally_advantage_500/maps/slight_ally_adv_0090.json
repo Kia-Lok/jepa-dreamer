@@ -1,0 +1,36 @@
+{
+    "name": "slight_ally_adv_0090",
+    "num_allied_units": 5,
+    "num_enemy_units": 4,
+    "groups": [
+        {
+            "x": 7.5,
+            "y": 14.5,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 5
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 14.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 2,
+                "ZEALOT": 2
+            }
+        }
+    ],
+    "attack_point": [
+        7.5,
+        14.5
+    ],
+    "terrain_preset": "RAVINE",
+    "num_unit_types": 2,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "STALKER": 0,
+        "ZEALOT": 1
+    }
+}

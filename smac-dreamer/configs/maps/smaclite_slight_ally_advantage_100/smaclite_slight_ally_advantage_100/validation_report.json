@@ -1,0 +1,51 @@
+{
+    "status": "PASS",
+    "validated_maps": 100,
+    "errors": [],
+    "terrain_counts": {
+        "ALL_GREEN": 12,
+        "CHECKERBOARD": 13,
+        "CORRIDOR": 12,
+        "NARROW": 13,
+        "OCTAGON": 12,
+        "PENTAGON": 12,
+        "RAVINE": 13,
+        "SIMPLE": 13
+    },
+    "spawn_group_counts": {
+        "1": 40,
+        "2": 40,
+        "3": 20
+    },
+    "race_matchup_counts": {
+        "PROTOSS_VS_PROTOSS": 12,
+        "PROTOSS_VS_TERRAN": 11,
+        "PROTOSS_VS_ZERG": 11,
+        "TERRAN_VS_PROTOSS": 11,
+        "TERRAN_VS_TERRAN": 11,
+        "TERRAN_VS_ZERG": 11,
+        "ZERG_VS_PROTOSS": 11,
+        "ZERG_VS_TERRAN": 11,
+        "ZERG_VS_ZERG": 11
+    },
+    "advantage_mode_counts": {
+        "COMBINED": 33,
+        "COMPOSITIONAL": 33,
+        "NUMERICAL": 34
+    },
+    "unit_types_present": [
+        "BANELING",
+        "COLOSSUS",
+        "MARAUDER",
+        "MARINE",
+        "MEDIVAC",
+        "SPINE_CRAWLER",
+        "STALKER",
+        "ZEALOT",
+        "ZERGLING"
+    ],
+    "minimum_strength_advantage_pct": 5.1017,
+    "maximum_strength_advantage_pct": 14.9997,
+    "minimum_total_units": 2,
+    "maximum_total_units": 20
+}

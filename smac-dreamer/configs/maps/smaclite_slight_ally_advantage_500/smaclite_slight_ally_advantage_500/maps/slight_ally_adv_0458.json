@@ -1,0 +1,74 @@
+{
+    "name": "slight_ally_adv_0458",
+    "num_allied_units": 7,
+    "num_enemy_units": 6,
+    "groups": [
+        {
+            "x": 5.5,
+            "y": 11.5,
+            "faction": "ALLY",
+            "units": {
+                "ZERGLING": 2,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "BANELING": 1,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 5.5,
+            "y": 21.5,
+            "faction": "ALLY",
+            "units": {
+                "ZERGLING": 1,
+                "BANELING": 1
+            }
+        },
+        {
+            "x": 26.5,
+            "y": 11.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 1,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 1,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 26.5,
+            "y": 21.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 1,
+                "SPINE_CRAWLER": 1
+            }
+        }
+    ],
+    "attack_point": [
+        7.5,
+        16.5
+    ],
+    "terrain_preset": "SIMPLE",
+    "num_unit_types": 3,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "SPINE_CRAWLER": 1,
+        "ZERGLING": 2
+    }
+}

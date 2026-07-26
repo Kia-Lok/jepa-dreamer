@@ -1,0 +1,39 @@
+{
+    "name": "slight_ally_adv_0447",
+    "num_allied_units": 10,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 13.5,
+            "y": 19.5,
+            "faction": "ALLY",
+            "units": {
+                "ZERGLING": 3,
+                "BANELING": 4,
+                "SPINE_CRAWLER": 3
+            }
+        },
+        {
+            "x": 13.5,
+            "y": 9.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZEALOT": 9
+            }
+        }
+    ],
+    "attack_point": [
+        13.5,
+        19.5
+    ],
+    "terrain_preset": "PENTAGON",
+    "num_unit_types": 4,
+    "ally_has_shields": false,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "SPINE_CRAWLER": 1,
+        "ZEALOT": 2,
+        "ZERGLING": 3
+    }
+}

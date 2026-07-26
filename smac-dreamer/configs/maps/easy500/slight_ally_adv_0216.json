@@ -1,0 +1,39 @@
+{
+    "name": "slight_ally_adv_0216",
+    "num_allied_units": 9,
+    "num_enemy_units": 7,
+    "groups": [
+        {
+            "x": 9.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 2,
+                "MARAUDER": 7
+            }
+        },
+        {
+            "x": 22.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 1,
+                "SPINE_CRAWLER": 6
+            }
+        }
+    ],
+    "attack_point": [
+        9.5,
+        16.5
+    ],
+    "terrain_preset": "OCTAGON",
+    "num_unit_types": 4,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "MARAUDER": 0,
+        "MARINE": 1,
+        "SPINE_CRAWLER": 2,
+        "ZERGLING": 3
+    }
+}

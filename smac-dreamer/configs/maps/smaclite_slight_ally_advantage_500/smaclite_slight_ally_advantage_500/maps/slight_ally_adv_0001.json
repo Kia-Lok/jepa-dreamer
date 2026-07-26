@@ -1,0 +1,31 @@
+{
+    "name": "slight_ally_adv_0001",
+    "num_allied_units": 1,
+    "num_enemy_units": 1,
+    "groups": [
+        {
+            "x": 7.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1
+            }
+        }
+    ],
+    "attack_point": [
+        7.5,
+        16.5
+    ],
+    "terrain_preset": "SIMPLE",
+    "num_unit_types": 0,
+    "ally_has_shields": false,
+    "enemy_has_shields": true
+}

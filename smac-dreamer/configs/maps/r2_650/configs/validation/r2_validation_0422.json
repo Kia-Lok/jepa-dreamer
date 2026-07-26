@@ -1,0 +1,61 @@
+{
+  "name": "r2_validation_0422",
+  "num_allied_units": 4,
+  "num_enemy_units": 7,
+  "groups": [
+    {
+      "x": 6.6,
+      "y": 8.822,
+      "faction": "ALLY",
+      "units": {
+        "MARAUDER": 1,
+        "MARINE": 1
+      }
+    },
+    {
+      "x": 7.4,
+      "y": 13.223,
+      "faction": "ALLY",
+      "units": {
+        "MARAUDER": 1,
+        "MARINE": 1
+      }
+    },
+    {
+      "x": 7.4,
+      "y": 23.178,
+      "faction": "ENEMY",
+      "units": {
+        "BANELING": 1,
+        "ZERGLING": 3
+      }
+    },
+    {
+      "x": 6.6,
+      "y": 18.778,
+      "faction": "ENEMY",
+      "units": {
+        "ZERGLING": 3
+      }
+    }
+  ],
+  "attack_point": [
+    7.0,
+    11.023
+  ],
+  "terrain_preset": "NARROW",
+  "num_unit_types": 9,
+  "ally_has_shields": false,
+  "enemy_has_shields": false,
+  "unit_type_ids": {
+    "BANELING": 0,
+    "COLOSSUS": 1,
+    "MARAUDER": 2,
+    "MARINE": 3,
+    "MEDIVAC": 4,
+    "SPINE_CRAWLER": 5,
+    "STALKER": 6,
+    "ZEALOT": 7,
+    "ZERGLING": 8
+  }
+}

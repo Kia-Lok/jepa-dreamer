@@ -1,0 +1,77 @@
+{
+    "name": "slight_ally_adv_0236",
+    "num_allied_units": 10,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 23.5,
+            "y": 11.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 3,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 21.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 2,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 23.5,
+            "y": 21.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 2,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 8.5,
+            "y": 11.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 1,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 10.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 1,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 8.5,
+            "y": 21.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 1,
+                "COLOSSUS": 1
+            }
+        }
+    ],
+    "attack_point": [
+        21.5,
+        16.5
+    ],
+    "terrain_preset": "OCTAGON",
+    "num_unit_types": 3,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "COLOSSUS": 0,
+        "STALKER": 1,
+        "ZEALOT": 2
+    }
+}

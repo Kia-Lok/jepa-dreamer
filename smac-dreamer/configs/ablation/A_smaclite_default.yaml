@@ -1,0 +1,48 @@
+# Reward ablation — Baseline A: ORIGINAL SMAClite reward (no shaping).
+#
+# Identical to configs/multimap_gpu.yaml in every knob EXCEPT the reward block + logdir, so
+# A/B/C/D differ only in the reward. Run:
+#   python scripts/train_r2dreamer_smaclite_multimap.py --config configs/ablation/A_smaclite_default.yaml
+#
+# Primary model-selection metric: held-out battle win rate, then original env return.
+
+maps_folder: configs/maps/easy500
+split:
+  mode: ratio
+  train_ratio: 0.8
+  seed: 0
+
+sampling_mode: shuffled_round_robin
+
+observation:
+  mode: structured
+
+# ---- Reward: original SMAClite (dense damage + kill + win), unchanged ----
+reward:
+  name: smaclite_default
+  params: {}              # explicit empty params (keeps config loading + hashing uniform)
+
+# ---- Run / model knobs (must match the other ablation presets) ----
+device: cuda:0
+seed: 0
+gamma: 0.997
+steps: 200000
+env_num: 4
+max_episode_steps: 200
+
+batch_size: 16
+batch_length: 64
+units: 256
+deter: 2048
+imag_horizon: 15
+
+eval:
+  every: 20000
+  episodes_per_map: 8
+  fixed_seeds: [0, 1, 2]
+
+wandb:
+  project: smac-r2dreamer
+  run_name: null            # auto: <folder>-<reward>-<resolved-params-hash>
+logdir: logs/r2dreamer/ablation/A_smaclite_default
+checkpoint_every_minutes: 10.0

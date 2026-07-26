@@ -1,0 +1,44 @@
+{
+  "name": "r2g_blind_compositional_1990",
+  "num_allied_units": 4,
+  "num_enemy_units": 4,
+  "groups": [
+    {
+      "x": 6.777,
+      "y": 16.103,
+      "faction": "ALLY",
+      "units": {
+        "SPINE_CRAWLER": 2,
+        "ZERGLING": 2
+      }
+    },
+    {
+      "x": 24.975,
+      "y": 16.103,
+      "faction": "ENEMY",
+      "units": {
+        "STALKER": 1,
+        "ZEALOT": 3
+      }
+    }
+  ],
+  "attack_point": [
+    6.777,
+    16.103
+  ],
+  "terrain_preset": "SIMPLE",
+  "num_unit_types": 9,
+  "ally_has_shields": false,
+  "enemy_has_shields": true,
+  "unit_type_ids": {
+    "BANELING": 0,
+    "COLOSSUS": 1,
+    "MARAUDER": 2,
+    "MARINE": 3,
+    "MEDIVAC": 4,
+    "SPINE_CRAWLER": 5,
+    "STALKER": 6,
+    "ZEALOT": 7,
+    "ZERGLING": 8
+  }
+}

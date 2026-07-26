@@ -1,0 +1,2355 @@
+[
+    {
+        "name": "slight_ally_adv_0006",
+        "file": "maps/slight_ally_adv_0006.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARAUDER": 4,
+            "MEDIVAC": 2
+        },
+        "enemy_composition": {
+            "STALKER": 3,
+            "ZEALOT": 2
+        },
+        "num_allied_units": 6,
+        "num_enemy_units": 5,
+        "total_units": 11,
+        "allied_strength": 352.661683,
+        "enemy_strength": 322.260621,
+        "ally_strength_advantage_pct": 9.4337,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0020",
+        "file": "maps/slight_ally_adv_0020.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARINE": 4,
+            "MARAUDER": 2,
+            "MEDIVAC": 4
+        },
+        "enemy_composition": {
+            "MARINE": 7,
+            "MARAUDER": 2
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 347.24836,
+        "enemy_strength": 305.776482,
+        "ally_strength_advantage_pct": 13.5628,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0031",
+        "file": "maps/slight_ally_adv_0031.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 4,
+            "ZEALOT": 1,
+            "COLOSSUS": 5
+        },
+        "enemy_composition": {
+            "STALKER": 5,
+            "COLOSSUS": 4
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 1343.782815,
+        "enemy_strength": 1181.189539,
+        "ally_strength_advantage_pct": 13.7652,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0035",
+        "file": "maps/slight_ally_adv_0035.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARINE": 6,
+            "MARAUDER": 2,
+            "MEDIVAC": 1
+        },
+        "enemy_composition": {
+            "MARINE": 3,
+            "MARAUDER": 2,
+            "MEDIVAC": 3
+        },
+        "num_allied_units": 9,
+        "num_enemy_units": 8,
+        "total_units": 17,
+        "allied_strength": 357.129957,
+        "enemy_strength": 311.011479,
+        "ally_strength_advantage_pct": 14.8285,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0043",
+        "file": "maps/slight_ally_adv_0043.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "STALKER": 1,
+            "COLOSSUS": 2
+        },
+        "enemy_composition": {
+            "MARINE": 3,
+            "MARAUDER": 3,
+            "MEDIVAC": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 8,
+        "total_units": 11,
+        "allied_strength": 424.294521,
+        "enemy_strength": 372.819362,
+        "ally_strength_advantage_pct": 13.807,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0053",
+        "file": "maps/slight_ally_adv_0053.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARINE": 5,
+            "MARAUDER": 2,
+            "MEDIVAC": 2
+        },
+        "enemy_composition": {
+            "STALKER": 4,
+            "ZEALOT": 1
+        },
+        "num_allied_units": 9,
+        "num_enemy_units": 5,
+        "total_units": 14,
+        "allied_strength": 347.773339,
+        "enemy_strength": 307.215855,
+        "ally_strength_advantage_pct": 13.2016,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0054",
+        "file": "maps/slight_ally_adv_0054.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 6,
+            "ZEALOT": 1,
+            "COLOSSUS": 3
+        },
+        "enemy_composition": {
+            "STALKER": 2,
+            "ZEALOT": 4,
+            "COLOSSUS": 3
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 986.857581,
+        "enemy_strength": 868.615475,
+        "ally_strength_advantage_pct": 13.6127,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0058",
+        "file": "maps/slight_ally_adv_0058.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARINE": 2,
+            "MARAUDER": 8
+        },
+        "enemy_composition": {
+            "ZERGLING": 4,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 4
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 560.187369,
+        "enemy_strength": 492.471507,
+        "ally_strength_advantage_pct": 13.7502,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0059",
+        "file": "maps/slight_ally_adv_0059.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZERGLING": 3,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 3
+        },
+        "enemy_composition": {
+            "BANELING": 4
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 4,
+        "total_units": 11,
+        "allied_strength": 359.834092,
+        "enemy_strength": 313.018754,
+        "ally_strength_advantage_pct": 14.9561,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0061",
+        "file": "maps/slight_ally_adv_0061.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZERGLING": 1,
+            "BANELING": 8,
+            "SPINE_CRAWLER": 1
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "BANELING": 6,
+            "SPINE_CRAWLER": 2
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 704.394833,
+        "enemy_strength": 617.85855,
+        "ally_strength_advantage_pct": 14.0058,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0065",
+        "file": "maps/slight_ally_adv_0065.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 7,
+            "COLOSSUS": 3
+        },
+        "enemy_composition": {
+            "STALKER": 4,
+            "ZEALOT": 2,
+            "COLOSSUS": 3
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 1130.270797,
+        "enemy_strength": 995.389121,
+        "ally_strength_advantage_pct": 13.5506,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0069",
+        "file": "maps/slight_ally_adv_0069.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARINE": 1,
+            "MARAUDER": 7,
+            "MEDIVAC": 2
+        },
+        "enemy_composition": {
+            "STALKER": 2,
+            "ZEALOT": 7
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 555.045897,
+        "enemy_strength": 489.024296,
+        "ally_strength_advantage_pct": 13.5007,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0071",
+        "file": "maps/slight_ally_adv_0071.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 4,
+            "ZEALOT": 4,
+            "COLOSSUS": 2
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "ZEALOT": 1,
+            "COLOSSUS": 3
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 5,
+        "total_units": 15,
+        "allied_strength": 881.004734,
+        "enemy_strength": 776.679285,
+        "ally_strength_advantage_pct": 13.4322,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0073",
+        "file": "maps/slight_ally_adv_0073.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "BANELING": 1,
+            "SPINE_CRAWLER": 2
+        },
+        "enemy_composition": {
+            "MARINE": 1,
+            "MARAUDER": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 189.590307,
+        "enemy_strength": 166.927011,
+        "ally_strength_advantage_pct": 13.5768,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0077",
+        "file": "maps/slight_ally_adv_0077.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "STALKER": 1,
+            "ZEALOT": 5
+        },
+        "enemy_composition": {
+            "MARINE": 1,
+            "MARAUDER": 3,
+            "MEDIVAC": 3
+        },
+        "num_allied_units": 6,
+        "num_enemy_units": 7,
+        "total_units": 13,
+        "allied_strength": 327.19492,
+        "enemy_strength": 298.954796,
+        "ally_strength_advantage_pct": 9.4463,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0084",
+        "file": "maps/slight_ally_adv_0084.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 1,
+            "ZEALOT": 1,
+            "COLOSSUS": 8
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "ZEALOT": 1,
+            "COLOSSUS": 7
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 1764.879675,
+        "enemy_strength": 1556.029484,
+        "ally_strength_advantage_pct": 13.422,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0094",
+        "file": "maps/slight_ally_adv_0094.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "ZERGLING": 6,
+            "SPINE_CRAWLER": 2
+        },
+        "enemy_composition": {
+            "MARINE": 3,
+            "MARAUDER": 3
+        },
+        "num_allied_units": 8,
+        "num_enemy_units": 6,
+        "total_units": 14,
+        "allied_strength": 282.862067,
+        "enemy_strength": 257.845819,
+        "ally_strength_advantage_pct": 9.702,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0096",
+        "file": "maps/slight_ally_adv_0096.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARINE": 5,
+            "MARAUDER": 2
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "COLOSSUS": 1
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 2,
+        "total_units": 9,
+        "allied_strength": 266.87444,
+        "enemy_strength": 250.109611,
+        "ally_strength_advantage_pct": 6.703,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0097",
+        "file": "maps/slight_ally_adv_0097.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "BANELING": 1,
+            "SPINE_CRAWLER": 3
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "ZEALOT": 4
+        },
+        "num_allied_units": 4,
+        "num_enemy_units": 5,
+        "total_units": 9,
+        "allied_strength": 307.5905,
+        "enemy_strength": 275.04628,
+        "ally_strength_advantage_pct": 11.8323,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0101",
+        "file": "maps/slight_ally_adv_0101.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 3,
+            "ZEALOT": 2,
+            "COLOSSUS": 5
+        },
+        "enemy_composition": {
+            "STALKER": 4,
+            "ZEALOT": 1,
+            "COLOSSUS": 4
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 1345.181481,
+        "enemy_strength": 1174.775135,
+        "ally_strength_advantage_pct": 14.5054,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0110",
+        "file": "maps/slight_ally_adv_0110.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "STALKER": 3,
+            "ZEALOT": 4
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "BANELING": 2,
+            "SPINE_CRAWLER": 3
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 6,
+        "total_units": 13,
+        "allied_strength": 416.367855,
+        "enemy_strength": 383.544905,
+        "ally_strength_advantage_pct": 8.5578,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0114",
+        "file": "maps/slight_ally_adv_0114.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "ZERGLING": 2,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 7
+        },
+        "enemy_composition": {
+            "STALKER": 2,
+            "ZEALOT": 7
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 599.707667,
+        "enemy_strength": 527.258069,
+        "ally_strength_advantage_pct": 13.7408,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0118",
+        "file": "maps/slight_ally_adv_0118.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARINE": 1,
+            "MARAUDER": 3,
+            "MEDIVAC": 3
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "ZEALOT": 1,
+            "COLOSSUS": 1
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 3,
+        "total_units": 10,
+        "allied_strength": 318.517233,
+        "enemy_strength": 291.482537,
+        "ally_strength_advantage_pct": 9.2749,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0126",
+        "file": "maps/slight_ally_adv_0126.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARAUDER": 10
+        },
+        "enemy_composition": {
+            "ZERGLING": 2,
+            "SPINE_CRAWLER": 7
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 632.623593,
+        "enemy_strength": 557.470265,
+        "ally_strength_advantage_pct": 13.4811,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0129",
+        "file": "maps/slight_ally_adv_0129.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 2,
+            "COLOSSUS": 5
+        },
+        "enemy_composition": {
+            "ZEALOT": 1,
+            "COLOSSUS": 5
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 6,
+        "total_units": 13,
+        "allied_strength": 956.442893,
+        "enemy_strength": 868.447343,
+        "ally_strength_advantage_pct": 10.1325,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0136",
+        "file": "maps/slight_ally_adv_0136.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "BANELING": 6,
+            "SPINE_CRAWLER": 4
+        },
+        "enemy_composition": {
+            "STALKER": 6,
+            "ZEALOT": 2,
+            "COLOSSUS": 1
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 802.092777,
+        "enemy_strength": 704.629274,
+        "ally_strength_advantage_pct": 13.8319,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0138",
+        "file": "maps/slight_ally_adv_0138.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 6,
+            "ZEALOT": 3,
+            "COLOSSUS": 1
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "ZEALOT": 7,
+            "COLOSSUS": 1
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 726.462771,
+        "enemy_strength": 639.10441,
+        "ally_strength_advantage_pct": 13.6689,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0142",
+        "file": "maps/slight_ally_adv_0142.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZERGLING": 3,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 4
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "BANELING": 2,
+            "SPINE_CRAWLER": 3
+        },
+        "num_allied_units": 8,
+        "num_enemy_units": 6,
+        "total_units": 14,
+        "allied_strength": 422.738579,
+        "enemy_strength": 386.187327,
+        "ally_strength_advantage_pct": 9.4646,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0153",
+        "file": "maps/slight_ally_adv_0153.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARINE": 8
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "ZEALOT": 3
+        },
+        "num_allied_units": 8,
+        "num_enemy_units": 4,
+        "total_units": 12,
+        "allied_strength": 233.50749,
+        "enemy_strength": 209.932626,
+        "ally_strength_advantage_pct": 11.2297,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0154",
+        "file": "maps/slight_ally_adv_0154.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARINE": 9
+        },
+        "enemy_composition": {
+            "BANELING": 1,
+            "SPINE_CRAWLER": 2
+        },
+        "num_allied_units": 9,
+        "num_enemy_units": 3,
+        "total_units": 12,
+        "allied_strength": 238.814479,
+        "enemy_strength": 211.717656,
+        "ally_strength_advantage_pct": 12.7986,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0162",
+        "file": "maps/slight_ally_adv_0162.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "ZERGLING": 2,
+            "SPINE_CRAWLER": 2
+        },
+        "enemy_composition": {
+            "MARAUDER": 3
+        },
+        "num_allied_units": 4,
+        "num_enemy_units": 3,
+        "total_units": 7,
+        "allied_strength": 188.262303,
+        "enemy_strength": 174.330563,
+        "ally_strength_advantage_pct": 7.9916,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0164",
+        "file": "maps/slight_ally_adv_0164.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZERGLING": 1,
+            "BANELING": 3
+        },
+        "enemy_composition": {
+            "ZERGLING": 7,
+            "SPINE_CRAWLER": 1
+        },
+        "num_allied_units": 4,
+        "num_enemy_units": 8,
+        "total_units": 12,
+        "allied_strength": 250.99547,
+        "enemy_strength": 222.000843,
+        "ally_strength_advantage_pct": 13.0606,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0174",
+        "file": "maps/slight_ally_adv_0174.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "ZERGLING": 1,
+            "BANELING": 6
+        },
+        "enemy_composition": {
+            "ZEALOT": 4,
+            "COLOSSUS": 1
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 5,
+        "total_units": 12,
+        "allied_strength": 460.62595,
+        "enemy_strength": 407.364034,
+        "ally_strength_advantage_pct": 13.0748,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0178",
+        "file": "maps/slight_ally_adv_0178.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "STALKER": 2,
+            "COLOSSUS": 2
+        },
+        "enemy_composition": {
+            "MARAUDER": 5,
+            "MEDIVAC": 2
+        },
+        "num_allied_units": 4,
+        "num_enemy_units": 7,
+        "total_units": 11,
+        "allied_strength": 460.914328,
+        "enemy_strength": 438.192357,
+        "ally_strength_advantage_pct": 5.1854,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0179",
+        "file": "maps/slight_ally_adv_0179.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARINE": 10
+        },
+        "enemy_composition": {
+            "MARINE": 1,
+            "MARAUDER": 1,
+            "MEDIVAC": 7
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 265.349421,
+        "enemy_strength": 230.977513,
+        "ally_strength_advantage_pct": 14.8811,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0180",
+        "file": "maps/slight_ally_adv_0180.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "STALKER": 1,
+            "ZEALOT": 4
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "BANELING": 2,
+            "SPINE_CRAWLER": 1
+        },
+        "num_allied_units": 5,
+        "num_enemy_units": 4,
+        "total_units": 9,
+        "allied_strength": 269.537294,
+        "enemy_strength": 243.670033,
+        "ally_strength_advantage_pct": 10.6157,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0185",
+        "file": "maps/slight_ally_adv_0185.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "STALKER": 2,
+            "ZEALOT": 2
+        },
+        "enemy_composition": {
+            "MARINE": 6,
+            "MEDIVAC": 1
+        },
+        "num_allied_units": 4,
+        "num_enemy_units": 7,
+        "total_units": 11,
+        "allied_strength": 228.295797,
+        "enemy_strength": 214.375778,
+        "ally_strength_advantage_pct": 6.4933,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0193",
+        "file": "maps/slight_ally_adv_0193.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARAUDER": 4
+        },
+        "enemy_composition": {
+            "ZERGLING": 2,
+            "BANELING": 2
+        },
+        "num_allied_units": 4,
+        "num_enemy_units": 4,
+        "total_units": 8,
+        "allied_strength": 204.970044,
+        "enemy_strength": 179.449192,
+        "ally_strength_advantage_pct": 14.2218,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0194",
+        "file": "maps/slight_ally_adv_0194.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "ZERGLING": 1,
+            "SPINE_CRAWLER": 2
+        },
+        "enemy_composition": {
+            "MARINE": 1,
+            "MARAUDER": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 175.443132,
+        "enemy_strength": 166.927011,
+        "ally_strength_advantage_pct": 5.1017,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0197",
+        "file": "maps/slight_ally_adv_0197.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZERGLING": 2,
+            "BANELING": 4,
+            "SPINE_CRAWLER": 4
+        },
+        "enemy_composition": {
+            "ZERGLING": 2,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 6
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 677.635373,
+        "enemy_strength": 592.058378,
+        "ally_strength_advantage_pct": 14.4541,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0222",
+        "file": "maps/slight_ally_adv_0222.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "BANELING": 1,
+            "SPINE_CRAWLER": 2
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "SPINE_CRAWLER": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 189.590307,
+        "enemy_strength": 175.443132,
+        "ally_strength_advantage_pct": 8.0637,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0224",
+        "file": "maps/slight_ally_adv_0224.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "COLOSSUS": 2
+        },
+        "enemy_composition": {
+            "ZERGLING": 6,
+            "SPINE_CRAWLER": 3
+        },
+        "num_allied_units": 2,
+        "num_enemy_units": 9,
+        "total_units": 11,
+        "allied_strength": 419.417338,
+        "enemy_strength": 385.523108,
+        "ally_strength_advantage_pct": 8.7918,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0226",
+        "file": "maps/slight_ally_adv_0226.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARINE": 1,
+            "MARAUDER": 9
+        },
+        "enemy_composition": {
+            "MARINE": 1,
+            "MARAUDER": 6,
+            "MEDIVAC": 2
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 613.419068,
+        "enemy_strength": 538.105947,
+        "ally_strength_advantage_pct": 13.996,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0243",
+        "file": "maps/slight_ally_adv_0243.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARINE": 5,
+            "MARAUDER": 1
+        },
+        "enemy_composition": {
+            "ZERGLING": 2,
+            "SPINE_CRAWLER": 2
+        },
+        "num_allied_units": 6,
+        "num_enemy_units": 4,
+        "total_units": 10,
+        "allied_strength": 190.784898,
+        "enemy_strength": 177.623314,
+        "ally_strength_advantage_pct": 7.4098,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0249",
+        "file": "maps/slight_ally_adv_0249.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "ZERGLING": 9,
+            "SPINE_CRAWLER": 1
+        },
+        "enemy_composition": {
+            "MARINE": 9
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 271.015042,
+        "enemy_strength": 238.814479,
+        "ally_strength_advantage_pct": 13.4835,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0250",
+        "file": "maps/slight_ally_adv_0250.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "STALKER": 1,
+            "ZEALOT": 1,
+            "COLOSSUS": 1
+        },
+        "enemy_composition": {
+            "MARAUDER": 2,
+            "MEDIVAC": 5
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 7,
+        "total_units": 10,
+        "allied_strength": 287.149276,
+        "enemy_strength": 254.981625,
+        "ally_strength_advantage_pct": 12.6157,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0254",
+        "file": "maps/slight_ally_adv_0254.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "STALKER": 1,
+            "ZEALOT": 8,
+            "COLOSSUS": 1
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "BANELING": 4,
+            "SPINE_CRAWLER": 4
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 685.79479,
+        "enemy_strength": 602.868566,
+        "ally_strength_advantage_pct": 13.7553,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0256",
+        "file": "maps/slight_ally_adv_0256.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "ZERGLING": 3,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 3
+        },
+        "enemy_composition": {
+            "STALKER": 5
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 5,
+        "total_units": 12,
+        "allied_strength": 381.845235,
+        "enemy_strength": 343.570981,
+        "ally_strength_advantage_pct": 11.1401,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0258",
+        "file": "maps/slight_ally_adv_0258.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "ZERGLING": 5,
+            "BANELING": 3,
+            "SPINE_CRAWLER": 2
+        },
+        "enemy_composition": {
+            "STALKER": 2,
+            "ZEALOT": 2,
+            "COLOSSUS": 1
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 5,
+        "total_units": 15,
+        "allied_strength": 476.250197,
+        "enemy_strength": 418.10262,
+        "ally_strength_advantage_pct": 13.9075,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0260",
+        "file": "maps/slight_ally_adv_0260.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "ZERGLING": 4,
+            "BANELING": 4
+        },
+        "enemy_composition": {
+            "MARAUDER": 6
+        },
+        "num_allied_units": 8,
+        "num_enemy_units": 6,
+        "total_units": 14,
+        "allied_strength": 332.371084,
+        "enemy_strength": 313.148678,
+        "ally_strength_advantage_pct": 6.1384,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0267",
+        "file": "maps/slight_ally_adv_0267.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "STALKER": 2,
+            "ZEALOT": 2,
+            "COLOSSUS": 1
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "BANELING": 5
+        },
+        "num_allied_units": 5,
+        "num_enemy_units": 6,
+        "total_units": 11,
+        "allied_strength": 426.266622,
+        "enemy_strength": 386.898393,
+        "ally_strength_advantage_pct": 10.1753,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0271",
+        "file": "maps/slight_ally_adv_0271.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "STALKER": 1,
+            "ZEALOT": 4
+        },
+        "enemy_composition": {
+            "MARINE": 2,
+            "MARAUDER": 2,
+            "MEDIVAC": 2
+        },
+        "num_allied_units": 5,
+        "num_enemy_units": 6,
+        "total_units": 11,
+        "allied_strength": 266.384994,
+        "enemy_strength": 243.28036,
+        "ally_strength_advantage_pct": 9.4971,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0276",
+        "file": "maps/slight_ally_adv_0276.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZERGLING": 6,
+            "SPINE_CRAWLER": 4
+        },
+        "enemy_composition": {
+            "ZERGLING": 6,
+            "BANELING": 2,
+            "SPINE_CRAWLER": 1
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 413.276882,
+        "enemy_strength": 362.182073,
+        "ally_strength_advantage_pct": 14.1075,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0278",
+        "file": "maps/slight_ally_adv_0278.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "STALKER": 3
+        },
+        "enemy_composition": {
+            "BANELING": 1,
+            "SPINE_CRAWLER": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 217.984976,
+        "enemy_strength": 194.500201,
+        "ally_strength_advantage_pct": 12.0744,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0279",
+        "file": "maps/slight_ally_adv_0279.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "STALKER": 3
+        },
+        "enemy_composition": {
+            "ZERGLING": 3,
+            "BANELING": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 5,
+        "total_units": 8,
+        "allied_strength": 191.000933,
+        "enemy_strength": 170.375843,
+        "ally_strength_advantage_pct": 12.1056,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0286",
+        "file": "maps/slight_ally_adv_0286.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARINE": 2,
+            "MARAUDER": 4,
+            "MEDIVAC": 3
+        },
+        "enemy_composition": {
+            "MARINE": 4,
+            "MARAUDER": 4
+        },
+        "num_allied_units": 9,
+        "num_enemy_units": 8,
+        "total_units": 17,
+        "allied_strength": 412.879311,
+        "enemy_strength": 359.189205,
+        "ally_strength_advantage_pct": 14.9476,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0289",
+        "file": "maps/slight_ally_adv_0289.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARINE": 6,
+            "MARAUDER": 2
+        },
+        "enemy_composition": {
+            "ZEALOT": 4
+        },
+        "num_allied_units": 8,
+        "num_enemy_units": 4,
+        "total_units": 12,
+        "allied_strength": 254.103191,
+        "enemy_strength": 226.768447,
+        "ally_strength_advantage_pct": 12.054,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0294",
+        "file": "maps/slight_ally_adv_0294.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARINE": 4,
+            "MARAUDER": 3
+        },
+        "enemy_composition": {
+            "ZERGLING": 2,
+            "SPINE_CRAWLER": 3
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 5,
+        "total_units": 12,
+        "allied_strength": 286.187599,
+        "enemy_strength": 251.291212,
+        "ally_strength_advantage_pct": 13.8868,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0295",
+        "file": "maps/slight_ally_adv_0295.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "ZERGLING": 3,
+            "BANELING": 7
+        },
+        "enemy_composition": {
+            "STALKER": 8,
+            "ZEALOT": 2
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 10,
+        "total_units": 20,
+        "allied_strength": 606.37266,
+        "enemy_strength": 576.416788,
+        "ally_strength_advantage_pct": 5.1969,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0296",
+        "file": "maps/slight_ally_adv_0296.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARINE": 2,
+            "MARAUDER": 7,
+            "MEDIVAC": 1
+        },
+        "enemy_composition": {
+            "MARINE": 2,
+            "MARAUDER": 6,
+            "MEDIVAC": 1
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 573.644653,
+        "enemy_strength": 505.439578,
+        "ally_strength_advantage_pct": 13.4942,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0309",
+        "file": "maps/slight_ally_adv_0309.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "STALKER": 1,
+            "ZEALOT": 2
+        },
+        "enemy_composition": {
+            "MARINE": 3
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 98.839826,
+        "enemy_strength": 89.157405,
+        "ally_strength_advantage_pct": 10.8599,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0314",
+        "file": "maps/slight_ally_adv_0314.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "SPINE_CRAWLER": 1
+        },
+        "enemy_composition": {
+            "STALKER": 1
+        },
+        "num_allied_units": 1,
+        "num_enemy_units": 1,
+        "total_units": 2,
+        "allied_strength": 87.133079,
+        "enemy_strength": 76.278852,
+        "ally_strength_advantage_pct": 14.2297,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0324",
+        "file": "maps/slight_ally_adv_0324.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "ZEALOT": 2,
+            "COLOSSUS": 1
+        },
+        "enemy_composition": {
+            "MARINE": 6,
+            "MARAUDER": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 8,
+        "total_units": 11,
+        "allied_strength": 306.984369,
+        "enemy_strength": 268.783273,
+        "ally_strength_advantage_pct": 14.2126,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0332",
+        "file": "maps/slight_ally_adv_0332.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "ZEALOT": 6,
+            "COLOSSUS": 1
+        },
+        "enemy_composition": {
+            "ZEALOT": 1,
+            "COLOSSUS": 2
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 3,
+        "total_units": 10,
+        "allied_strength": 497.678707,
+        "enemy_strength": 444.785342,
+        "ally_strength_advantage_pct": 11.8919,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0341",
+        "file": "maps/slight_ally_adv_0341.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 5,
+            "ZEALOT": 3,
+            "COLOSSUS": 2
+        },
+        "enemy_composition": {
+            "STALKER": 2,
+            "ZEALOT": 5,
+            "COLOSSUS": 2
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 942.771613,
+        "enemy_strength": 824.287432,
+        "ally_strength_advantage_pct": 14.3741,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0349",
+        "file": "maps/slight_ally_adv_0349.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "ZERGLING": 8,
+            "BANELING": 1
+        },
+        "enemy_composition": {
+            "MARINE": 4,
+            "MARAUDER": 2
+        },
+        "num_allied_units": 9,
+        "num_enemy_units": 6,
+        "total_units": 15,
+        "allied_strength": 238.065418,
+        "enemy_strength": 217.115972,
+        "ally_strength_advantage_pct": 9.649,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0353",
+        "file": "maps/slight_ally_adv_0353.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARINE": 2,
+            "MARAUDER": 4,
+            "MEDIVAC": 4
+        },
+        "enemy_composition": {
+            "MARINE": 4,
+            "MARAUDER": 3,
+            "MEDIVAC": 2
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 449.581841,
+        "enemy_strength": 392.223436,
+        "ally_strength_advantage_pct": 14.6239,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0356",
+        "file": "maps/slight_ally_adv_0356.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARINE": 1,
+            "MARAUDER": 1,
+            "MEDIVAC": 8
+        },
+        "enemy_composition": {
+            "MARINE": 4,
+            "MEDIVAC": 5
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 267.717112,
+        "enemy_strength": 233.092943,
+        "ally_strength_advantage_pct": 14.8542,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0360",
+        "file": "maps/slight_ally_adv_0360.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARINE": 8,
+            "MARAUDER": 2
+        },
+        "enemy_composition": {
+            "BANELING": 3,
+            "SPINE_CRAWLER": 1
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 4,
+        "total_units": 14,
+        "allied_strength": 343.843637,
+        "enemy_strength": 314.658579,
+        "ally_strength_advantage_pct": 9.2752,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0367",
+        "file": "maps/slight_ally_adv_0367.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARINE": 2,
+            "MARAUDER": 6,
+            "MEDIVAC": 2
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "ZEALOT": 1,
+            "COLOSSUS": 2
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 4,
+        "total_units": 14,
+        "allied_strength": 592.109805,
+        "enemy_strength": 541.416788,
+        "ally_strength_advantage_pct": 9.363,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0370",
+        "file": "maps/slight_ally_adv_0370.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARINE": 3,
+            "MARAUDER": 6,
+            "MEDIVAC": 1
+        },
+        "enemy_composition": {
+            "MARINE": 3,
+            "MARAUDER": 5,
+            "MEDIVAC": 1
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 519.010519,
+        "enemy_strength": 453.819796,
+        "ally_strength_advantage_pct": 14.3649,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0372",
+        "file": "maps/slight_ally_adv_0372.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "ZERGLING": 5,
+            "SPINE_CRAWLER": 5
+        },
+        "enemy_composition": {
+            "MARINE": 1,
+            "MARAUDER": 7
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 8,
+        "total_units": 18,
+        "allied_strength": 494.948848,
+        "enemy_strength": 433.306255,
+        "ally_strength_advantage_pct": 14.2261,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0376",
+        "file": "maps/slight_ally_adv_0376.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARINE": 1,
+            "MARAUDER": 9
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "COLOSSUS": 3
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 4,
+        "total_units": 14,
+        "allied_strength": 630.433726,
+        "enemy_strength": 574.69349,
+        "ally_strength_advantage_pct": 9.6991,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0377",
+        "file": "maps/slight_ally_adv_0377.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZERGLING": 1,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 1
+        },
+        "enemy_composition": {
+            "ZERGLING": 2,
+            "SPINE_CRAWLER": 1
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 108.470765,
+        "enemy_strength": 94.32359,
+        "ally_strength_advantage_pct": 14.9986,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0392",
+        "file": "maps/slight_ally_adv_0392.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "STALKER": 2,
+            "ZEALOT": 6,
+            "COLOSSUS": 1
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "SPINE_CRAWLER": 7
+        },
+        "num_allied_units": 9,
+        "num_enemy_units": 8,
+        "total_units": 17,
+        "allied_strength": 656.524676,
+        "enemy_strength": 570.892422,
+        "ally_strength_advantage_pct": 14.9997,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0394",
+        "file": "maps/slight_ally_adv_0394.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "STALKER": 8,
+            "ZEALOT": 2
+        },
+        "enemy_composition": {
+            "MARINE": 2,
+            "MARAUDER": 6,
+            "MEDIVAC": 2
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 10,
+        "total_units": 20,
+        "allied_strength": 679.958227,
+        "enemy_strength": 609.436002,
+        "ally_strength_advantage_pct": 11.5717,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0395",
+        "file": "maps/slight_ally_adv_0395.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARINE": 4,
+            "MARAUDER": 6
+        },
+        "enemy_composition": {
+            "ZERGLING": 7,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 2
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 10,
+        "total_units": 20,
+        "allied_strength": 417.991759,
+        "enemy_strength": 383.30066,
+        "ally_strength_advantage_pct": 9.0506,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0401",
+        "file": "maps/slight_ally_adv_0401.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARINE": 3,
+            "MARAUDER": 3
+        },
+        "enemy_composition": {
+            "STALKER": 4
+        },
+        "num_allied_units": 6,
+        "num_enemy_units": 4,
+        "total_units": 10,
+        "allied_strength": 308.994863,
+        "enemy_strength": 278.079131,
+        "ally_strength_advantage_pct": 11.1176,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0402",
+        "file": "maps/slight_ally_adv_0402.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 1,
+            "ZEALOT": 2,
+            "COLOSSUS": 7
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "ZEALOT": 2,
+            "COLOSSUS": 6
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 1397.589941,
+        "enemy_strength": 1218.53888,
+        "ally_strength_advantage_pct": 14.6939,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0408",
+        "file": "maps/slight_ally_adv_0408.json",
+        "terrain_preset": "RAVINE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "BANELING": 9
+        },
+        "enemy_composition": {
+            "ZEALOT": 3,
+            "COLOSSUS": 2
+        },
+        "num_allied_units": 9,
+        "num_enemy_units": 5,
+        "total_units": 14,
+        "allied_strength": 556.190349,
+        "enemy_strength": 509.491718,
+        "ally_strength_advantage_pct": 9.1657,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0409",
+        "file": "maps/slight_ally_adv_0409.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARAUDER": 3
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "SPINE_CRAWLER": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 205.811814,
+        "enemy_strength": 180.353026,
+        "ally_strength_advantage_pct": 14.1161,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0412",
+        "file": "maps/slight_ally_adv_0412.json",
+        "terrain_preset": "NARROW",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZERGLING": 3,
+            "BANELING": 2,
+            "SPINE_CRAWLER": 5
+        },
+        "enemy_composition": {
+            "ZERGLING": 3,
+            "BANELING": 3,
+            "SPINE_CRAWLER": 3
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 614.609527,
+        "enemy_strength": 538.38448,
+        "ally_strength_advantage_pct": 14.1581,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0418",
+        "file": "maps/slight_ally_adv_0418.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZEALOT": 3
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "BANELING": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 51.022901,
+        "enemy_strength": 46.554954,
+        "ally_strength_advantage_pct": 9.5971,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0422",
+        "file": "maps/slight_ally_adv_0422.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "TERRAN",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "MARINE": 6,
+            "MARAUDER": 1,
+            "MEDIVAC": 1
+        },
+        "enemy_composition": {
+            "STALKER": 2,
+            "ZEALOT": 2
+        },
+        "num_allied_units": 8,
+        "num_enemy_units": 4,
+        "total_units": 12,
+        "allied_strength": 261.627707,
+        "enemy_strength": 234.579948,
+        "ally_strength_advantage_pct": 11.5303,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0423",
+        "file": "maps/slight_ally_adv_0423.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "BANELING": 1,
+            "SPINE_CRAWLER": 2
+        },
+        "enemy_composition": {
+            "MARINE": 1,
+            "MARAUDER": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 189.590307,
+        "enemy_strength": 166.927011,
+        "ally_strength_advantage_pct": 13.5768,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0424",
+        "file": "maps/slight_ally_adv_0424.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "STALKER": 1,
+            "COLOSSUS": 1
+        },
+        "enemy_composition": {
+            "MARINE": 8,
+            "MEDIVAC": 1
+        },
+        "num_allied_units": 2,
+        "num_enemy_units": 9,
+        "total_units": 11,
+        "allied_strength": 303.850596,
+        "enemy_strength": 275.002814,
+        "ally_strength_advantage_pct": 10.49,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0427",
+        "file": "maps/slight_ally_adv_0427.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZERGLING": 3,
+            "SPINE_CRAWLER": 2
+        },
+        "enemy_composition": {
+            "ZERGLING": 2,
+            "BANELING": 2
+        },
+        "num_allied_units": 5,
+        "num_enemy_units": 4,
+        "total_units": 9,
+        "allied_strength": 210.154752,
+        "enemy_strength": 183.976322,
+        "ally_strength_advantage_pct": 14.2292,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0428",
+        "file": "maps/slight_ally_adv_0428.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "PROTOSS",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "STALKER": 8,
+            "COLOSSUS": 2
+        },
+        "enemy_composition": {
+            "STALKER": 3,
+            "ZEALOT": 4,
+            "COLOSSUS": 2
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 875.16469,
+        "enemy_strength": 761.292318,
+        "ally_strength_advantage_pct": 14.9578,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0437",
+        "file": "maps/slight_ally_adv_0437.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARINE": 2,
+            "MARAUDER": 3,
+            "MEDIVAC": 5
+        },
+        "enemy_composition": {
+            "MARINE": 4,
+            "MARAUDER": 2,
+            "MEDIVAC": 3
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 399.538491,
+        "enemy_strength": 347.569533,
+        "ally_strength_advantage_pct": 14.9521,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0446",
+        "file": "maps/slight_ally_adv_0446.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARINE": 3,
+            "MARAUDER": 6
+        },
+        "enemy_composition": {
+            "BANELING": 3,
+            "SPINE_CRAWLER": 2
+        },
+        "num_allied_units": 9,
+        "num_enemy_units": 5,
+        "total_units": 14,
+        "allied_strength": 416.443474,
+        "enemy_strength": 374.228169,
+        "ally_strength_advantage_pct": 11.2806,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0447",
+        "file": "maps/slight_ally_adv_0447.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "ZERGLING": 3,
+            "BANELING": 4,
+            "SPINE_CRAWLER": 3
+        },
+        "enemy_composition": {
+            "ZEALOT": 9
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 583.687996,
+        "enemy_strength": 510.229006,
+        "ally_strength_advantage_pct": 14.3973,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0454",
+        "file": "maps/slight_ally_adv_0454.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "ZERGLING": 1,
+            "SPINE_CRAWLER": 2
+        },
+        "enemy_composition": {
+            "MARINE": 1,
+            "MARAUDER": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 175.443132,
+        "enemy_strength": 166.927011,
+        "ally_strength_advantage_pct": 5.1017,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0465",
+        "file": "maps/slight_ally_adv_0465.json",
+        "terrain_preset": "ALL_GREEN",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "ZERG",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "ZERGLING": 1,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 5
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "BANELING": 3,
+            "SPINE_CRAWLER": 2
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 6,
+        "total_units": 13,
+        "allied_strength": 442.447586,
+        "enemy_strength": 393.228469,
+        "ally_strength_advantage_pct": 12.5167,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0476",
+        "file": "maps/slight_ally_adv_0476.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "STALKER": 4,
+            "ZEALOT": 3
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 4
+        },
+        "num_allied_units": 7,
+        "num_enemy_units": 6,
+        "total_units": 13,
+        "allied_strength": 429.582259,
+        "enemy_strength": 381.183341,
+        "ally_strength_advantage_pct": 12.697,
+        "advantage_mode": "NUMERICAL"
+    },
+    {
+        "name": "slight_ally_adv_0481",
+        "file": "maps/slight_ally_adv_0481.json",
+        "terrain_preset": "SIMPLE",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "TERRAN",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "MARAUDER": 3
+        },
+        "enemy_composition": {
+            "MARINE": 3,
+            "MARAUDER": 1
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 4,
+        "total_units": 7,
+        "allied_strength": 159.141303,
+        "enemy_strength": 146.704691,
+        "ally_strength_advantage_pct": 8.4773,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0482",
+        "file": "maps/slight_ally_adv_0482.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "ZERG",
+        "enemy_race": "PROTOSS",
+        "allied_composition": {
+            "ZERGLING": 1,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 1
+        },
+        "enemy_composition": {
+            "STALKER": 1,
+            "ZEALOT": 2
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 108.470765,
+        "enemy_strength": 102.86997,
+        "ally_strength_advantage_pct": 5.4445,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0487",
+        "file": "maps/slight_ally_adv_0487.json",
+        "terrain_preset": "CHECKERBOARD",
+        "spawn_groups_per_faction": 3,
+        "ally_race": "TERRAN",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "MARINE": 2,
+            "MARAUDER": 1
+        },
+        "enemy_composition": {
+            "ZERGLING": 1,
+            "BANELING": 1,
+            "SPINE_CRAWLER": 1
+        },
+        "num_allied_units": 3,
+        "num_enemy_units": 3,
+        "total_units": 6,
+        "allied_strength": 120.799498,
+        "enemy_strength": 108.470765,
+        "ally_strength_advantage_pct": 11.3659,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0489",
+        "file": "maps/slight_ally_adv_0489.json",
+        "terrain_preset": "OCTAGON",
+        "spawn_groups_per_faction": 2,
+        "ally_race": "PROTOSS",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "STALKER": 9,
+            "COLOSSUS": 1
+        },
+        "enemy_composition": {
+            "MARAUDER": 9,
+            "MEDIVAC": 1
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 10,
+        "total_units": 20,
+        "allied_strength": 778.057819,
+        "enemy_strength": 694.596124,
+        "ally_strength_advantage_pct": 12.0159,
+        "advantage_mode": "COMPOSITIONAL"
+    },
+    {
+        "name": "slight_ally_adv_0493",
+        "file": "maps/slight_ally_adv_0493.json",
+        "terrain_preset": "PENTAGON",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "PROTOSS",
+        "enemy_race": "ZERG",
+        "allied_composition": {
+            "STALKER": 5,
+            "ZEALOT": 5
+        },
+        "enemy_composition": {
+            "ZERGLING": 3,
+            "BANELING": 3,
+            "SPINE_CRAWLER": 3
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 9,
+        "total_units": 19,
+        "allied_strength": 590.847623,
+        "enemy_strength": 516.151605,
+        "ally_strength_advantage_pct": 14.4717,
+        "advantage_mode": "COMBINED"
+    },
+    {
+        "name": "slight_ally_adv_0497",
+        "file": "maps/slight_ally_adv_0497.json",
+        "terrain_preset": "CORRIDOR",
+        "spawn_groups_per_faction": 1,
+        "ally_race": "ZERG",
+        "enemy_race": "TERRAN",
+        "allied_composition": {
+            "ZERGLING": 4,
+            "BANELING": 5,
+            "SPINE_CRAWLER": 1
+        },
+        "enemy_composition": {
+            "MARINE": 1,
+            "MARAUDER": 9
+        },
+        "num_allied_units": 10,
+        "num_enemy_units": 10,
+        "total_units": 20,
+        "allied_strength": 563.799195,
+        "enemy_strength": 512.350128,
+        "ally_strength_advantage_pct": 10.0418,
+        "advantage_mode": "COMPOSITIONAL"
+    }
+]

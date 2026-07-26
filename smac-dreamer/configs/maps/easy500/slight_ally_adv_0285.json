@@ -1,0 +1,47 @@
+{
+    "name": "slight_ally_adv_0285",
+    "num_allied_units": 2,
+    "num_enemy_units": 2,
+    "groups": [
+        {
+            "x": 26.5,
+            "y": 10.5,
+            "faction": "ALLY",
+            "units": {
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 25.5,
+            "y": 21.5,
+            "faction": "ALLY",
+            "units": {
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 6.5,
+            "y": 10.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1
+            }
+        },
+        {
+            "x": 5.5,
+            "y": 21.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1
+            }
+        }
+    ],
+    "attack_point": [
+        26.5,
+        10.5
+    ],
+    "terrain_preset": "CHECKERBOARD",
+    "num_unit_types": 0,
+    "ally_has_shields": false,
+    "enemy_has_shields": true
+}

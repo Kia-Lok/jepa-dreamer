@@ -1,0 +1,39 @@
+{
+    "name": "mixed_composition_var_386",
+    "num_allied_units": 9,
+    "num_enemy_units": 15,
+    "groups": [
+        {
+            "x": 10.53,
+            "y": 14.87,
+            "faction": "ALLY",
+            "units": {
+                "COLOSSUS": 6,
+                "ROACH": 3
+            }
+        },
+        {
+            "x": 22.53,
+            "y": 14.17,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 6,
+                "ZERGLING": 9
+            }
+        }
+    ],
+    "attack_point": [
+        8.06,
+        15.68
+    ],
+    "terrain_preset": "PENTAGON",
+    "num_unit_types": 4,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "COLOSSUS": 0,
+        "ROACH": 1,
+        "STALKER": 2,
+        "ZERGLING": 3
+    }
+}

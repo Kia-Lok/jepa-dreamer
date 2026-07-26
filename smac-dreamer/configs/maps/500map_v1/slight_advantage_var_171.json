@@ -1,0 +1,37 @@
+{
+    "name": "slight_advantage_var_171",
+    "num_allied_units": 10,
+    "num_enemy_units": 13,
+    "groups": [
+        {
+            "x": 8.1,
+            "y": 17.26,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 7,
+                "ZEALOT": 3
+            }
+        },
+        {
+            "x": 20.84,
+            "y": 14.24,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 9,
+                "ZEALOT": 4
+            }
+        }
+    ],
+    "attack_point": [
+        7.55,
+        17.19
+    ],
+    "terrain_preset": "PENTAGON",
+    "num_unit_types": 2,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "MARINE": 0,
+        "ZEALOT": 1
+    }
+}

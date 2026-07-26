@@ -1,0 +1,65 @@
+# Kaggle P100/T4-safe R2-650 config.
+#
+# Use this on Kaggle GPUs that do not support BF16. It keeps the same multimap,
+# replay, validation, worker-recycling, and W&B behavior as r2_650.yaml, but
+# uses genuine FP32: autocast disabled and GradScaler disabled.
+
+maps:
+  train:               configs/maps/r2_650/configs/train
+  validation:          configs/maps/r2_650/configs/validation
+  blind_iid:           configs/maps/r2_650/configs/blind_iid
+  blind_compositional: configs/maps/r2_650/configs/blind_compositional
+
+sampling_mode: shuffled_round_robin
+
+observation:
+  mode: structured
+
+action_masking: true
+mask_threshold: 0.7
+
+reward:
+  name: smaclite_default
+  params: {}
+
+device: cuda:0
+amp_dtype: float32
+seed: 0
+gamma: 0.997
+steps: 2000000
+env_num: 8
+max_episode_steps: 200
+
+batch_size: 16
+batch_length: 64
+units: 256
+deter: 2048
+imag_horizon: 15
+
+validation:
+  every: 100000
+  run_at_start: false
+  seeds: [0, 1, 2]
+
+buffer:
+  max_size: 500000
+  storage_device: cpu
+  storage_backend: memmap
+  scratch_dir: replay
+
+env_lifecycle:
+  max_episodes_per_worker: 25
+  shutdown_timeout_seconds: 5
+  log_worker_memory: true
+
+system_log_every: 10000
+
+wandb:
+  project: smac-r2dreamer
+  entity: null
+  mode: online
+  tags: [r2_650, smaclite, multimap, kaggle, fp32]
+  run_name: null
+
+logdir: /kaggle/working/logs/r2dreamer/r2_650
+checkpoint_every_minutes: 15.0

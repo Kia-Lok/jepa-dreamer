@@ -1,0 +1,53 @@
+{
+    "name": "slight_ally_adv_0329",
+    "num_allied_units": 9,
+    "num_enemy_units": 4,
+    "groups": [
+        {
+            "x": 26.5,
+            "y": 12.5,
+            "faction": "ALLY",
+            "units": {
+                "ZERGLING": 5
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 20.5,
+            "faction": "ALLY",
+            "units": {
+                "ZERGLING": 3,
+                "BANELING": 1
+            }
+        },
+        {
+            "x": 5.5,
+            "y": 12.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARAUDER": 2
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 20.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARAUDER": 2
+            }
+        }
+    ],
+    "attack_point": [
+        26.5,
+        12.5
+    ],
+    "terrain_preset": "NARROW",
+    "num_unit_types": 3,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "MARAUDER": 1,
+        "ZERGLING": 2
+    }
+}

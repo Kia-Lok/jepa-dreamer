@@ -1,0 +1,60 @@
+{
+    "name": "slight_ally_adv_0041",
+    "num_allied_units": 10,
+    "num_enemy_units": 7,
+    "groups": [
+        {
+            "x": 5.5,
+            "y": 12.5,
+            "faction": "ALLY",
+            "units": {
+                "MARAUDER": 4,
+                "MEDIVAC": 1
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 20.5,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 1,
+                "MARAUDER": 4
+            }
+        },
+        {
+            "x": 26.5,
+            "y": 12.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 2,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 20.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 2
+            }
+        }
+    ],
+    "attack_point": [
+        5.5,
+        12.5
+    ],
+    "terrain_preset": "NARROW",
+    "num_unit_types": 6,
+    "ally_has_shields": false,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "COLOSSUS": 0,
+        "MARAUDER": 1,
+        "MARINE": 2,
+        "MEDIVAC": 3,
+        "STALKER": 4,
+        "ZEALOT": 5
+    }
+}

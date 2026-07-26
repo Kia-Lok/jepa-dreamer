@@ -1,0 +1,62 @@
+{
+  "name": "r2g_train_0323",
+  "num_allied_units": 6,
+  "num_enemy_units": 5,
+  "groups": [
+    {
+      "x": 6.097,
+      "y": 13.533,
+      "faction": "ALLY",
+      "units": {
+        "MEDIVAC": 1,
+        "MARINE": 2
+      }
+    },
+    {
+      "x": 6.897,
+      "y": 17.933,
+      "faction": "ALLY",
+      "units": {
+        "MARAUDER": 2,
+        "MARINE": 1
+      }
+    },
+    {
+      "x": 25.655,
+      "y": 17.933,
+      "faction": "ENEMY",
+      "units": {
+        "MEDIVAC": 1,
+        "MARINE": 1
+      }
+    },
+    {
+      "x": 24.855,
+      "y": 13.533,
+      "faction": "ENEMY",
+      "units": {
+        "MARAUDER": 1,
+        "MARINE": 2
+      }
+    }
+  ],
+  "attack_point": [
+    6.497,
+    15.733
+  ],
+  "terrain_preset": "SIMPLE",
+  "num_unit_types": 9,
+  "ally_has_shields": false,
+  "enemy_has_shields": false,
+  "unit_type_ids": {
+    "BANELING": 0,
+    "COLOSSUS": 1,
+    "MARAUDER": 2,
+    "MARINE": 3,
+    "MEDIVAC": 4,
+    "SPINE_CRAWLER": 5,
+    "STALKER": 6,
+    "ZEALOT": 7,
+    "ZERGLING": 8
+  }
+}

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+
+# Virtual environments (root-anchored so they don't match external/*/env/)
+/.venv/
+/venv/
+/env/
+.Python
+
+# Training logs and checkpoints (large, generated at runtime)
+logs/
+checkpoints/jepa/*.pt
+checkpoints/jepa/*.pth
+checkpoints/jepa/*.ckpt
+
+# Large result files (trajectories can be MB each)
+results/*.jsonl
+results/trajectories_*.json
+
+# External repositories — tracked as plain directories (no submodules)
+# .git dirs inside external/ must be removed before committing
+
+# JAX / XLA compilation cache
+.jax_cache/
+jax_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/

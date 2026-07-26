@@ -1,0 +1,37 @@
+{
+    "name": "terrain_variants_var_435",
+    "num_allied_units": 8,
+    "num_enemy_units": 10,
+    "groups": [
+        {
+            "x": 6.75,
+            "y": 13.08,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 6,
+                "MARAUDER": 2
+            }
+        },
+        {
+            "x": 20.04,
+            "y": 15.55,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 8,
+                "MARAUDER": 2
+            }
+        }
+    ],
+    "attack_point": [
+        11.49,
+        17.94
+    ],
+    "terrain_preset": "PENTAGON",
+    "num_unit_types": 2,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "MARAUDER": 0,
+        "MARINE": 1
+    }
+}

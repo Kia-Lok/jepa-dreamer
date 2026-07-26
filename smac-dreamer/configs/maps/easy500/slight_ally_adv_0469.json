@@ -1,0 +1,68 @@
+{
+    "name": "slight_ally_adv_0469",
+    "num_allied_units": 4,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 5.5,
+            "y": 10.5,
+            "faction": "ALLY",
+            "units": {
+                "BANELING": 2
+            }
+        },
+        {
+            "x": 8.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "ZERGLING": 1
+            }
+        },
+        {
+            "x": 5.5,
+            "y": 22.5,
+            "faction": "ALLY",
+            "units": {
+                "BANELING": 1
+            }
+        },
+        {
+            "x": 26.5,
+            "y": 10.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 3
+            }
+        },
+        {
+            "x": 23.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 3
+            }
+        },
+        {
+            "x": 26.5,
+            "y": 22.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 3
+            }
+        }
+    ],
+    "attack_point": [
+        8.5,
+        16.5
+    ],
+    "terrain_preset": "ALL_GREEN",
+    "num_unit_types": 3,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "MARINE": 1,
+        "ZERGLING": 2
+    }
+}

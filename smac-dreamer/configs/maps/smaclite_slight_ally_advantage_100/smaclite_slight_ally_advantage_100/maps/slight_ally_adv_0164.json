@@ -1,0 +1,38 @@
+{
+    "name": "slight_ally_adv_0164",
+    "num_allied_units": 4,
+    "num_enemy_units": 8,
+    "groups": [
+        {
+            "x": 7.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "ZERGLING": 1,
+                "BANELING": 3
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 7,
+                "SPINE_CRAWLER": 1
+            }
+        }
+    ],
+    "attack_point": [
+        7.5,
+        16.5
+    ],
+    "terrain_preset": "ALL_GREEN",
+    "num_unit_types": 3,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "SPINE_CRAWLER": 1,
+        "ZERGLING": 2
+    }
+}

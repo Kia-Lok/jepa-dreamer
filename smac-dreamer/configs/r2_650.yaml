@@ -1,0 +1,79 @@
+# R2-650 dataset training config — explicit train/validation/blind folders (NO ratio split).
+#
+#   python scripts/train_r2dreamer_smaclite_multimap.py --config configs/r2_650.yaml
+#
+# Training discovers ONLY the `train` folder. The `validation` folder is held out for
+# checkpoint selection -> best_val_macro_winrate.pt (macro win rate; macro original return as
+# tie-breaker; never shaped return). The `blind_iid` / `blind_compositional` folders are NEVER
+# touched during training — evaluate them post-hoc with:
+#   python scripts/evaluate_multimap.py --config configs/r2_650.yaml \
+#       --checkpoint logs/r2dreamer/r2_650/best_val_macro_winrate.pt --split blind_iid
+#
+# Provide the four folders below (populate with *.json maps; same as the easy500 layout).
+
+maps:
+  train:               configs/maps/r2_650/configs/train
+  validation:          configs/maps/r2_650/configs/validation
+  blind_iid:           configs/maps/r2_650/configs/blind_iid
+  blind_compositional: configs/maps/r2_650/configs/blind_compositional
+
+sampling_mode: shuffled_round_robin
+
+# ---- Observation representation -------------------------------------------
+observation:
+  mode: structured
+
+# ---- Action masking (P0.1 real; P0.2 imagined) ----------------------------
+action_masking: true                    # requires observation.mode: structured
+mask_threshold: 0.7                     # predicted-availability prob threshold (P0.2)
+
+# ---- Reward (swap for the A/B/C/D study; selection uses ORIGINAL return only) --
+reward:
+  name: smaclite_default
+  params: {}
+
+# ---- Run / model knobs (GPU production) -----------------------------------
+device: cuda:0
+amp_dtype: bfloat16                     # A40/A100/L4 path; fails clearly if the GPU lacks BF16
+seed: 0
+gamma: 0.997
+steps: 2000000
+env_num: 8
+max_episode_steps: 200
+
+batch_size: 16
+batch_length: 64
+units: 256
+deter: 2048
+imag_horizon: 15
+
+# ---- Validation (checkpoint selection): map × fixed seeds ------------------
+validation:
+  every: 100000                         # env steps between validation passes
+  run_at_start: false                   # set true only for intentional baseline validation
+  seeds: [0, 1, 2]                      # every validation map is run once per seed
+
+# ---- Replay buffer: large capacity, CPU storage (model computes on cuda) ---
+buffer:
+  max_size: 500000
+  storage_device: cpu
+  storage_backend: memmap
+  scratch_dir: replay
+
+# ---- Environment worker lifecycle / memory telemetry ----------------------
+env_lifecycle:
+  max_episodes_per_worker: 25
+  shutdown_timeout_seconds: 5
+  log_worker_memory: true
+
+system_log_every: 10000
+
+# ---- Logging --------------------------------------------------------------
+wandb:
+  project: smac-r2dreamer                 # override with --wandb-project or WANDB_PROJECT on Kaggle
+  entity: null                            # override with --wandb-entity or WANDB_ENTITY
+  mode: online                            # set WANDB_MODE=offline if Kaggle has no network
+  tags: [r2_650, smaclite, multimap, kaggle]
+  run_name: null                        # auto: <dataset>-<reward>-<resolved-params-hash>
+logdir: logs/r2dreamer/r2_650
+checkpoint_every_minutes: 15.0

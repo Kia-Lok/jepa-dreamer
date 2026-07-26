@@ -1,0 +1,34 @@
+{
+    "name": "2s3z_v2",
+    "num_allied_units": 5,
+    "num_enemy_units": 5,
+    "groups": [
+        {
+            "x": 12,
+            "y": 16,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 2,
+                "ZEALOT": 3
+            }
+        },
+        {
+            "x": 20,
+            "y": 16,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 2,
+                "ZEALOT": 3
+            }
+        }
+    ],
+    "attack_point": [12, 16],
+    "terrain_preset": "RAVINE",
+    "num_unit_types": 2,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "STALKER": 0,
+        "ZEALOT": 1
+    }
+}

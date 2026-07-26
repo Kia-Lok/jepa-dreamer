@@ -1,0 +1,54 @@
+{
+    "name": "slight_ally_adv_0427",
+    "num_allied_units": 5,
+    "num_enemy_units": 4,
+    "groups": [
+        {
+            "x": 24.5,
+            "y": 27.5,
+            "faction": "ALLY",
+            "units": {
+                "ZERGLING": 2,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 20.5,
+            "faction": "ALLY",
+            "units": {
+                "ZERGLING": 1,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 4.5,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 2
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 11.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 2
+            }
+        }
+    ],
+    "attack_point": [
+        24.5,
+        27.5
+    ],
+    "terrain_preset": "CORRIDOR",
+    "num_unit_types": 3,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "SPINE_CRAWLER": 1,
+        "ZERGLING": 2
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "terrain_variants_var_453",
+    "num_allied_units": 9,
+    "num_enemy_units": 8,
+    "groups": [
+        {
+            "x": 11.56,
+            "y": 14.62,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 7,
+                "MARAUDER": 2
+            }
+        },
+        {
+            "x": 21.49,
+            "y": 17.94,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 7,
+                "MARAUDER": 1
+            }
+        }
+    ],
+    "attack_point": [
+        6.7,
+        14.24
+    ],
+    "terrain_preset": "NARROW",
+    "num_unit_types": 2,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "MARAUDER": 0,
+        "MARINE": 1
+    }
+}

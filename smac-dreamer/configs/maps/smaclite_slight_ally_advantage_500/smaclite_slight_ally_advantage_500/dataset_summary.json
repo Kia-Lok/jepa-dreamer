@@ -1,0 +1,96 @@
+{
+    "dataset_name": "SMAClite Slight Ally Advantage 500",
+    "random_seed": 20260611,
+    "number_of_maps": 500,
+    "constraints": {
+        "total_units_per_map": {
+            "minimum": 2,
+            "maximum": 20,
+            "includes_allies_and_enemies": true
+        },
+        "minimum_units_per_faction": 1,
+        "ally_strength_advantage_target_pct": {
+            "minimum": 5,
+            "maximum": 15
+        },
+        "one_race_per_faction": true,
+        "custom_units_used": false
+    },
+    "actual_statistics": {
+        "total_units_per_map": {
+            "minimum": 2,
+            "maximum": 20,
+            "mean": 14.888
+        },
+        "ally_strength_advantage_pct": {
+            "minimum": 5.0308,
+            "maximum": 14.9997,
+            "mean": 11.1172
+        },
+        "terrain_counts": {
+            "ALL_GREEN": 62,
+            "CHECKERBOARD": 63,
+            "CORRIDOR": 62,
+            "NARROW": 63,
+            "OCTAGON": 62,
+            "PENTAGON": 62,
+            "RAVINE": 63,
+            "SIMPLE": 63
+        },
+        "spawn_groups_per_faction_counts": {
+            "1": 200,
+            "2": 200,
+            "3": 100
+        },
+        "race_matchup_counts": {
+            "PROTOSS_VS_PROTOSS": 56,
+            "PROTOSS_VS_TERRAN": 56,
+            "PROTOSS_VS_ZERG": 56,
+            "TERRAN_VS_PROTOSS": 56,
+            "TERRAN_VS_TERRAN": 56,
+            "TERRAN_VS_ZERG": 55,
+            "ZERG_VS_PROTOSS": 55,
+            "ZERG_VS_TERRAN": 55,
+            "ZERG_VS_ZERG": 55
+        },
+        "advantage_mode_counts": {
+            "COMBINED": 130,
+            "COMPOSITIONAL": 213,
+            "NUMERICAL": 157
+        },
+        "unit_instance_counts": {
+            "BANELING": 810,
+            "COLOSSUS": 411,
+            "MARAUDER": 1342,
+            "MARINE": 892,
+            "MEDIVAC": 459,
+            "SPINE_CRAWLER": 810,
+            "STALKER": 1062,
+            "ZEALOT": 870,
+            "ZERGLING": 788
+        },
+        "total_unit_count_distribution": {
+            "2": 23,
+            "4": 27,
+            "6": 14,
+            "7": 2,
+            "8": 2,
+            "9": 11,
+            "10": 5,
+            "11": 16,
+            "12": 12,
+            "13": 26,
+            "14": 21,
+            "15": 37,
+            "16": 47,
+            "17": 49,
+            "18": 35,
+            "19": 155,
+            "20": 18
+        }
+    },
+    "validation": {
+        "status": "PASS",
+        "validated_maps": 500
+    }
+}

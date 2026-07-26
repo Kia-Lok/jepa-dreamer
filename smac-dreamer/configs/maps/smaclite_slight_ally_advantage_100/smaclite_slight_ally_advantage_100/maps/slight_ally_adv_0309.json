@@ -1,0 +1,68 @@
+{
+    "name": "slight_ally_adv_0309",
+    "num_allied_units": 3,
+    "num_enemy_units": 3,
+    "groups": [
+        {
+            "x": 5.5,
+            "y": 7.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 1
+            }
+        },
+        {
+            "x": 5.5,
+            "y": 15.5,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 1
+            }
+        },
+        {
+            "x": 5.5,
+            "y": 23.5,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 1
+            }
+        },
+        {
+            "x": 25.5,
+            "y": 7.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 1
+            }
+        },
+        {
+            "x": 25.5,
+            "y": 15.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 1
+            }
+        },
+        {
+            "x": 25.5,
+            "y": 23.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 1
+            }
+        }
+    ],
+    "attack_point": [
+        5.5,
+        15.5
+    ],
+    "terrain_preset": "CHECKERBOARD",
+    "num_unit_types": 3,
+    "ally_has_shields": true,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "MARINE": 0,
+        "STALKER": 1,
+        "ZEALOT": 2
+    }
+}

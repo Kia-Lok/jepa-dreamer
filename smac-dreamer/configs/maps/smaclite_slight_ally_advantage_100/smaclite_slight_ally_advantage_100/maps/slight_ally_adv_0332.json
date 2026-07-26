@@ -1,0 +1,68 @@
+{
+    "name": "slight_ally_adv_0332",
+    "num_allied_units": 7,
+    "num_enemy_units": 3,
+    "groups": [
+        {
+            "x": 9.0,
+            "y": 9.0,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 2,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 13.5,
+            "y": 11.0,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 2
+            }
+        },
+        {
+            "x": 18.0,
+            "y": 9.0,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 2
+            }
+        },
+        {
+            "x": 9.0,
+            "y": 19.5,
+            "faction": "ENEMY",
+            "units": {
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 13.5,
+            "y": 18.0,
+            "faction": "ENEMY",
+            "units": {
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 18.0,
+            "y": 19.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZEALOT": 1
+            }
+        }
+    ],
+    "attack_point": [
+        13.5,
+        11.0
+    ],
+    "terrain_preset": "PENTAGON",
+    "num_unit_types": 2,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "COLOSSUS": 0,
+        "ZEALOT": 1
+    }
+}

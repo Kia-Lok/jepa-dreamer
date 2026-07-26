@@ -1,0 +1,63 @@
+# Multimap R2-Dreamer × SMAClite training config.
+#
+# Folder-discovered maps, config-driven train/held-out-test split, swappable reward.
+# Consumed by scripts/train_r2dreamer_smaclite_multimap.py.
+#
+# Padding for the model is set from the TRAIN-max only (see map_discovery); an explicit
+# `padding` block here overrides it (must be >= every discovered map or startup fails fast).
+
+# ---- Map discovery + split ------------------------------------------------
+maps_folder: configs/maps/easy500 # folder of *.json maps to scan (provide this folder)
+split:
+  mode: ratio                           # "ratio" | "explicit"
+  train_ratio: 0.9                      # ratio mode: fraction to TRAIN; rest is held-out TEST
+  seed: 0
+  # For mode: explicit, instead set:
+  # train: [mapA, mapB, ...]
+  # test:  [mapC, mapD, ...]
+
+sampling_mode: shuffled_round_robin     # per-episode map selection for TRAIN workers
+
+# Optional manual padding cap (else auto from TRAIN-max). Must cover every discovered map.
+# padding:
+#   max_agents: 8
+#   max_enemies: 9
+#   max_actions: 15
+#   max_obs_size: 136
+
+# ---- Reward (swappable; see src/smacdreamer/envs/reward_registry.py) -------
+reward:
+  name: dense_v3                        # smaclite_default | v2_shaping | dense_v3
+  params:                               # partial overrides; defaults fill the rest
+    w_win: 1.0
+    w_loss: 1.0
+    w_hp: 0.1                           # small so summed shaping stays ~10-20% of |episode reward|
+    w_ally: 0.1
+    nonpotential:
+      positioning_weight: 0.0          # OFF by default (non-potential; not policy-invariant)
+
+# ---- Run / model knobs (small defaults for CPU debug; raise for production) --
+device: cpu                            # "cpu" | "cuda:0"
+seed: 0
+gamma: 0.997                           # shaping gamma; MUST equal the agent discount (1-1/horizon)
+steps: 2000
+env_num: 1                             # Windows: keep 1; Linux/Kubeflow: raise
+max_episode_steps: 200
+
+batch_size: 4
+batch_length: 8
+units: 128
+deter: 256
+imag_horizon: 3
+
+# ---- Evaluation on held-out maps ------------------------------------------
+eval:
+  every: 1000                          # env steps between held-out eval runs (0 disables)
+  episodes_per_map: 8                  # eval episode pool size (more -> tighter per-map CIs)
+
+# ---- Logging --------------------------------------------------------------
+wandb:
+  project: smac-r2dreamer              # set to enable W&B; null -> TensorBoard/JSONL only
+  run_name: easy500_windows_1m         # auto: <folder>-<reward>-<resolved-params-hash>
+logdir: logs/r2dreamer/multimap
+checkpoint_every_minutes: 10.0

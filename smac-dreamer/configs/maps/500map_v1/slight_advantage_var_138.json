@@ -1,0 +1,37 @@
+{
+    "name": "slight_advantage_var_138",
+    "num_allied_units": 13,
+    "num_enemy_units": 10,
+    "groups": [
+        {
+            "x": 9.59,
+            "y": 17.04,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 9,
+                "ZEALOT": 4
+            }
+        },
+        {
+            "x": 20.86,
+            "y": 16.96,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 7,
+                "ZEALOT": 3
+            }
+        }
+    ],
+    "attack_point": [
+        11.08,
+        16.38
+    ],
+    "terrain_preset": "OCTAGON",
+    "num_unit_types": 2,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "MARINE": 0,
+        "ZEALOT": 1
+    }
+}

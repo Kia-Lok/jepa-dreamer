@@ -1,0 +1,56 @@
+{
+    "name": "slight_ally_adv_0426",
+    "num_allied_units": 10,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 6.5,
+            "y": 12.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 3,
+                "ZEALOT": 1,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 8.5,
+            "y": 19.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 3,
+                "ZEALOT": 2
+            }
+        },
+        {
+            "x": 25.5,
+            "y": 12.5,
+            "faction": "ENEMY",
+            "units": {
+                "SPINE_CRAWLER": 5
+            }
+        },
+        {
+            "x": 23.5,
+            "y": 19.5,
+            "faction": "ENEMY",
+            "units": {
+                "SPINE_CRAWLER": 4
+            }
+        }
+    ],
+    "attack_point": [
+        6.5,
+        12.5
+    ],
+    "terrain_preset": "SIMPLE",
+    "num_unit_types": 4,
+    "ally_has_shields": true,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "COLOSSUS": 0,
+        "SPINE_CRAWLER": 1,
+        "STALKER": 2,
+        "ZEALOT": 3
+    }
+}

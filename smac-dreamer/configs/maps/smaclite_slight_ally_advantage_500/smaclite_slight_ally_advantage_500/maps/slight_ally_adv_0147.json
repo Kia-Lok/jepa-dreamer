@@ -1,0 +1,74 @@
+{
+    "name": "slight_ally_adv_0147",
+    "num_allied_units": 10,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 27.5,
+            "y": 11.5,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 3,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 2,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 27.5,
+            "y": 21.5,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 3
+            }
+        },
+        {
+            "x": 4.5,
+            "y": 11.5,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 1,
+                "SPINE_CRAWLER": 2
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 1,
+                "SPINE_CRAWLER": 2
+            }
+        },
+        {
+            "x": 4.5,
+            "y": 21.5,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 2,
+                "SPINE_CRAWLER": 1
+            }
+        }
+    ],
+    "attack_point": [
+        24.5,
+        16.5
+    ],
+    "terrain_preset": "NARROW",
+    "num_unit_types": 4,
+    "ally_has_shields": true,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "COLOSSUS": 1,
+        "SPINE_CRAWLER": 2,
+        "ZEALOT": 3
+    }
+}

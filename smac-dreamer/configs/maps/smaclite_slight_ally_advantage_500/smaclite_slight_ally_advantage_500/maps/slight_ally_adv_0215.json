@@ -1,0 +1,77 @@
+{
+    "name": "slight_ally_adv_0215",
+    "num_allied_units": 10,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 26.5,
+            "y": 9.5,
+            "faction": "ALLY",
+            "units": {
+                "BANELING": 3,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 23.5,
+            "y": 14.5,
+            "faction": "ALLY",
+            "units": {
+                "BANELING": 2,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 26.5,
+            "y": 18.5,
+            "faction": "ALLY",
+            "units": {
+                "BANELING": 2,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 5.5,
+            "y": 9.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 1,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 8.5,
+            "y": 14.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 2
+            }
+        },
+        {
+            "x": 5.5,
+            "y": 18.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 2
+            }
+        }
+    ],
+    "attack_point": [
+        23.5,
+        14.5
+    ],
+    "terrain_preset": "RAVINE",
+    "num_unit_types": 5,
+    "ally_has_shields": false,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "COLOSSUS": 1,
+        "SPINE_CRAWLER": 2,
+        "STALKER": 3,
+        "ZEALOT": 4
+    }
+}

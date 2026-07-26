@@ -1,0 +1,55 @@
+# Reward ablation — Experiment D: allied EHP preservation + explicit terminal/timeout anchors.
+#
+# Same allied-EHP potential as C, plus explicit win/loss/timeout anchors so termination type is
+# signalled directly (terminated vs truncated handled separately). Identical to the other presets
+# except the reward block + logdir. Run:
+#   python scripts/train_r2dreamer_smaclite_multimap.py --config configs/ablation/D_ally_ehp_v4_anchored.yaml
+#
+# Primary model-selection metric: held-out battle win rate, then original env return.
+
+maps_folder: configs/maps/easy500
+split:
+  mode: ratio
+  train_ratio: 0.8
+  seed: 0
+
+sampling_mode: shuffled_round_robin
+
+observation:
+  mode: structured
+
+# ---- Reward: allied EHP preservation + terminal win/loss + timeout anchors ----
+reward:
+  name: ally_ehp_v4
+  params:
+    w_ally_ehp: 0.5
+    w_enemy_ehp: 0.0
+    w_ally_alive: 0.0
+    w_win: 1.0
+    w_loss: 1.0
+    w_timeout: 1.0
+
+# ---- Run / model knobs (must match the other ablation presets) ----
+device: cuda:0
+seed: 0
+gamma: 0.997
+steps: 200000
+env_num: 4
+max_episode_steps: 200
+
+batch_size: 16
+batch_length: 64
+units: 256
+deter: 2048
+imag_horizon: 15
+
+eval:
+  every: 20000
+  episodes_per_map: 8
+  fixed_seeds: [0, 1, 2]
+
+wandb:
+  project: smac-r2dreamer
+  run_name: null
+logdir: logs/r2dreamer/ablation/D_ally_ehp_v4_anchored
+checkpoint_every_minutes: 10.0

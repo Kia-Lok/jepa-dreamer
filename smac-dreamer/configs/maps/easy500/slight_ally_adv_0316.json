@@ -1,0 +1,37 @@
+{
+    "name": "slight_ally_adv_0316",
+    "num_allied_units": 8,
+    "num_enemy_units": 7,
+    "groups": [
+        {
+            "x": 7.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 5,
+                "COLOSSUS": 3
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZEALOT": 4,
+                "COLOSSUS": 3
+            }
+        }
+    ],
+    "attack_point": [
+        7.5,
+        16.5
+    ],
+    "terrain_preset": "SIMPLE",
+    "num_unit_types": 2,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "COLOSSUS": 0,
+        "ZEALOT": 1
+    }
+}

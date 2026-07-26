@@ -1,0 +1,73 @@
+{
+    "name": "slight_ally_adv_0348",
+    "num_allied_units": 9,
+    "num_enemy_units": 10,
+    "groups": [
+        {
+            "x": 4.5,
+            "y": 11.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 2,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 3
+            }
+        },
+        {
+            "x": 4.5,
+            "y": 21.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 3
+            }
+        },
+        {
+            "x": 27.5,
+            "y": 11.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 2,
+                "BANELING": 1,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 3
+            }
+        },
+        {
+            "x": 27.5,
+            "y": 21.5,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 3
+            }
+        }
+    ],
+    "attack_point": [
+        7.5,
+        16.5
+    ],
+    "terrain_preset": "NARROW",
+    "num_unit_types": 5,
+    "ally_has_shields": true,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "COLOSSUS": 1,
+        "SPINE_CRAWLER": 2,
+        "STALKER": 3,
+        "ZERGLING": 4
+    }
+}

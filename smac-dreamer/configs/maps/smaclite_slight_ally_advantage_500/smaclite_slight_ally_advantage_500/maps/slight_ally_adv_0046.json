@@ -1,0 +1,41 @@
+{
+    "name": "slight_ally_adv_0046",
+    "num_allied_units": 9,
+    "num_enemy_units": 10,
+    "groups": [
+        {
+            "x": 13.5,
+            "y": 9.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 3,
+                "ZEALOT": 6
+            }
+        },
+        {
+            "x": 13.5,
+            "y": 19.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 2,
+                "MARAUDER": 6,
+                "MEDIVAC": 2
+            }
+        }
+    ],
+    "attack_point": [
+        13.5,
+        9.5
+    ],
+    "terrain_preset": "PENTAGON",
+    "num_unit_types": 5,
+    "ally_has_shields": true,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "MARAUDER": 0,
+        "MARINE": 1,
+        "MEDIVAC": 2,
+        "STALKER": 3,
+        "ZEALOT": 4
+    }
+}

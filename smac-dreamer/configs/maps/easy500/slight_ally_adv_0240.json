@@ -1,0 +1,38 @@
+{
+    "name": "slight_ally_adv_0240",
+    "num_allied_units": 7,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 25.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "BANELING": 7
+            }
+        },
+        {
+            "x": 6.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 3,
+                "BANELING": 1,
+                "SPINE_CRAWLER": 5
+            }
+        }
+    ],
+    "attack_point": [
+        25.5,
+        16.5
+    ],
+    "terrain_preset": "NARROW",
+    "num_unit_types": 3,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "SPINE_CRAWLER": 1,
+        "ZERGLING": 2
+    }
+}

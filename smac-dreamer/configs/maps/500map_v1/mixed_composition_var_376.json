@@ -1,0 +1,38 @@
+{
+    "name": "mixed_composition_var_376",
+    "num_allied_units": 8,
+    "num_enemy_units": 17,
+    "groups": [
+        {
+            "x": 10.29,
+            "y": 18.63,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 4,
+                "MEDIVAC": 4
+            }
+        },
+        {
+            "x": 22.73,
+            "y": 13.88,
+            "faction": "ENEMY",
+            "units": {
+                "MEDIVAC": 6,
+                "ZERGLING": 11
+            }
+        }
+    ],
+    "attack_point": [
+        10.53,
+        18.45
+    ],
+    "terrain_preset": "OCTAGON",
+    "num_unit_types": 3,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "MEDIVAC": 0,
+        "ZEALOT": 1,
+        "ZERGLING": 2
+    }
+}

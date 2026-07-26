@@ -1,0 +1,76 @@
+{
+    "name": "slight_ally_adv_0124",
+    "num_allied_units": 10,
+    "num_enemy_units": 7,
+    "groups": [
+        {
+            "x": 7.5,
+            "y": 3.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 3
+            }
+        },
+        {
+            "x": 8.5,
+            "y": 7.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 2
+            }
+        },
+        {
+            "x": 9.5,
+            "y": 11.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 2
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 28.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 1,
+                "BANELING": 1,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 23.5,
+            "y": 24.5,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 1,
+                "SPINE_CRAWLER": 1
+            }
+        },
+        {
+            "x": 22.5,
+            "y": 20.5,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 2
+            }
+        }
+    ],
+    "attack_point": [
+        8.5,
+        7.5
+    ],
+    "terrain_preset": "CORRIDOR",
+    "num_unit_types": 5,
+    "ally_has_shields": true,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "SPINE_CRAWLER": 1,
+        "STALKER": 2,
+        "ZEALOT": 3,
+        "ZERGLING": 4
+    }
+}

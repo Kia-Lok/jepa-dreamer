@@ -1,0 +1,37 @@
+{
+    "name": "slight_ally_adv_0289",
+    "num_allied_units": 8,
+    "num_enemy_units": 4,
+    "groups": [
+        {
+            "x": 13.5,
+            "y": 9.5,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 6,
+                "MARAUDER": 2
+            }
+        },
+        {
+            "x": 13.5,
+            "y": 19.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZEALOT": 4
+            }
+        }
+    ],
+    "attack_point": [
+        13.5,
+        9.5
+    ],
+    "terrain_preset": "PENTAGON",
+    "num_unit_types": 3,
+    "ally_has_shields": false,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "MARAUDER": 0,
+        "MARINE": 1,
+        "ZEALOT": 2
+    }
+}

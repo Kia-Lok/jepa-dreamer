@@ -1,0 +1,117 @@
+{
+    "dataset_name": "SMAClite Slight Ally Advantage 100",
+    "source_dataset": "SMAClite Slight Ally Advantage 500",
+    "selection_method": "Balanced stratified subset selected by binary mixed-integer optimization.",
+    "number_of_maps": 100,
+    "constraints": {
+        "total_units_per_map": {
+            "minimum": 2,
+            "maximum": 20,
+            "includes_allies_and_enemies": true
+        },
+        "minimum_units_per_faction": 1,
+        "ally_strength_advantage_target_pct": {
+            "minimum": 5,
+            "maximum": 15
+        },
+        "one_race_per_faction": true,
+        "custom_units_used": false
+    },
+    "actual_statistics": {
+        "total_units_per_map": {
+            "minimum": 2,
+            "maximum": 20,
+            "mean": 13.71
+        },
+        "ally_strength_advantage_pct": {
+            "minimum": 5.1017,
+            "maximum": 14.9997,
+            "mean": 11.8534
+        },
+        "terrain_counts": {
+            "ALL_GREEN": 12,
+            "CHECKERBOARD": 13,
+            "CORRIDOR": 12,
+            "NARROW": 13,
+            "OCTAGON": 12,
+            "PENTAGON": 12,
+            "RAVINE": 13,
+            "SIMPLE": 13
+        },
+        "spawn_groups_per_faction_counts": {
+            "1": 40,
+            "2": 40,
+            "3": 20
+        },
+        "race_matchup_counts": {
+            "PROTOSS_VS_PROTOSS": 12,
+            "PROTOSS_VS_TERRAN": 11,
+            "PROTOSS_VS_ZERG": 11,
+            "TERRAN_VS_PROTOSS": 11,
+            "TERRAN_VS_TERRAN": 11,
+            "TERRAN_VS_ZERG": 11,
+            "ZERG_VS_PROTOSS": 11,
+            "ZERG_VS_TERRAN": 11,
+            "ZERG_VS_ZERG": 11
+        },
+        "advantage_mode_counts": {
+            "COMBINED": 33,
+            "COMPOSITIONAL": 33,
+            "NUMERICAL": 34
+        },
+        "unit_instance_counts": {
+            "BANELING": 130,
+            "COLOSSUS": 111,
+            "MARAUDER": 226,
+            "MARINE": 197,
+            "MEDIVAC": 82,
+            "SPINE_CRAWLER": 148,
+            "STALKER": 168,
+            "ZEALOT": 161,
+            "ZERGLING": 148
+        },
+        "unit_map_presence_counts": {
+            "BANELING": 42,
+            "COLOSSUS": 30,
+            "MARAUDER": 49,
+            "MARINE": 46,
+            "MEDIVAC": 25,
+            "SPINE_CRAWLER": 46,
+            "STALKER": 48,
+            "ZEALOT": 44,
+            "ZERGLING": 45
+        },
+        "total_unit_count_distribution": {
+            "2": 1,
+            "6": 12,
+            "7": 2,
+            "8": 2,
+            "9": 4,
+            "10": 5,
+            "11": 10,
+            "12": 8,
+            "13": 5,
+            "14": 9,
+            "15": 3,
+            "17": 3,
+            "18": 1,
+            "19": 30,
+            "20": 5
+        }
+    },
+    "validation": {
+        "status": "PASS",
+        "checks_performed": [
+            "Exactly 100 map files",
+            "2-20 total units per map",
+            "At least one 2-unit map",
+            "5-15% calculated allied strength advantage",
+            "All eight terrain presets represented",
+            "Exact 40/40/20 spawn-group distribution",
+            "All nine ordered race matchups represented",
+            "34/33/33 advantage-mode distribution",
+            "All nine unit types represented",
+            "Manifest and map files agree"
+        ]
+    }
+}

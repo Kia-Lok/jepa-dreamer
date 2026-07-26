@@ -1,0 +1,39 @@
+{
+    "name": "slight_ally_adv_0464",
+    "num_allied_units": 9,
+    "num_enemy_units": 6,
+    "groups": [
+        {
+            "x": 9.5,
+            "y": 16.5,
+            "faction": "ALLY",
+            "units": {
+                "ZERGLING": 6,
+                "BANELING": 3
+            }
+        },
+        {
+            "x": 22.5,
+            "y": 16.5,
+            "faction": "ENEMY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 5
+            }
+        }
+    ],
+    "attack_point": [
+        9.5,
+        16.5
+    ],
+    "terrain_preset": "OCTAGON",
+    "num_unit_types": 4,
+    "ally_has_shields": false,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "STALKER": 1,
+        "ZEALOT": 2,
+        "ZERGLING": 3
+    }
+}

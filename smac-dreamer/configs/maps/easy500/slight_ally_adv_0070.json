@@ -1,0 +1,76 @@
+{
+    "name": "slight_ally_adv_0070",
+    "num_allied_units": 6,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 26.5,
+            "y": 9.5,
+            "faction": "ALLY",
+            "units": {
+                "ZEALOT": 1,
+                "COLOSSUS": 1
+            }
+        },
+        {
+            "x": 23.5,
+            "y": 14.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 1
+            }
+        },
+        {
+            "x": 26.5,
+            "y": 18.5,
+            "faction": "ALLY",
+            "units": {
+                "STALKER": 1,
+                "ZEALOT": 1
+            }
+        },
+        {
+            "x": 5.5,
+            "y": 9.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 1,
+                "BANELING": 2
+            }
+        },
+        {
+            "x": 8.5,
+            "y": 14.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 1,
+                "BANELING": 2
+            }
+        },
+        {
+            "x": 5.5,
+            "y": 18.5,
+            "faction": "ENEMY",
+            "units": {
+                "ZERGLING": 1,
+                "BANELING": 2
+            }
+        }
+    ],
+    "attack_point": [
+        23.5,
+        14.5
+    ],
+    "terrain_preset": "RAVINE",
+    "num_unit_types": 5,
+    "ally_has_shields": true,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "COLOSSUS": 1,
+        "STALKER": 2,
+        "ZEALOT": 3,
+        "ZERGLING": 4
+    }
+}

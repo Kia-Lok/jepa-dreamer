@@ -1,0 +1,51 @@
+
+# Python and notebooks
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.hypothesis/
+**/.ipynb_checkpoints/
+
+# Runtime output
+**/logs/
+**/runs/
+**/results/
+**/eval_outputs/
+**/analysis_outputs/
+**/sanity_outputs/
+**/overnight_logs/
+**/wandb/
+**/.wandb/
+**/checkpoints/
+**/replay/
+**/replay_*/
+
+# Generated data and archives
+**/data/
+**/local_assets/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.memmap
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Runtime pointers and reports
+CURRENT_*.txt
+*_audit.txt
+*_diagnosis.txt
+*.log
+
+# Source/config exceptions
+!smac-dreamer/configs/
+!smac-dreamer/configs/**
+!smac-jepa-wm/splits/
+!smac-jepa-wm/splits/**
+!smac-jepa-wm/configs/
+!smac-jepa-wm/configs/**
+!smac-jepa-wm/smac_jepa/data/
+!smac-jepa-wm/smac_jepa/data/**

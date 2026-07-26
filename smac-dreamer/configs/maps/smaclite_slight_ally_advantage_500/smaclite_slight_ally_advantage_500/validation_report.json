@@ -1,0 +1,35 @@
+{
+    "status": "PASS",
+    "validated_maps": 500,
+    "errors": [],
+    "minimum_strength_advantage_pct": 5.0308,
+    "maximum_strength_advantage_pct": 14.9997,
+    "minimum_total_units": 2,
+    "maximum_total_units": 20,
+    "terrain_counts": {
+        "ALL_GREEN": 62,
+        "CHECKERBOARD": 63,
+        "CORRIDOR": 62,
+        "NARROW": 63,
+        "OCTAGON": 62,
+        "PENTAGON": 62,
+        "RAVINE": 63,
+        "SIMPLE": 63
+    },
+    "spawn_group_counts": {
+        "1": 200,
+        "2": 200,
+        "3": 100
+    },
+    "unit_types_present": [
+        "BANELING",
+        "COLOSSUS",
+        "MARAUDER",
+        "MARINE",
+        "MEDIVAC",
+        "SPINE_CRAWLER",
+        "STALKER",
+        "ZEALOT",
+        "ZERGLING"
+    ]
+}

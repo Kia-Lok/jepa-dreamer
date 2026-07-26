@@ -1,0 +1,68 @@
+maps:
+  train: configs/maps/r2_2100/configs/train
+  validation: configs/maps/r2_2100/configs/validation
+  blind_iid: configs/maps/r2_2100/configs/blind_iid
+  blind_compositional: configs/maps/r2_2100/configs/blind_compositional
+sampling_mode: shuffled_round_robin
+observation:
+  mode: structured
+action_masking: true
+mask_threshold: 0.7
+world_model:
+  backend: jepa
+  jepa:
+    checkpoint: checkpoints/jepa/model.pt
+    strict_checkpoint: true
+    freeze_core: true
+    presence_threshold: 0.5
+    feature_dim: null
+    pooling: masked_mean
+    latent_normalization: from_checkpoint
+reward:
+  name: smaclite_default
+  params: {}
+device: cuda:0
+amp_dtype: bfloat16
+seed: 0
+gamma: 0.997
+steps: 2000000
+env_num: 8
+max_episode_steps: 200
+batch_size: 16
+batch_length: 64
+units: 256
+deter: 2048
+imag_horizon: 5
+validation:
+  every: 50000
+  run_at_start: false
+  seeds:
+  - 0
+  - 1
+  - 2
+buffer:
+  max_size: 500000
+  storage_device: cpu
+  storage_backend: memmap
+  scratch_dir: replay
+env_lifecycle:
+  max_episodes_per_worker: 25
+  shutdown_timeout_seconds: 5
+  log_worker_memory: true
+system_log_every: 10000
+wandb:
+  project: smac-dreamer-jepa
+  entity: null
+  mode: online
+  tags:
+  - r2_2100
+  - smaclite
+  - frozen_jepa
+  - exp33
+  - belief_mask
+  - slot_adapter
+  - adapter_grad
+  - 2m
+  run_name: null
+logdir: logs/r2dreamer/exp33_jepa_final_beliefmask_slotadapter_grad_2m
+checkpoint_every_minutes: 15.0

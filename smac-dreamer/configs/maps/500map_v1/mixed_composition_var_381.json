@@ -1,0 +1,39 @@
+{
+    "name": "mixed_composition_var_381",
+    "num_allied_units": 7,
+    "num_enemy_units": 19,
+    "groups": [
+        {
+            "x": 11.83,
+            "y": 13.0,
+            "faction": "ALLY",
+            "units": {
+                "HYDRALISK": 2,
+                "ROACH": 2,
+                "STALKER": 3
+            }
+        },
+        {
+            "x": 20.97,
+            "y": 16.2,
+            "faction": "ENEMY",
+            "units": {
+                "BANELING": 19
+            }
+        }
+    ],
+    "attack_point": [
+        11.31,
+        16.6
+    ],
+    "terrain_preset": "PENTAGON",
+    "num_unit_types": 4,
+    "ally_has_shields": true,
+    "enemy_has_shields": true,
+    "unit_type_ids": {
+        "BANELING": 0,
+        "HYDRALISK": 1,
+        "ROACH": 2,
+        "STALKER": 3
+    }
+}

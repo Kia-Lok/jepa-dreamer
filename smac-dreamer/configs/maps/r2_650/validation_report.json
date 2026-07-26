@@ -1,0 +1,143 @@
+{
+  "seed": 26052026,
+  "total_configs": 650,
+  "validation_errors": 0,
+  "unique_hashes": 650,
+  "split_counts": {
+    "train": 400,
+    "validation": 50,
+    "blind_iid": 100,
+    "blind_compositional": 100
+  },
+  "engagement_counts": {
+    "train": {
+      "immediate": 80,
+      "near": 140,
+      "medium": 120,
+      "far": 60
+    },
+    "validation": {
+      "medium": 15,
+      "near": 18,
+      "far": 7,
+      "immediate": 10
+    },
+    "blind_iid": {
+      "near": 35,
+      "medium": 30,
+      "far": 15,
+      "immediate": 20
+    },
+    "blind_compositional": {
+      "far": 15,
+      "near": 35,
+      "immediate": 20,
+      "medium": 30
+    }
+  },
+  "terrain_counts": {
+    "train": {
+      "SIMPLE": 332,
+      "NARROW": 44,
+      "OCTAGON": 24
+    },
+    "validation": {
+      "SIMPLE": 29,
+      "NARROW": 10,
+      "OCTAGON": 11
+    },
+    "blind_iid": {
+      "NARROW": 24,
+      "OCTAGON": 45,
+      "SIMPLE": 31
+    },
+    "blind_compositional": {
+      "SIMPLE": 41,
+      "OCTAGON": 40,
+      "NARROW": 19
+    }
+  },
+  "formation_counts": {
+    "train": {
+      "split": 87,
+      "staggered": 91,
+      "type_split": 90,
+      "compact": 132
+    },
+    "validation": {
+      "split": 11,
+      "compact": 18,
+      "type_split": 11,
+      "staggered": 10
+    },
+    "blind_iid": {
+      "type_split": 21,
+      "compact": 39,
+      "split": 21,
+      "staggered": 19
+    },
+    "blind_compositional": {
+      "type_split": 25,
+      "compact": 35,
+      "split": 25,
+      "staggered": 15
+    }
+  },
+  "difficulty_proxy_counts": {
+    "train": {
+      "easy": 80,
+      "moderate": 208,
+      "hard_winnable": 112
+    },
+    "validation": {
+      "easy": 10,
+      "moderate": 26,
+      "hard_winnable": 14
+    },
+    "blind_iid": {
+      "easy": 20,
+      "moderate": 52,
+      "hard_winnable": 28
+    },
+    "blind_compositional": {
+      "easy": 50,
+      "hard_winnable": 25,
+      "moderate": 25
+    }
+  },
+  "ally_value_ratio": {
+    "min": 1.0625,
+    "max": 1.7857,
+    "mean": 1.328388153846154,
+    "median": 1.2667
+  },
+  "global_unit_type_ids": {
+    "BANELING": 0,
+    "COLOSSUS": 1,
+    "MARAUDER": 2,
+    "MARINE": 3,
+    "MEDIVAC": 4,
+    "SPINE_CRAWLER": 5,
+    "STALKER": 6,
+    "ZEALOT": 7,
+    "ZERGLING": 8
+  },
+  "static_checks": [
+    "exact JSON schema",
+    "name/filename agreement",
+    "unit/count validity",
+    "team count agreement",
+    "global unit-type vocabulary",
+    "shield flag exactness",
+    "no mixed shield capability within a faction",
+    "medivac targetability",
+    "group placement emulation",
+    "spawn bounds",
+    "terrain walkability",
+    "same-plane overlap rejection",
+    "attack-point bounds",
+    "engagement bucket",
+    "duplicate semantic map rejection"
+  ],
+  "dynamic_validation_required": true
+}

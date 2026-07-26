@@ -1,0 +1,3472 @@
+version: 1
+dataset_name: smaclite_phase4
+dataset_root: configs/maps/500map_v1
+dataset_hash: 2231b96291910ab5cdaf72f3297d4927dd8f7fb7add7a9a8ad50c58a78a7d533
+seed: 42
+generated_at: '2026-06-05T05:37:11Z'
+split_algorithm: stratified_family
+padding:
+  max_agents: 20
+  max_enemies: 194
+  max_actions: 200
+  max_obs_size: 1600
+limits:
+  max_agents:
+  max_enemies:
+  max_actions:
+  max_obs_size:
+split_counts:
+  train: 245
+  validation: 30
+  test: 30
+family_split_counts:
+  uncategorised:
+    train: 245
+    validation: 30
+    test: 30
+splits:
+  train:
+  - map_id: 253
+    name: terrain_variants_var_449
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_449.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 126
+    file_hash: 0a197a8104842f48998e40047edb14f8f4a6f469151680750359506e70938fc0
+  - map_id: 72
+    name: balanced_mirrors_var_073
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_073.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 217
+    file_hash: 791dbe7bd34586575f9693c3c369aedc05345a6aba2d3349f57df37743b8995e
+  - map_id: 190
+    name: heavy_swarm_var_291
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_291.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 125
+    n_actions: 131
+    obs_size: 1056
+    file_hash: 7cb68abfe42acc761259a787e211ae51e92a36e0bd5e9db096cb37aef4d1fed0
+  - map_id: 19
+    name: balanced_mirrors_var_020
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_020.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 224
+    file_hash: 66ed3866206f0d351291d0e6f64536513885d825ea3f55cead64edbd17aa04fc
+  - map_id: 262
+    name: terrain_variants_var_458
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_458.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 119
+    file_hash: ca95362d109e2ec58e45a3d448a24de296945408fe890f5473ee60da9f92442a
+  - map_id: 106
+    name: heavy_swarm_var_207
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_207.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 106
+    n_actions: 112
+    obs_size: 904
+    file_hash: 714c7a55f8cca827e712652eaf1523d0e5fc8ec93754f919af893ae5d21d9052
+  - map_id: 38
+    name: balanced_mirrors_var_039
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_039.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 210
+    file_hash: 4662d89cea5451c840376f28c417143b169af2247ec9530ceee787ebc244c002
+  - map_id: 32
+    name: balanced_mirrors_var_033
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_033.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 203
+    file_hash: 15ffb8eb6fb9d620d2dcc1db2a62aaf42d5c35cf0b562790fcef07d8c015935f
+  - map_id: 178
+    name: heavy_swarm_var_279
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_279.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 144
+    n_actions: 150
+    obs_size: 1200
+    file_hash: 7f608038b0c0ddb1f4f8fe163e65e486abb3918384656ffd1b0fb656ea071ad9
+  - map_id: 189
+    name: heavy_swarm_var_290
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_290.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 179
+    n_actions: 185
+    obs_size: 1480
+    file_hash: 3cf4b9b4a2e9ea8a81d03a3ea7222672fddde6cb5862e392acb388274bc0e071
+  - map_id: 144
+    name: heavy_swarm_var_245
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_245.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 147
+    n_actions: 153
+    obs_size: 1232
+    file_hash: c7f31667601b04a0c2b4a55a048d6ec1a1cc2a94bf384dbc7d44d4399a2da291
+  - map_id: 148
+    name: heavy_swarm_var_249
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_249.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 156
+    n_actions: 162
+    obs_size: 1296
+    file_hash: 8fbedfd60b16b48dbc3a1217012498b6b7fa245da84230dd51d4e986cdde6d81
+  - map_id: 211
+    name: terrain_variants_var_407
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_407.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 147
+    file_hash: b19ee1cc5b7048462b9514cbd5b91628a6436cda39c0b5e6e8cab37631251da2
+  - map_id: 120
+    name: heavy_swarm_var_221
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_221.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 149
+    n_actions: 155
+    obs_size: 1248
+    file_hash: d1535de0b82c88ed1a93776ddaabea567c9179e5bc60953ed13584fcc68b6ce9
+  - map_id: 231
+    name: terrain_variants_var_427
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_427.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 140
+    file_hash: 40dcb5ddedd3ceffdf7c102b05c81182c1d1cf3c7937a87df576f07c4acd0a86
+  - map_id: 296
+    name: terrain_variants_var_492
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_492.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 140
+    file_hash: 032b94d1cc551f617a7ba1c14ce6f5492c88348a500fe71fd1695009cdf100c4
+  - map_id: 177
+    name: heavy_swarm_var_278
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_278.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 142
+    n_actions: 148
+    obs_size: 1192
+    file_hash: d859121f86b5d97ea77009d2ca77a4e3528232cfbe0d0c9edfe939ad72c21a92
+  - map_id: 283
+    name: terrain_variants_var_479
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_479.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 140
+    file_hash: 0c343c037a9abe27edb241f0c2249e819dd29d911110a05a05505b7410da15e6
+  - map_id: 288
+    name: terrain_variants_var_484
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_484.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 133
+    file_hash: ad1534b23a2868892e31720a1085ad4cc65dfbc69223e4fe9c6b31dd9739b854
+  - map_id: 5
+    name: balanced_mirrors_var_006
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_006.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 203
+    file_hash: c780706dddf5dddc97912fc1e071146dc87f32c7132934dd478203d6a5a269ad
+  - map_id: 275
+    name: terrain_variants_var_471
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_471.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 133
+    file_hash: 70ae158a69e574df8b947c512ef49086ca4b59b7f2fa7de3d51e307be3084ed5
+  - map_id: 123
+    name: heavy_swarm_var_224
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_224.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 166
+    n_actions: 172
+    obs_size: 1368
+    file_hash: bb50b2a37a35bc174421f508abe2f4dd5db6a414ba1e8dceb91c7888bff796c8
+  - map_id: 227
+    name: terrain_variants_var_423
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_423.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 140
+    file_hash: d418a043fbc932f48857b6e652d71a9c7b9a8ee4d7387ce3748330c9ab59d35e
+  - map_id: 282
+    name: terrain_variants_var_478
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_478.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 133
+    file_hash: 061d96d6992354eb25cc3e867f3db66ece22cfd660a340f4f4296c33b55631ea
+  - map_id: 254
+    name: terrain_variants_var_450
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_450.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 168
+    file_hash: 0494a703c21943d698aff0a408e9c912f38e30d8df9960471efaaafe6abe318a
+  - map_id: 1
+    name: balanced_mirrors_var_002
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_002.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 203
+    file_hash: df77f88eeded8efcdb932c15f3a587c8b0eb61edf6b500eac4b17c42b526ca4b
+  - map_id: 48
+    name: balanced_mirrors_var_049
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_049.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 224
+    file_hash: a61aa01df8c613bbc0aadaff331904f3df4ecd4b757feda27fc57c9234b66073
+  - map_id: 245
+    name: terrain_variants_var_441
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_441.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 133
+    file_hash: 35a0a79ced186103cce3014b0f672ca8e864117a02d54c0cd518b6edf080986b
+  - map_id: 153
+    name: heavy_swarm_var_254
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_254.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 128
+    n_actions: 134
+    obs_size: 1072
+    file_hash: bfd4c896f7633c9b93771bb06d4e6a8f9562230710e7095860cb03aa85602a99
+  - map_id: 37
+    name: balanced_mirrors_var_038
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_038.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 217
+    file_hash: d6324243885617fe7fcac7f9b93f992e33a371b56a3c42af2c048aaf149298e2
+  - map_id: 121
+    name: heavy_swarm_var_222
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_222.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 147
+    n_actions: 153
+    obs_size: 1224
+    file_hash: fb59cc5e9f8727d0e881e3ac02087ed336fd569e430ee3c8114f158e757c7f65
+  - map_id: 284
+    name: terrain_variants_var_480
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_480.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 147
+    file_hash: 33872e82d7c328e04398e499f0a626ea9b549e9ab8d2be62bd1e2da8dc98ec55
+  - map_id: 202
+    name: mixed_composition_var_365
+    type: custom
+    path: configs/maps/500map_v1/mixed_composition_var_365.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 22
+    n_actions: 28
+    obs_size: 319
+    file_hash: be367b3719885c0adb5d331526752c0c64a5518afb4ea82f26c5edcb36f0a3ac
+  - map_id: 220
+    name: terrain_variants_var_416
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_416.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 140
+    file_hash: 365b1b63d3171837c2b1ebe2ac3bb4a9e9c1b4b64c4b75bc4636911f69549435
+  - map_id: 55
+    name: balanced_mirrors_var_056
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_056.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 18
+    n_actions: 24
+    obs_size: 224
+    file_hash: 2654d843f329d1badd4224d6d0f70c95652d8fdb5a7d97b894afd460599a2a98
+  - map_id: 17
+    name: balanced_mirrors_var_018
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_018.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 203
+    file_hash: d1044c91716e2eb67578047bacceffde36c1211f8d34dc06a894a30446ca6d89
+  - map_id: 11
+    name: balanced_mirrors_var_012
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_012.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 13
+    n_actions: 19
+    obs_size: 189
+    file_hash: f2cfbc795498a141abfb0e4f32d9044845cd1039243443e29fda64c43a1aba48
+  - map_id: 239
+    name: terrain_variants_var_435
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_435.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 126
+    file_hash: 06d64d0133e07b920eebf7e8bae58d41e98a87fe4bdae1014ce1d2a83fccf00c
+  - map_id: 274
+    name: terrain_variants_var_470
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_470.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 147
+    file_hash: 7c400ddaf6ff9625272a7af18663cb51b50dd3903fff7a7bf9a818e089c2e1f8
+  - map_id: 232
+    name: terrain_variants_var_428
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_428.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 133
+    file_hash: 504a29fdce753bcc23ade5d465fc60329d685d79cb89763f6f841a2c4b458b57
+  - map_id: 34
+    name: balanced_mirrors_var_035
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_035.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 238
+    file_hash: 73a12146f89961fdf5153bf863d769a31a2224727d06ba3b8f02c0871d125628
+  - map_id: 73
+    name: balanced_mirrors_var_074
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_074.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 217
+    file_hash: 35f595b66d14b590549dc924ae9741519ad11e3dcb32899fdb37ddb08009c1ed
+  - map_id: 219
+    name: terrain_variants_var_415
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_415.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 126
+    file_hash: 17c2bcc078dc5d51ade60fc0e9681a601eb326e44ef82b35213707ead14502a9
+  - map_id: 105
+    name: heavy_swarm_var_206
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_206.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 192
+    n_actions: 198
+    obs_size: 1600
+    file_hash: ef59fddb179adfaa0a67aef0567cd7e2cb4529af6250b50b0ed58c2f1fc88616
+  - map_id: 269
+    name: terrain_variants_var_465
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_465.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 133
+    file_hash: b896823d9a3a2efe6b75e48cbcc9e2b966d4e64a37aa51dbfdaa77fe80a76cfd
+  - map_id: 113
+    name: heavy_swarm_var_214
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_214.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 103
+    n_actions: 109
+    obs_size: 872
+    file_hash: 87e0093c589fb695d38cd0cbc0baebe6610f677abc1261f2ec60e4867722ea19
+  - map_id: 259
+    name: terrain_variants_var_455
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_455.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 147
+    file_hash: 58be036119eb98479e1b1b3f832e7ff42c3358e01e7ee9bde8d9fc432be2fc64
+  - map_id: 103
+    name: heavy_swarm_var_204
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_204.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 132
+    n_actions: 138
+    obs_size: 1120
+    file_hash: 62c43b579871214ab7b9c3feefb80f9088a1e83c31d885169f2e709b875afa4a
+  - map_id: 237
+    name: terrain_variants_var_433
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_433.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 126
+    file_hash: f7f9bf5cb5d6cb365047eb57f3e552f5402461c29f96772200751445ffa5af03
+  - map_id: 184
+    name: heavy_swarm_var_285
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_285.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 134
+    n_actions: 140
+    obs_size: 1120
+    file_hash: ad386c2a2d41d658aee17df1e4ef853cf48d93b58d392c5dbc6628e92efb24e0
+  - map_id: 100
+    name: heavy_swarm_var_201
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_201.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 161
+    n_actions: 167
+    obs_size: 1336
+    file_hash: 3e4497ac515e1a75ed91a8eac977c2bc6968de9890c594e67f0e29f7db2b5ca4
+  - map_id: 302
+    name: terrain_variants_var_498
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_498.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 7
+    n_actions: 13
+    obs_size: 105
+    file_hash: 6e0114d18bba5e1ade20f43f2f9e6b4a463f0f895dd59541b264187d770aa776
+  - map_id: 89
+    name: balanced_mirrors_var_090
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_090.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 210
+    file_hash: 2885ade1e1876a7e9f7d7c26121e5999645cc4a19ff5889f255b7e4656b42a1c
+  - map_id: 280
+    name: terrain_variants_var_476
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_476.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 154
+    file_hash: db221a3e631f9d32709eff97b9ed741a9498c82e0ec0ff17bafb78f0fd47313d
+  - map_id: 46
+    name: balanced_mirrors_var_047
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_047.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 196
+    file_hash: d6ca7f9a0bc2fd8448456cb8d4e5225af9f72ec3f7b288a86ae179b5dfb35caf
+  - map_id: 131
+    name: heavy_swarm_var_232
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_232.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 128
+    n_actions: 134
+    obs_size: 1072
+    file_hash: d26e47e96d319c2cafd81786a881be1b6fce620aad1d5cbdd7ee449efe8754c6
+  - map_id: 26
+    name: balanced_mirrors_var_027
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_027.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 238
+    file_hash: e98da74ef49504ebda1bc07e935589017e02c675c99e06d94e31216add70d934
+  - map_id: 249
+    name: terrain_variants_var_445
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_445.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 119
+    file_hash: eb141abdc50287d22f953ec18b272bdd5074f294c4d9a026e1e4e33f9f74c930
+  - map_id: 265
+    name: terrain_variants_var_461
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_461.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 154
+    file_hash: b862f143513f482b3649d7faca547b1e9689e1cca43bfa1c6d28a17811a4a835
+  - map_id: 107
+    name: heavy_swarm_var_208
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_208.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 135
+    n_actions: 141
+    obs_size: 1136
+    file_hash: 82c13f3f0673b256efb3c35a59afd701f4f4bd8c8bc1f6966838aabe2e89058f
+  - map_id: 166
+    name: heavy_swarm_var_267
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_267.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 115
+    n_actions: 121
+    obs_size: 968
+    file_hash: 54a57d650642876f5d75aa124e3813192d4607422769bbf918533ade2680adf9
+  - map_id: 86
+    name: balanced_mirrors_var_087
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_087.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 196
+    file_hash: 3894da1a899be31f5210e2ff37d5115a3801aafc7508c5eab53527e83f3ef82f
+  - map_id: 6
+    name: balanced_mirrors_var_007
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_007.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 217
+    file_hash: 159c4b2b1b320012802676967b384ece924688cdaaafa05cb4df58ab7b8b196c
+  - map_id: 24
+    name: balanced_mirrors_var_025
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_025.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 217
+    file_hash: 94583018bae70aae836dd44e466820835d1e730aed7aa6816f238f24778735bc
+  - map_id: 272
+    name: terrain_variants_var_468
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_468.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 126
+    file_hash: 859924f3d41a614a2865bbf6f606ce42ef37978393ac82fdc50fc5c4bf59ae78
+  - map_id: 154
+    name: heavy_swarm_var_255
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_255.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 161
+    n_actions: 167
+    obs_size: 1336
+    file_hash: 530dc8191358de73633db7788e729eaa172239877f04b13c18975f8df1fe1003
+  - map_id: 132
+    name: heavy_swarm_var_233
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_233.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 134
+    n_actions: 140
+    obs_size: 1112
+    file_hash: df752792b0312864c668e99ccc2aba93e65b1effdd235cf082462f7eceda7c1c
+  - map_id: 115
+    name: heavy_swarm_var_216
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_216.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 161
+    n_actions: 167
+    obs_size: 1336
+    file_hash: 94d907bcae0f45771f70e500ba96f504f8c6adb5b1dc51f7b3271f81f74ba165
+  - map_id: 270
+    name: terrain_variants_var_466
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_466.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 140
+    file_hash: 9e4b2085a1fec6e84741fcdfc58860e419fcf9285958bba378da7f1cadd64710
+  - map_id: 236
+    name: terrain_variants_var_432
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_432.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 112
+    file_hash: e223569f3cbe2db7ec14620cea28a75a798e6ef3dcccbda85c7b7989fcd17630
+  - map_id: 124
+    name: heavy_swarm_var_225
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_225.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 141
+    n_actions: 147
+    obs_size: 1168
+    file_hash: e72a41ce85511a44c4a032ebc7304438b5318dd4f9f151fef120ffe2ce13fd51
+  - map_id: 180
+    name: heavy_swarm_var_281
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_281.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 111
+    n_actions: 117
+    obs_size: 944
+    file_hash: f2a0a230eb729f57b321dbafdf06d451ff4fc8a23f5e7aa40d2f430f9563ed46
+  - map_id: 30
+    name: balanced_mirrors_var_031
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_031.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 217
+    file_hash: 469b1a02b548e6e46336405ccd3a4b407c660b2b182125b35fef284d310497a8
+  - map_id: 65
+    name: balanced_mirrors_var_066
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_066.json
+    family: uncategorised
+    n_agents: 19
+    n_enemies: 13
+    n_actions: 19
+    obs_size: 224
+    file_hash: 82da6047916ab3a4a7dd2b6c0d34109e21050c0caa4c015f96ea38b42dac5ee6
+  - map_id: 285
+    name: terrain_variants_var_481
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_481.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 140
+    file_hash: 18c8e55695be7f7d2704d698987f047bc59caa4afd073100427ebd1c0b9aa1a3
+  - map_id: 42
+    name: balanced_mirrors_var_043
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_043.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 196
+    file_hash: 49aea48defae82d4eb866f73df8ab7131aa9a16dffccf9c1f1a2c8a957a98700
+  - map_id: 134
+    name: heavy_swarm_var_235
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_235.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 120
+    n_actions: 126
+    obs_size: 1008
+    file_hash: 2bf62b59abe5aa8f3f02cc6496558137a4e4900cc729f700fdf8e6e99aff4ec9
+  - map_id: 238
+    name: terrain_variants_var_434
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_434.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 154
+    file_hash: ae34c323245951bb6ffdd688fbf75ec2d387bb9962644f5ff45f591775a65f10
+  - map_id: 99
+    name: balanced_mirrors_var_100
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_100.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 210
+    file_hash: 7eece761576fb8863a1f90cc8f276a8ce81a1316269ba97503c89c9283bebd8b
+  - map_id: 7
+    name: balanced_mirrors_var_008
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_008.json
+    family: uncategorised
+    n_agents: 18
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 224
+    file_hash: c7832ebeabfa661dfe92c285c49be2b0e891f73e0fc2e205422a2aa2b0d04517
+  - map_id: 200
+    name: mixed_composition_var_332
+    type: custom
+    path: configs/maps/500map_v1/mixed_composition_var_332.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 200
+    file_hash: 98823e3a42a12d73273676baa5f1a04cf1ab753eeb9f795caf4c9958d370822e
+  - map_id: 9
+    name: balanced_mirrors_var_010
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_010.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 196
+    file_hash: d4a3f53f7a25b2812fe1189e1cf7199eaeb44d51b66f4e535ff5a84c6d72ca37
+  - map_id: 159
+    name: heavy_swarm_var_260
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_260.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 132
+    n_actions: 138
+    obs_size: 1104
+    file_hash: 7d437030fcf2468ad558bb0ce45555d5def3d6ff6bfbc6a371ed964d2db0703f
+  - map_id: 201
+    name: mixed_composition_var_347
+    type: custom
+    path: configs/maps/500map_v1/mixed_composition_var_347.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 198
+    file_hash: 4a760c12b2eef2dd991c05d5537e746738804d42ad26c8020206375e3bc32105
+  - map_id: 157
+    name: heavy_swarm_var_258
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_258.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 113
+    n_actions: 119
+    obs_size: 968
+    file_hash: dbfd17c409899f3714a14e6c979431371c6e72f4338c64ddb2fa520e88f05854
+  - map_id: 173
+    name: heavy_swarm_var_274
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_274.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 125
+    n_actions: 131
+    obs_size: 1048
+    file_hash: 55adfc17936eaa0f7818efaf2a3bbf1382834b0210df63f35135947590fb8921
+  - map_id: 300
+    name: terrain_variants_var_496
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_496.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 7
+    n_actions: 13
+    obs_size: 126
+    file_hash: 4ebefcd8d7783d94a89b1bf71ddbdb59e8d28bab7f24d38f88ccf7f1b0b7ba57
+  - map_id: 230
+    name: terrain_variants_var_426
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_426.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 126
+    file_hash: ec5a0bb6202e88072485b2f9f52fb725698820e44ce2e5dc5903af59e7fb4095
+  - map_id: 161
+    name: heavy_swarm_var_262
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_262.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 147
+    n_actions: 153
+    obs_size: 1224
+    file_hash: 2cbb779c998315efb5b71b00537f106fcb3692665385dd94fa5b6540c1a3ca22
+  - map_id: 228
+    name: terrain_variants_var_424
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_424.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 133
+    file_hash: 782ee100bb35210b5230631e085d1b604aa740e838d86709ef1276db31cb987b
+  - map_id: 122
+    name: heavy_swarm_var_223
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_223.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 127
+    n_actions: 133
+    obs_size: 1064
+    file_hash: b7dfd4dc2949ba2cea191a4fb5a63233f284e07f2626ce232b61da03eab97f3c
+  - map_id: 133
+    name: heavy_swarm_var_234
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_234.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 182
+    n_actions: 188
+    obs_size: 1504
+    file_hash: c9bbf8f1d5fd1d8f7932a13f0b502efe16a761e36c7e10cd937606df8e1df4cd
+  - map_id: 31
+    name: balanced_mirrors_var_032
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_032.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 217
+    file_hash: 86e5bfe137edadbb308822f97fffebd7b16d87f9215df63b5fe5de375b2b4df5
+  - map_id: 293
+    name: terrain_variants_var_489
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_489.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 126
+    file_hash: e0085ea5323b835d1081047b69d891f26e714c9e30fd10dbda75a5b12dcf8945
+  - map_id: 304
+    name: terrain_variants_var_500
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_500.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 140
+    file_hash: 10a55329d46ec6a72039e6d5f5cb4118adf9b1e97b518c40e3261d7fd2399d30
+  - map_id: 66
+    name: balanced_mirrors_var_067
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_067.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 13
+    n_actions: 19
+    obs_size: 189
+    file_hash: 5eb2b85b93fd48a2a5df01929bf00e4cfc25db26318e95fd31166408593420c7
+  - map_id: 181
+    name: heavy_swarm_var_282
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_282.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 130
+    n_actions: 136
+    obs_size: 1096
+    file_hash: e1c2e462bf240410cc85512f080dfd37b0af554112bb715b797f463ff4f4ee2c
+  - map_id: 271
+    name: terrain_variants_var_467
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_467.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 154
+    file_hash: f09310d0132fc07ad63e3404bc43d0c11a829535f2fcd77f32e2aea094c59574
+  - map_id: 215
+    name: terrain_variants_var_411
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_411.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 133
+    file_hash: 08eb2c23bfe237014c29f1cef4a559057be4b5be5a5e58350b420bab075164f5
+  - map_id: 85
+    name: balanced_mirrors_var_086
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_086.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 203
+    file_hash: 4d4c989442bf142380720bb63dcd8509bd691105bda86fa581b2d19875bae7d2
+  - map_id: 51
+    name: balanced_mirrors_var_052
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_052.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 196
+    file_hash: dda66975d37f21ddd51102924aaa81d30e0296d5bee81531f15083fb1bc99ba2
+  - map_id: 250
+    name: terrain_variants_var_446
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_446.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 133
+    file_hash: 533f438d6f0f3968c2145d985eef9d25dbe0776fdadac0d3b4269898e9714224
+  - map_id: 91
+    name: balanced_mirrors_var_092
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_092.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 231
+    file_hash: 64fc7bd5961eafb8f6bdc6e9908f7d7021a65f1cddc898e8ccce7824a40d8eda
+  - map_id: 247
+    name: terrain_variants_var_443
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_443.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 147
+    file_hash: 92a0301f494d8015d395156f9e5a2e29808f1c3995019ce060c35a6cb833cb11
+  - map_id: 88
+    name: balanced_mirrors_var_089
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_089.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 182
+    file_hash: f0c7c2985908631c17ecfcb58e75987cf7076985270e538649d2300162c84f7a
+  - map_id: 139
+    name: heavy_swarm_var_240
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_240.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 124
+    n_actions: 130
+    obs_size: 1032
+    file_hash: c63686149efeb2d3ecdeabfdb15315b5f1933d736058795e854bde349accd790
+  - map_id: 96
+    name: balanced_mirrors_var_097
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_097.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 19
+    n_actions: 25
+    obs_size: 245
+    file_hash: e967f3c873a2151bf48f58e2a26f8218e25d90dd6ba7dc2e30e3425d7b25badc
+  - map_id: 248
+    name: terrain_variants_var_444
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_444.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 126
+    file_hash: 726958fa5230cbaf5c107a6b7a01b24228c03be877bafbb6ec0e973f5de38bfd
+  - map_id: 146
+    name: heavy_swarm_var_247
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_247.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 128
+    n_actions: 134
+    obs_size: 1080
+    file_hash: df66f1ffcd6f5598ef94935aa73c9df86732943afddb67e12fc4dd6d609b034e
+  - map_id: 199
+    name: heavy_swarm_var_300
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_300.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 131
+    n_actions: 137
+    obs_size: 1104
+    file_hash: 0e44893c407f3c6ae13089b609679ec245b1d0d2ef9e0ddce84bf0dac54d725a
+  - map_id: 77
+    name: balanced_mirrors_var_078
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_078.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 182
+    file_hash: c7e7b22ae42a1c8d1395f9b837144d1305e2104ea946bfc8bbe00bd8b31a9cd2
+  - map_id: 260
+    name: terrain_variants_var_456
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_456.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 140
+    file_hash: 51c496fec7d4224c781086304299b6d2bc9c1c8bbef89e120e3a49f26b9af11d
+  - map_id: 33
+    name: balanced_mirrors_var_034
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_034.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 217
+    file_hash: 9cabd54d90b3e51c5cedfdb0e327904306398475276302d099f29e87ab9bf546
+  - map_id: 21
+    name: balanced_mirrors_var_022
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_022.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 210
+    file_hash: eaa3bd52e5cf73e21f5339a2e63a28afc3cb3dc4d96c50cbcd5f557a07acae91
+  - map_id: 70
+    name: balanced_mirrors_var_071
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_071.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 203
+    file_hash: 260cb053bf0291e7d01113ad4f4df4583fb7d9f69a250a29ecc56f9018e075ae
+  - map_id: 60
+    name: balanced_mirrors_var_061
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_061.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 203
+    file_hash: cec80cc00b8ab600d459f435574660fad52bf183ed651c26ee11c6f23be2eb27
+  - map_id: 84
+    name: balanced_mirrors_var_085
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_085.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 217
+    file_hash: 7da595958204ae48017f71d6b9b0ee1f9e6e6680863bec54253bb0e0d20789de
+  - map_id: 223
+    name: terrain_variants_var_419
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_419.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 119
+    file_hash: 92a45a135bdac79419dced3a2192699e1c63bc0b4fe152196b2dedd8f17e7f67
+  - map_id: 169
+    name: heavy_swarm_var_270
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_270.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 137
+    n_actions: 143
+    obs_size: 1144
+    file_hash: 251c9174b2e478b1749b9b191c1bb39dd40ba9086c86d6f0cae69f7841fbaeff
+  - map_id: 168
+    name: heavy_swarm_var_269
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_269.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 100
+    n_actions: 106
+    obs_size: 840
+    file_hash: a8f13693a5effdfc6e4fdf8f68c3fccd3864ec0b7c1d4c009c870fb096c811c4
+  - map_id: 158
+    name: heavy_swarm_var_259
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_259.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 159
+    n_actions: 165
+    obs_size: 1328
+    file_hash: 4571b018228d0c45680efbedc4aacb7ec880cb11aa2e1f62679a8eafbd5f1912
+  - map_id: 242
+    name: terrain_variants_var_438
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_438.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 140
+    file_hash: 43ba92a658e517c94e35066f9c11d31214003564045f59f0bc3f6c5a940bac8d
+  - map_id: 209
+    name: terrain_variants_var_405
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_405.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 126
+    file_hash: fc26f824d9ae1abc0695c6b2403f5241cd3b88617d6182934763e3adea017fca
+  - map_id: 104
+    name: heavy_swarm_var_205
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_205.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 139
+    n_actions: 145
+    obs_size: 1160
+    file_hash: 30f42767afe90d3e5e6237da787d13a157f03f65a1d6d46fcd13348a2e5354d2
+  - map_id: 225
+    name: terrain_variants_var_421
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_421.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 126
+    file_hash: 1b00f5c50f393af03bcc6b907988e303b7a26a77039159363c315530873fde56
+  - map_id: 241
+    name: terrain_variants_var_437
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_437.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 119
+    file_hash: 2f13f7cbf44dfdb8b6304b265c504d519a275122d7dae4cc33e39cc34c25f664
+  - map_id: 10
+    name: balanced_mirrors_var_011
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_011.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 231
+    file_hash: 3a746566b8cba5627eba55a5599d26fe156edc6968c0b94c73a0586cf1f44528
+  - map_id: 251
+    name: terrain_variants_var_447
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_447.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 140
+    file_hash: b340e46c9c80b27550ba02c80d54dbc18e87cbc009171c6839dcb6fcb46c5b50
+  - map_id: 234
+    name: terrain_variants_var_430
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_430.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 112
+    file_hash: 439d6b21d7ad73aaeacd2886957bdfdb6319a42f9f4cdc016d6faf55a27d91ac
+  - map_id: 212
+    name: terrain_variants_var_408
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_408.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 147
+    file_hash: 6961ea2a3671974c122c34b4f10bf739c7ec7184a537691522913ce89045866e
+  - map_id: 61
+    name: balanced_mirrors_var_062
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_062.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 203
+    file_hash: 1e921389a9ac2edf828a5d9125b7bce75c39b7fca8ad9469c1dbbded3b38338d
+  - map_id: 78
+    name: balanced_mirrors_var_079
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_079.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 210
+    file_hash: 7517b1c8483e8182f5b0061afc06d18dd5d5c343c521fc481dd6bbd87141fd3b
+  - map_id: 182
+    name: heavy_swarm_var_283
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_283.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 158
+    n_actions: 164
+    obs_size: 1312
+    file_hash: 19ca48759f38eb11f13bca00d27c91f997150f2e30b8fafe3b6b0c0dc1e1d918
+  - map_id: 156
+    name: heavy_swarm_var_257
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_257.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 151
+    n_actions: 157
+    obs_size: 1264
+    file_hash: 3bccda907de5c11da6736e498131bcb3e5a6661ccf626cc9a8ee24489b4758b8
+  - map_id: 4
+    name: balanced_mirrors_var_005
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_005.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 196
+    file_hash: 08d9aa8252f46cf22a135ed53e6bdc660ed5e423b446e2a1106db1de9f81f849
+  - map_id: 301
+    name: terrain_variants_var_497
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_497.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 154
+    file_hash: ee8c5e2c6a0152fc984728dacc48fb2e6813ab92f11cabd5fbc207de3319018f
+  - map_id: 82
+    name: balanced_mirrors_var_083
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_083.json
+    family: uncategorised
+    n_agents: 18
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 224
+    file_hash: 3b573794479535646be8e1a4d2bbe51959c24581a675015d4290e96d1dc6b6d5
+  - map_id: 151
+    name: heavy_swarm_var_252
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_252.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 139
+    n_actions: 145
+    obs_size: 1160
+    file_hash: a8dc170ca547d92d5f77df35c0ebb57cc128069b4548724f52fcc555509bbe69
+  - map_id: 195
+    name: heavy_swarm_var_296
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_296.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 136
+    n_actions: 142
+    obs_size: 1128
+    file_hash: 762d02c0ed06d0c6a6518ddb1ca65841c54be0fd1da7722a1bb050dbffc41a37
+  - map_id: 138
+    name: heavy_swarm_var_239
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_239.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 166
+    n_actions: 172
+    obs_size: 1376
+    file_hash: 24e574947bf5c1fed4ab69deee44b04b6ca0e4386c0f3ba1fda6e0509cc54415
+  - map_id: 224
+    name: terrain_variants_var_420
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_420.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 13
+    n_actions: 19
+    obs_size: 154
+    file_hash: f7e0ccf17c96801d31de590a78bc0d11a393cb328a6adc1b9f08a4ea1b34c380
+  - map_id: 95
+    name: balanced_mirrors_var_096
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_096.json
+    family: uncategorised
+    n_agents: 19
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 252
+    file_hash: ef8c6af94ae1447d95b1c6b91013b1d213391ed4d539cc0b1abce9504a6ba10e
+  - map_id: 233
+    name: terrain_variants_var_429
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_429.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 105
+    file_hash: aeb44bf56c1244973d73e959f1eb260335954afda89194182d358c2f11f42bae
+  - map_id: 50
+    name: balanced_mirrors_var_051
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_051.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 210
+    file_hash: 7a23cc025e996870c47f9726ac9019a4b69ccab5cfe5f26f1e84dd63936bce10
+  - map_id: 147
+    name: heavy_swarm_var_248
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_248.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 128
+    n_actions: 134
+    obs_size: 1080
+    file_hash: 8308ee54626bcb47ef46c8858f296e39cc1a76a23a767056565651a9790c3c3a
+  - map_id: 76
+    name: balanced_mirrors_var_077
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_077.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 13
+    n_actions: 19
+    obs_size: 196
+    file_hash: b3c4994a361449b94245743e6c03c9d81823ce1714ace1836d84ad7f31fe6ca1
+  - map_id: 27
+    name: balanced_mirrors_var_028
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_028.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 18
+    n_actions: 24
+    obs_size: 224
+    file_hash: fe73e19b953da174c74449f92e35df0125c45d0806dd5dd1eea81a6bf9b2c4e3
+  - map_id: 129
+    name: heavy_swarm_var_230
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_230.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 187
+    n_actions: 193
+    obs_size: 1552
+    file_hash: de6f69b4e0b5ec6ef1e82bff9535071efa2b8309f9d27d4166c726c8ca1bd42e
+  - map_id: 45
+    name: balanced_mirrors_var_046
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_046.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 217
+    file_hash: 8246e6515c6bcc8b09fc4af0b1e7f4f6e9a30a19f1b5aa6dacde51c2bee7ccca
+  - map_id: 128
+    name: heavy_swarm_var_229
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_229.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 161
+    n_actions: 167
+    obs_size: 1344
+    file_hash: b223a9dee93bc9118f79a4e156a805cf831d56b424234753c23c2eb088dfebc7
+  - map_id: 187
+    name: heavy_swarm_var_288
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_288.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 149
+    n_actions: 155
+    obs_size: 1240
+    file_hash: 47e96e07d5023564f1418b6260c8373e21ad29ae945d6f708e240cbdd146f80b
+  - map_id: 0
+    name: balanced_mirrors_var_001
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_001.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 13
+    n_actions: 19
+    obs_size: 168
+    file_hash: e3962906a87d83e774bf5614e5725e2cc7094613757f06173e72962076cb0489
+  - map_id: 244
+    name: terrain_variants_var_440
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_440.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 119
+    file_hash: bc72cba13bb5bcb3ed64019cfacfe5cf132df896257ccc3431ebe54f4c0d706d
+  - map_id: 273
+    name: terrain_variants_var_469
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_469.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 133
+    file_hash: e95bc89c8af9628c739d54229e43aa64cf3128db220516266f801be4055b69b3
+  - map_id: 291
+    name: terrain_variants_var_487
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_487.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 140
+    file_hash: b08e8e5a2865dc81f8b4c19979a71c79803592c11d35de3fe01feee1bd523c39
+  - map_id: 75
+    name: balanced_mirrors_var_076
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_076.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 238
+    file_hash: 7c569208524fd6687fc5c2898c185c38951fd32608a12af07c875c50c0cb58e8
+  - map_id: 278
+    name: terrain_variants_var_474
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_474.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 147
+    file_hash: 9be4fdbd7587895ebfd02c843d41e92d24ff9b58cf154d99fa4808dfa3ff9925
+  - map_id: 87
+    name: balanced_mirrors_var_088
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_088.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 231
+    file_hash: c7efd4ddb280ca99d24405ad08d2569c254629954e790398bde63e2e666b03aa
+  - map_id: 205
+    name: terrain_variants_var_401
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_401.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 112
+    file_hash: c4069190e8d6800de28bfe502e96a07a0f80827e17797aa3249baf34d07c95a7
+  - map_id: 188
+    name: heavy_swarm_var_289
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_289.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 122
+    n_actions: 128
+    obs_size: 1024
+    file_hash: 1e33cf6fea1b6216e5733e39ef118eef4441640a721631a05323084b33b18f50
+  - map_id: 29
+    name: balanced_mirrors_var_030
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_030.json
+    family: uncategorised
+    n_agents: 18
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 231
+    file_hash: f6ef49b78fe9aa418addca4d9da059dda212f7581f8a06e79180269fcd2b8f9a
+  - map_id: 2
+    name: balanced_mirrors_var_003
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_003.json
+    family: uncategorised
+    n_agents: 18
+    n_enemies: 18
+    n_actions: 24
+    obs_size: 252
+    file_hash: 69afe29a49e37c2d4ed6caf78af22a5a89216bba9dfadce9fb194bd134a2904c
+  - map_id: 141
+    name: heavy_swarm_var_242
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_242.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 149
+    n_actions: 155
+    obs_size: 1248
+    file_hash: 44befc5ecb43136882f94b01ee08e5e37783ecf760fec2f93413ea366b952f14
+  - map_id: 64
+    name: balanced_mirrors_var_065
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_065.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 18
+    n_actions: 24
+    obs_size: 245
+    file_hash: b1d50c840337e1fb53584706606fae3a726e6dc1b25f707a191e50c88c9442eb
+  - map_id: 266
+    name: terrain_variants_var_462
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_462.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 154
+    file_hash: 0e8be7a011d7b4d4a5a15bf1b20088ace78aa9a0d8642a0bf54f3bb01f867ab7
+  - map_id: 290
+    name: terrain_variants_var_486
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_486.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 140
+    file_hash: 577016f270d1cd70e6651161d20700e80f1188d1bc65e8d9b84532611f308245
+  - map_id: 170
+    name: heavy_swarm_var_271
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_271.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 164
+    n_actions: 170
+    obs_size: 1360
+    file_hash: b69ad8aeb38c8a906d2292f0600f222005be69206f754bf52e2c159442dfd581
+  - map_id: 222
+    name: terrain_variants_var_418
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_418.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 154
+    file_hash: 4db5dd21e0fe22c54a482650a69315874b0e1518b696a960a04dbb74329b8d20
+  - map_id: 289
+    name: terrain_variants_var_485
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_485.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 147
+    file_hash: a750f15a232dc4e6adb96a0f267e596fe8524720b1f4c95714e537346f714fec
+  - map_id: 204
+    name: mixed_composition_var_392
+    type: custom
+    path: configs/maps/500map_v1/mixed_composition_var_392.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 198
+    file_hash: aa8a2f3825ef1aae45f7262c5ae6e5d323df03ef5a84ce47c2dbd3b3c391c169
+  - map_id: 152
+    name: heavy_swarm_var_253
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_253.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 149
+    n_actions: 155
+    obs_size: 1240
+    file_hash: 770f588568a863f59e2a5bfcd78c8ebbb1ffac8e42c31e6d6763269d167f2c9d
+  - map_id: 108
+    name: heavy_swarm_var_209
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_209.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 125
+    n_actions: 131
+    obs_size: 1048
+    file_hash: 08c4602dc203faeda73f91e3c0abb66e6f7c0abd55d1d6aa9d4c7a149c17cb35
+  - map_id: 261
+    name: terrain_variants_var_457
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_457.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 119
+    file_hash: a1097a915afe24644c6d143a091e1d8cae66f506284d06714849846ffeb61f04
+  - map_id: 160
+    name: heavy_swarm_var_261
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_261.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 194
+    n_actions: 200
+    obs_size: 1600
+    file_hash: 37e042b97c08d204c7f8994878d68eb849e2e6dfb35885e13468c042ac96f6e6
+  - map_id: 39
+    name: balanced_mirrors_var_040
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_040.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 224
+    file_hash: 9edeefd7906ea85645c6e7cd6cd52c144a1e3d4353d035e4759f38ffacb56a53
+  - map_id: 28
+    name: balanced_mirrors_var_029
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_029.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 231
+    file_hash: 7a7b1c47503604c549553c2732ec8e88146fe32fdef4a67acce8a5ed1de9f2b9
+  - map_id: 303
+    name: terrain_variants_var_499
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_499.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 140
+    file_hash: fd7c95941a5d40781a52dfef668735d9d759869ad10f7fdc1b6f159f50658f1f
+  - map_id: 256
+    name: terrain_variants_var_452
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_452.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 119
+    file_hash: 4b0da1394edfa6feb5cafb28fd761a093f6ffbb71e8ba91d559474f9666fcc89
+  - map_id: 126
+    name: heavy_swarm_var_227
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_227.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 169
+    n_actions: 175
+    obs_size: 1408
+    file_hash: 5599869bf04fccb0cbddc9698ea783397a3eb89d56955728ec2daf1ea84db32d
+  - map_id: 130
+    name: heavy_swarm_var_231
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_231.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 146
+    n_actions: 152
+    obs_size: 1208
+    file_hash: 01b9817c2439a7a423dd7b48ddaad9d3b541853e7391341aa95c1511f5e588f3
+  - map_id: 191
+    name: heavy_swarm_var_292
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_292.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 139
+    n_actions: 145
+    obs_size: 1168
+    file_hash: 1bdc244fe265f1b9647f6654da5e6df43edb33dddf92664080a78cb46f3b7282
+  - map_id: 217
+    name: terrain_variants_var_413
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_413.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 126
+    file_hash: 9c86530fadc2982e2656e384eeb9765486dfc35bc1e3edeea0d67aa7328fbc28
+  - map_id: 92
+    name: balanced_mirrors_var_093
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_093.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 18
+    n_actions: 24
+    obs_size: 231
+    file_hash: ce77913f9ebb38eec1fda161dff3784ab0bb65abe2daafc09c6d28c5cf34629a
+  - map_id: 208
+    name: terrain_variants_var_404
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_404.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 133
+    file_hash: 1618d9151d129d826d0cc053bfae520fa74e7be751076ed3c6af7113706ba959
+  - map_id: 226
+    name: terrain_variants_var_422
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_422.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 133
+    file_hash: 41d7f7adbc6b27ac674ae23f267dd7ae53b2f1dbcde58eb606be7499b8af88f5
+  - map_id: 109
+    name: heavy_swarm_var_210
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_210.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 128
+    n_actions: 134
+    obs_size: 1080
+    file_hash: f803ac2b31872d59cc94e9e8cc73ec7e7e184ac7feae0202ff1f9c32b455a0f6
+  - map_id: 149
+    name: heavy_swarm_var_250
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_250.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 141
+    n_actions: 147
+    obs_size: 1184
+    file_hash: b05e12403632f6b4d75f1bf7d93da916d45efde57c4cb8ba0bef19906119e247
+  - map_id: 192
+    name: heavy_swarm_var_293
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_293.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 118
+    n_actions: 124
+    obs_size: 992
+    file_hash: 1d165d12b186b5d07472f1a8902fc0480f6b7688e56d0e6f2e4efa9aaa1cb613
+  - map_id: 137
+    name: heavy_swarm_var_238
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_238.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 127
+    n_actions: 133
+    obs_size: 1072
+    file_hash: 9dbb5ae2a0a5d15284fa41a0ffdd285699e50c6556dfb92eb972eda0354211f6
+  - map_id: 143
+    name: heavy_swarm_var_244
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_244.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 111
+    n_actions: 117
+    obs_size: 936
+    file_hash: 56eec6c1d00ca202833c83e4d2d7e2f359564c254fa13b4df86110b9fc044504
+  - map_id: 263
+    name: terrain_variants_var_459
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_459.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 147
+    file_hash: fba15150e6e81548d0d614dc5f9f4027309ccd2525342ef6c0dccb246ccd2e9d
+  - map_id: 257
+    name: terrain_variants_var_453
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_453.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 119
+    file_hash: 0b0d754bd9e531e59099a0e5c8370f1acc26ca5b8fb1ee1d0825fc5a4fe771cd
+  - map_id: 67
+    name: balanced_mirrors_var_068
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_068.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 19
+    n_actions: 25
+    obs_size: 231
+    file_hash: a46b056639191beb6974495f7b0485c32795fc51121d0df8911de34e136ed8ac
+  - map_id: 36
+    name: balanced_mirrors_var_037
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_037.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 217
+    file_hash: 59e938e953dff52ef20b4d6905e67369d2974d7b53cd98d55b3f194456180b1d
+  - map_id: 117
+    name: heavy_swarm_var_218
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_218.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 117
+    n_actions: 123
+    obs_size: 976
+    file_hash: c4f8fac075e80c198f3fa1700308f84d58d1d07ac29a4923b58b6c3b81e51669
+  - map_id: 164
+    name: heavy_swarm_var_265
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_265.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 182
+    n_actions: 188
+    obs_size: 1520
+    file_hash: 233b0a77299efb27b6a6b1d41e3790a7c13260e97f5bf41b14957523cf5562e7
+  - map_id: 286
+    name: terrain_variants_var_482
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_482.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 133
+    file_hash: de7af6fc56615eeb3e63d4dfc46eb6a1882c3dc06558b4a901b623533b44cc19
+  - map_id: 127
+    name: heavy_swarm_var_228
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_228.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 171
+    n_actions: 177
+    obs_size: 1416
+    file_hash: 359156693b30e504ed46b3c7e8bf05abe0f0ef245122e87b60abc02853f182e5
+  - map_id: 167
+    name: heavy_swarm_var_268
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_268.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 127
+    n_actions: 133
+    obs_size: 1064
+    file_hash: aa55286621efab46919465e281a2ed922ff71abad2106f65eea9f2eaefd9a1fe
+  - map_id: 203
+    name: mixed_composition_var_384
+    type: custom
+    path: configs/maps/500map_v1/mixed_composition_var_384.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 18
+    n_actions: 24
+    obs_size: 150
+    file_hash: 9b5db15e590120cd0c7af769af68a6ab957e2d1c2d4ea7a02ec4795d92d4ed3c
+  - map_id: 207
+    name: terrain_variants_var_403
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_403.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 133
+    file_hash: c86ac96b508b0d4a589b752ff9ec2575632c992fb15382c79ea34936c74dac2b
+  - map_id: 268
+    name: terrain_variants_var_464
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_464.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 7
+    n_actions: 13
+    obs_size: 112
+    file_hash: 5eeb8418b1744737f028da6a1f69ab575992e90b7ca7fd4e6849bdb15448c67a
+  - map_id: 145
+    name: heavy_swarm_var_246
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_246.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 110
+    n_actions: 116
+    obs_size: 936
+    file_hash: 9d99f52ba84ac78a4c59901d42c06a30f788daf24b694f8fa448a7318ea652e5
+  - map_id: 54
+    name: balanced_mirrors_var_055
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_055.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 224
+    file_hash: e18529878855f836b0a10acb0e84de7510cd54486276fcdff728ecdd116f11b3
+  - map_id: 294
+    name: terrain_variants_var_490
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_490.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 119
+    file_hash: da6a11acd8bee1a09e7cd98c1a2f704a512daf5f1ba789d7ee97a77099d7fda9
+  - map_id: 264
+    name: terrain_variants_var_460
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_460.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 140
+    file_hash: 9a960a626bb5c477e5f7fa384c83c217e89469271bf1c27676baade4dee93b0d
+  - map_id: 102
+    name: heavy_swarm_var_203
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_203.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 144
+    n_actions: 150
+    obs_size: 1200
+    file_hash: c8b60ec4d5c07171258f3aee59d42219a038c8468c092e39ddac526f2a406016
+  - map_id: 80
+    name: balanced_mirrors_var_081
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_081.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 203
+    file_hash: 9e165e5298c563489913a0e4c7cd712019acff33e6645dbc342ba139a6f4cced
+  - map_id: 206
+    name: terrain_variants_var_402
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_402.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 126
+    file_hash: b43c1f1a1388c3c3a55ab4c7a324631260fe3da8907efa9877efa6d63858f13e
+  - map_id: 8
+    name: balanced_mirrors_var_009
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_009.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 19
+    n_actions: 25
+    obs_size: 245
+    file_hash: fb9287e468ed9a689e7541514c3945d48502c918bd5ca1a26b4441cdbcb048af
+  - map_id: 210
+    name: terrain_variants_var_406
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_406.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 133
+    file_hash: 7ab63ebb45024159b3ff47c80a30efe8b6cec1f2b502c2bb5f65fbbcfe852d73
+  - map_id: 58
+    name: balanced_mirrors_var_059
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_059.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 224
+    file_hash: 41d7b573b68675f8f6b1a6290d7fed9e3143835cd7eccec79e049b1c71a8e7e4
+  - map_id: 14
+    name: balanced_mirrors_var_015
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_015.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 224
+    file_hash: 2649912b8881844f9367a6957fcba0fb8a298964cea702ab00102499791acb18
+  - map_id: 198
+    name: heavy_swarm_var_299
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_299.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 176
+    n_actions: 182
+    obs_size: 1456
+    file_hash: 8d70815826c164095414305dce1f97eb36527215b2cd17093ed5be083772dc6b
+  - map_id: 196
+    name: heavy_swarm_var_297
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_297.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 137
+    n_actions: 143
+    obs_size: 1144
+    file_hash: 6d88f048b14024ce7dde09ff0441f6a18b25342928eda09d172c2ee6d7d2c42b
+  - map_id: 83
+    name: balanced_mirrors_var_084
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_084.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 224
+    file_hash: 23d2d2e88f7ba4ccea0c21c2c781e4dd964c8d3dbef7a609bcbdd5de85bb6117
+  - map_id: 175
+    name: heavy_swarm_var_276
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_276.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 152
+    n_actions: 158
+    obs_size: 1256
+    file_hash: 790a127334367d0eaaaa5d2d1e34e8bc4c6ca6ab4f375fa0912df89be924951b
+  - map_id: 56
+    name: balanced_mirrors_var_057
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_057.json
+    family: uncategorised
+    n_agents: 18
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 245
+    file_hash: 213022ebef78e2464a7a461eb298acf4d333f81ac6a4edde8c6850e8bc07bef9
+  - map_id: 276
+    name: terrain_variants_var_472
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_472.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 133
+    file_hash: 09f21b6d36a5fa2fb43ef903832400851d7b271d4893f3eacf396f1175ea2fcb
+  - map_id: 267
+    name: terrain_variants_var_463
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_463.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 140
+    file_hash: 22a8a96faf9fe684e33f5fd8e4e2044609b21f3b4d10c230c4423034019ba35b
+  - map_id: 163
+    name: heavy_swarm_var_264
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_264.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 171
+    n_actions: 177
+    obs_size: 1408
+    file_hash: 4b452af11d4bf57bfd391be2cf05d02d539e9ff2e216045dd3a090926c673b15
+  - map_id: 69
+    name: balanced_mirrors_var_070
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_070.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 13
+    n_actions: 19
+    obs_size: 189
+    file_hash: 8289cbf8161c4bf57c2c46984e5494d8bf74e0810d0289c6a647f273978fe8ff
+  - map_id: 246
+    name: terrain_variants_var_442
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_442.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 10
+    n_actions: 16
+    obs_size: 126
+    file_hash: f6a2e067f215d63a0be1beb28887d0b0460cf62c8043fa56ccf7ca371fc7c5dd
+  - map_id: 118
+    name: heavy_swarm_var_219
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_219.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 126
+    n_actions: 132
+    obs_size: 1056
+    file_hash: 248cd3e3a051a6c3bb7c61405fc1393ba50b29ec7667582c46bcb7016eaa5f86
+  - map_id: 240
+    name: terrain_variants_var_436
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_436.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 140
+    file_hash: 89f67b1b9d1a38794b6afaebd9de002683af62b221552d2e0b1e7c240ac94c15
+  - map_id: 62
+    name: balanced_mirrors_var_063
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_063.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 217
+    file_hash: dcfa4bc0d040cb536d7d627e76cde264db7e8f3704d4d67092d68382ba4a7d92
+  - map_id: 186
+    name: heavy_swarm_var_287
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_287.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 140
+    n_actions: 146
+    obs_size: 1168
+    file_hash: ef7a084c323718ef932fd61b7b37aa88c3334ff468b1954da25baf8e2952d8d2
+  - map_id: 136
+    name: heavy_swarm_var_237
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_237.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 112
+    n_actions: 118
+    obs_size: 936
+    file_hash: 925c422922ecf7ed3dac8bd7cc3beed1ae6b3cb46170efbffdaf6343d530ccaa
+  - map_id: 43
+    name: balanced_mirrors_var_044
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_044.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 189
+    file_hash: 95aee44ba0a654583be20a019b3d22bf3255901a6e5aebc999c2d74db642c52c
+  - map_id: 243
+    name: terrain_variants_var_439
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_439.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 133
+    file_hash: 4a8797547ed3e573921dc60585b8b697095cb3246e575d59fefb6b070fce4aeb
+  - map_id: 155
+    name: heavy_swarm_var_256
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_256.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 172
+    n_actions: 178
+    obs_size: 1424
+    file_hash: 39bcea82b61d441e3b308155fad18efb1bde85c9b0e86b7cf2c011d21be1055a
+  - map_id: 18
+    name: balanced_mirrors_var_019
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_019.json
+    family: uncategorised
+    n_agents: 19
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 252
+    file_hash: 1f830212fcd4c58834a65c04e9ceea280936e8331ba5703e76d002fc0f686426
+  - map_id: 165
+    name: heavy_swarm_var_266
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_266.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 147
+    n_actions: 153
+    obs_size: 1232
+    file_hash: eea0ef32af8a402120e7340015f2c13b7bf116c79eb08dd7df11af918d5a227c
+  - map_id: 277
+    name: terrain_variants_var_473
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_473.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 105
+    file_hash: a294eb7192d1c7f3863035ece8986c8b6606ece5847689e6d2e0f1d199df189f
+  - map_id: 179
+    name: heavy_swarm_var_280
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_280.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 132
+    n_actions: 138
+    obs_size: 1104
+    file_hash: b53229ebc7241c89644cf13d1eb8afc33ecf8f09d6967e8a0a4cf2ccd306dfb6
+  - map_id: 68
+    name: balanced_mirrors_var_069
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_069.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 203
+    file_hash: 2643a8a43ce795bb4d2f07f339690ba83ec0b74d419546934fe64bb5c29446fe
+  - map_id: 171
+    name: heavy_swarm_var_272
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_272.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 136
+    n_actions: 142
+    obs_size: 1152
+    file_hash: fb4fbf8a0e20811d90c28fe64c3ed0c0fd2eea7cf9787f5fbc412419e734a52f
+  - map_id: 53
+    name: balanced_mirrors_var_054
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_054.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 210
+    file_hash: 2bae1b90d71cfc4d304e2264580d5cebb2d311eee51edd80655e3f57030d8b6e
+  - map_id: 90
+    name: balanced_mirrors_var_091
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_091.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 210
+    file_hash: caf811901ba3e14c5b08e0a6fb5c067dd7ed4ab3c784f3a150f462b4e4c9f719
+  - map_id: 94
+    name: balanced_mirrors_var_095
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_095.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 203
+    file_hash: 138ba50d355482eca0c12f4743ae3415ac99fde818eb84b76a85dd5a738aa7a9
+  - map_id: 41
+    name: balanced_mirrors_var_042
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_042.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 210
+    file_hash: 14991d571c1ea46baeec71981e132400c4177fefe7bbd3e51e680deff7bfe093
+  - map_id: 93
+    name: balanced_mirrors_var_094
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_094.json
+    family: uncategorised
+    n_agents: 20
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 238
+    file_hash: e5e4ca8841be11fa03009913e8870b0ba4a7b0799999970ba5281516f32a6874
+  - map_id: 213
+    name: terrain_variants_var_409
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_409.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 133
+    file_hash: 93604b24ecce477886ee69a36be6b4aaee493aaed7f828a117c36266d9c441bd
+  - map_id: 162
+    name: heavy_swarm_var_263
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_263.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 132
+    n_actions: 138
+    obs_size: 1104
+    file_hash: e4321b1a0ec32b91fa229ba446a45aa10f4274eccad7be5b7f42a45b1e568225
+  - map_id: 255
+    name: terrain_variants_var_451
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_451.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 126
+    file_hash: 6a1651d25b2aeb7bd6e3dc2a12991bd1f0a81a396d64b7bf2669fc0e2c08a6e7
+  validation:
+  - map_id: 299
+    name: terrain_variants_var_495
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_495.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 133
+    file_hash: 64a067ad38538f4d98ee97dbc27afca6db554d14c8af47395aea6c32c3dc5140
+  - map_id: 97
+    name: balanced_mirrors_var_098
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_098.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 217
+    file_hash: 9432f6224b306388161ab9f3b5bc2f5463187823000f4867f6d0a86ec8e118d6
+  - map_id: 25
+    name: balanced_mirrors_var_026
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_026.json
+    family: uncategorised
+    n_agents: 18
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 231
+    file_hash: 3722185427a76868d24211edf648848152bf97d143fb69aff8e5801ffe77d3a0
+  - map_id: 221
+    name: terrain_variants_var_417
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_417.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 168
+    file_hash: 704a949264713fbd27ab3ae273a45f990f43530796545284b33a92cefdae5751
+  - map_id: 59
+    name: balanced_mirrors_var_060
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_060.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 189
+    file_hash: 15f016bece78146541d8ccc9254f59d6631e76625635ec7d5b1b4cd32267114d
+  - map_id: 218
+    name: terrain_variants_var_414
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_414.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 133
+    file_hash: 4ee713616e1fbff0ccb3a18b824ed274c3c7ed8c73343439fb8b4bed2b2cdedd
+  - map_id: 20
+    name: balanced_mirrors_var_021
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_021.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 217
+    file_hash: 954b4973a5c1d72131857d46190103a105b9e3119fdbf10e4bb600f2459dbae6
+  - map_id: 252
+    name: terrain_variants_var_448
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_448.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 112
+    file_hash: 355d30dae19842c3704af6b5f14e1fcf1741db2a37b114096d34feea074c6f75
+  - map_id: 74
+    name: balanced_mirrors_var_075
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_075.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 224
+    file_hash: db055ea5b343c91c748d88cf4bd6835601157409a6397d3ce50bf542da3bb9cf
+  - map_id: 197
+    name: heavy_swarm_var_298
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_298.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 143
+    n_actions: 149
+    obs_size: 1200
+    file_hash: df895bdc396b358fe072e927e1f320b74d01c9d39b0871d53eef54f06a6de83b
+  - map_id: 116
+    name: heavy_swarm_var_217
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_217.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 159
+    n_actions: 165
+    obs_size: 1312
+    file_hash: f7c79ce89eb0442d6813d3ed31c0086409bc205fcc678378270be0195b1886e6
+  - map_id: 23
+    name: balanced_mirrors_var_024
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_024.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 18
+    n_actions: 24
+    obs_size: 210
+    file_hash: 8283abe5aeec813134d537b8ba872493e5248dc6e432369a9800208aedcf1593
+  - map_id: 35
+    name: balanced_mirrors_var_036
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_036.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 224
+    file_hash: a27be335416c67243206d9739a91b380103e0454f62cd0a601fe267e9e03b8a3
+  - map_id: 98
+    name: balanced_mirrors_var_099
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_099.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 203
+    file_hash: 777dae5966976e6658ad394e235f72c5feb29f593151a701c4fa2ae1007e021d
+  - map_id: 185
+    name: heavy_swarm_var_286
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_286.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 117
+    n_actions: 123
+    obs_size: 984
+    file_hash: 8e6d4edb8d034ec0ed86891a2511dce589429c82a5315b8cac23dbfcebb438cc
+  - map_id: 150
+    name: heavy_swarm_var_251
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_251.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 141
+    n_actions: 147
+    obs_size: 1184
+    file_hash: 6227c9fba454516001e1420bdca959979308f997aa619c1ab250408264417684
+  - map_id: 40
+    name: balanced_mirrors_var_041
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_041.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 18
+    n_actions: 24
+    obs_size: 210
+    file_hash: 4a8e47777063f16fe9639b9e3a0f17809db44aaa8f4e7c2dbbcca958ab332571
+  - map_id: 193
+    name: heavy_swarm_var_294
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_294.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 153
+    n_actions: 159
+    obs_size: 1264
+    file_hash: 386149da254dfa2035abe1e7ea1266ae6cf66f8c6e9d05af339a91793c7d3460
+  - map_id: 63
+    name: balanced_mirrors_var_064
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_064.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 217
+    file_hash: a80ab93b2221298c872f7f2a21da8d2be02c34e590955bc53f0435d6daeab7b4
+  - map_id: 235
+    name: terrain_variants_var_431
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_431.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 154
+    file_hash: 0e87c8a1a6ddf3bb92afd39a7fa774e339020690c4d8a7e59d5d6bbb424da3d9
+  - map_id: 22
+    name: balanced_mirrors_var_023
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_023.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 17
+    n_actions: 23
+    obs_size: 231
+    file_hash: 549ff14a8342d7c2fc63a415ef1510c74709cef85a35a423b92dc159f18c22a7
+  - map_id: 135
+    name: heavy_swarm_var_236
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_236.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 110
+    n_actions: 116
+    obs_size: 928
+    file_hash: 6658146aaeaad1e3064fda13063c1d196033e44fadb5494694cf1535b25922fd
+  - map_id: 176
+    name: heavy_swarm_var_277
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_277.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 129
+    n_actions: 135
+    obs_size: 1080
+    file_hash: 4bbd74005ec19e3fff2cf7f47a6c816a2f31460381dcc1d5999b22bb41c594e1
+  - map_id: 183
+    name: heavy_swarm_var_284
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_284.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 105
+    n_actions: 111
+    obs_size: 880
+    file_hash: 577e2ff2247e9476d47ba819adc6429ad6e25302723fc19d6f7abcf37e263383
+  - map_id: 49
+    name: balanced_mirrors_var_050
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_050.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 203
+    file_hash: f6567775d157b5dd70b3180726f9eda05533ad4f192a4ff8eb1c1fa3d0c721ef
+  - map_id: 194
+    name: heavy_swarm_var_295
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_295.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 147
+    n_actions: 153
+    obs_size: 1232
+    file_hash: b2944c6d2d4ccf2e509bb56c0a15243a2c15e2b2cdd4e2396efd9d13e2da457d
+  - map_id: 292
+    name: terrain_variants_var_488
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_488.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 140
+    file_hash: 094082ded844ec13d84021f397bffa491475a6691ab0d4a562ece2aaa461d927
+  - map_id: 298
+    name: terrain_variants_var_494
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_494.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 12
+    n_actions: 18
+    obs_size: 168
+    file_hash: 6f99437dac2ca37b1c7efbabea780fb51d80cb5dff136909a9d83f92eef14904
+  - map_id: 172
+    name: heavy_swarm_var_273
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_273.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 184
+    n_actions: 190
+    obs_size: 1512
+    file_hash: 0503bff2059390118cda1651fb32bac7f147320c038a911de04c528f789f9346
+  - map_id: 110
+    name: heavy_swarm_var_211
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_211.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 114
+    n_actions: 120
+    obs_size: 952
+    file_hash: b00f75b3158d22d29758e7a78add622cbe914f58cd5e8cd4958a416091b84898
+  test:
+  - map_id: 79
+    name: balanced_mirrors_var_080
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_080.json
+    family: uncategorised
+    n_agents: 16
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 210
+    file_hash: 5c41fa8342bc2e06deb1dcd228f46fa1d15e0b03ea072ed7ec60bac61a7b1bec
+  - map_id: 281
+    name: terrain_variants_var_477
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_477.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 119
+    file_hash: 9746bb602d1fee6b68cab3212ef0961c299aac28b70485029706313a23d8cf38
+  - map_id: 174
+    name: heavy_swarm_var_275
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_275.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 154
+    n_actions: 160
+    obs_size: 1288
+    file_hash: 50205a86d3fdf86a8cfeaedae665d0cb4fd4fac70a8d1e88c5662c1aa1ca4979
+  - map_id: 295
+    name: terrain_variants_var_491
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_491.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 11
+    n_actions: 17
+    obs_size: 168
+    file_hash: 049e1d696019c979838f0d2d9767305a8e11c347fb7eaf4a5fca2b668f75d966
+  - map_id: 81
+    name: balanced_mirrors_var_082
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_082.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 13
+    n_actions: 19
+    obs_size: 189
+    file_hash: 6d165b6d662b95bc7c109e221a1f616f3111dc77eab77312e388b39ae94a3cc3
+  - map_id: 3
+    name: balanced_mirrors_var_004
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_004.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 224
+    file_hash: 0b89f04b78e074bf2e58a814d5029dcb9ec0321662d89089b0a4360ca11250dd
+  - map_id: 142
+    name: heavy_swarm_var_243
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_243.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 116
+    n_actions: 122
+    obs_size: 976
+    file_hash: fa3354ddefe3c18e62677eba2f82686730c58a697864e9eda7dbab0983934e9e
+  - map_id: 229
+    name: terrain_variants_var_425
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_425.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 140
+    file_hash: 00825c8cd84ceae776b43ee8b0e2d03c2c36fea3bf22b4bbde1f85aa73a40156
+  - map_id: 112
+    name: heavy_swarm_var_213
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_213.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 131
+    n_actions: 137
+    obs_size: 1088
+    file_hash: e5713ea6ef6a3d3cf2228e7e5351ffbe78d5de0b32432d1a5773adc9cba1525b
+  - map_id: 214
+    name: terrain_variants_var_410
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_410.json
+    family: uncategorised
+    n_agents: 8
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 119
+    file_hash: d8722e77b9cd3da29c370499c4cfaae30dd148e543e0b8b12b540d64a99027d0
+  - map_id: 297
+    name: terrain_variants_var_493
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_493.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 126
+    file_hash: b50928d8b971ca5158b8bf5eeec5c72733d875cee8f3ad07ca1c0cbfc09b8078
+  - map_id: 101
+    name: heavy_swarm_var_202
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_202.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 123
+    n_actions: 129
+    obs_size: 1024
+    file_hash: c758312add0cb8d24eb1e869ee0f9973bc3cde4dbee60b9e2fc51b5db6028cd9
+  - map_id: 287
+    name: terrain_variants_var_483
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_483.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 119
+    file_hash: df91b4a9661ea4fafa0896dacf866737d80e670c2ecb393e062af0e0b2d6963e
+  - map_id: 13
+    name: balanced_mirrors_var_014
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_014.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 18
+    n_actions: 24
+    obs_size: 224
+    file_hash: 7acc6dba7189cc8e2e57cd7fb3b92fdbf589ede8db47272478e76e991c283d70
+  - map_id: 258
+    name: terrain_variants_var_454
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_454.json
+    family: uncategorised
+    n_agents: 11
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 140
+    file_hash: a6df770b3e8a9871707d9c99ef2393b132a4d0ad5e19cc3422878111e8585e32
+  - map_id: 119
+    name: heavy_swarm_var_220
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_220.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 145
+    n_actions: 151
+    obs_size: 1216
+    file_hash: 8889074fe27ab0ca1c2f36951be4d0de7c142c3c84450a665e29d50c5f17065b
+  - map_id: 111
+    name: heavy_swarm_var_212
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_212.json
+    family: uncategorised
+    n_agents: 5
+    n_enemies: 131
+    n_actions: 137
+    obs_size: 1088
+    file_hash: 4db7e80f05c836e70a3d50f19bfa1327f8d1c6073add4015da2e18fb915953b3
+  - map_id: 47
+    name: balanced_mirrors_var_048
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_048.json
+    family: uncategorised
+    n_agents: 14
+    n_enemies: 15
+    n_actions: 21
+    obs_size: 203
+    file_hash: 82c86cec21028650763048a8f1ff2552b6d79c0f20bf838e48fe27347adbce80
+  - map_id: 15
+    name: balanced_mirrors_var_016
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_016.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 217
+    file_hash: 9be8d8c0ba3e49587d71d877e72f0630c195142200b9f462d3a83369612c4a7d
+  - map_id: 16
+    name: balanced_mirrors_var_017
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_017.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 14
+    n_actions: 20
+    obs_size: 203
+    file_hash: 7cb2cbb22318470dedea2f5521517d3b798e77cb39caca62224f8103ed7f7363
+  - map_id: 216
+    name: terrain_variants_var_412
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_412.json
+    family: uncategorised
+    n_agents: 10
+    n_enemies: 8
+    n_actions: 14
+    obs_size: 126
+    file_hash: 081b86df7da65272d2d2aa775839dab581e71512415dde0f8537cec2edba9c7f
+  - map_id: 44
+    name: balanced_mirrors_var_045
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_045.json
+    family: uncategorised
+    n_agents: 15
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 217
+    file_hash: 17086af8cdfa2a270bfe307d7421bb1252b0b53eeb925e7700fea7dd1a4a7999
+  - map_id: 279
+    name: terrain_variants_var_475
+    type: custom
+    path: configs/maps/500map_v1/terrain_variants_var_475.json
+    family: uncategorised
+    n_agents: 9
+    n_enemies: 9
+    n_actions: 15
+    obs_size: 126
+    file_hash: 59736076a3cedfd4a8f837c3a1f770a76d71954bfc10d3541e916e63eb6c3695
+  - map_id: 52
+    name: balanced_mirrors_var_053
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_053.json
+    family: uncategorised
+    n_agents: 12
+    n_enemies: 13
+    n_actions: 19
+    obs_size: 175
+    file_hash: 846f3cb1302411b0ed155a5485392bfaaea32d3a03a0f1d8bd987544923cdec5
+  - map_id: 71
+    name: balanced_mirrors_var_072
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_072.json
+    family: uncategorised
+    n_agents: 13
+    n_enemies: 18
+    n_actions: 24
+    obs_size: 217
+    file_hash: dbfe6bb4044d7ee255a5c0873d37702eca3e34c7fe7f20b4afcca493c911d473
+  - map_id: 114
+    name: heavy_swarm_var_215
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_215.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 140
+    n_actions: 146
+    obs_size: 1176
+    file_hash: b886edab352905492fee999a34385f80b21c543e166e994385c34ac0c029ddf8
+  - map_id: 125
+    name: heavy_swarm_var_226
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_226.json
+    family: uncategorised
+    n_agents: 7
+    n_enemies: 124
+    n_actions: 130
+    obs_size: 1048
+    file_hash: 681da41e063f3f8f58c82b1dd9649c0294f68556af7d4cde86405118988f4f24
+  - map_id: 140
+    name: heavy_swarm_var_241
+    type: custom
+    path: configs/maps/500map_v1/heavy_swarm_var_241.json
+    family: uncategorised
+    n_agents: 6
+    n_enemies: 157
+    n_actions: 163
+    obs_size: 1304
+    file_hash: d854abc320736d864915e6ee06a3e39bae3ce58a7bc82f0e444df1719c0ceb11
+  - map_id: 12
+    name: balanced_mirrors_var_013
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_013.json
+    family: uncategorised
+    n_agents: 17
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 231
+    file_hash: 6135b0694d1fd3bb92bca3cbfccab75b42c4edd0599126135219a22fd9482d80
+  - map_id: 57
+    name: balanced_mirrors_var_058
+    type: custom
+    path: configs/maps/500map_v1/balanced_mirrors_var_058.json
+    family: uncategorised
+    n_agents: 19
+    n_enemies: 16
+    n_actions: 22
+    obs_size: 245
+    file_hash: ee8c3c0b363937f351241385eb30376592a197917764b33d57d2652cdd89c21f
+excluded_maps: []
+invalid_maps:
+- path: configs/maps/500map_v1/mixed_composition_var_301.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_302.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_303.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_304.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_305.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_306.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_307.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_308.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_309.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_310.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_311.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_312.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_313.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_314.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_315.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_316.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_317.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_318.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_319.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_320.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_321.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_322.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_323.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_324.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_325.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_326.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_327.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_328.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_329.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_330.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_331.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_333.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_334.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_335.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_336.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_337.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_338.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_339.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_340.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_341.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_342.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_343.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_344.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_345.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_346.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_348.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_349.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_350.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_351.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_352.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_353.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_354.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_355.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_356.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_357.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_358.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_359.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_360.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_361.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_362.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_363.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_364.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_366.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_367.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_368.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_369.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_370.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_371.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_372.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_373.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_374.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_375.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_376.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_377.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_378.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_379.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_380.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_381.json
+  reason: "unknown/custom unit types: ['HYDRALISK', 'ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_382.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_383.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_385.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_386.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_387.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_388.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_389.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_390.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_391.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_393.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_394.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_395.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_396.json
+  reason: "unknown/custom unit types: ['ROACH']"
+- path: configs/maps/500map_v1/mixed_composition_var_397.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_398.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/mixed_composition_var_399.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/mixed_composition_var_400.json
+  reason: "unknown/custom unit types: ['HYDRALISK']"
+- path: configs/maps/500map_v1/slight_advantage_var_101.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_102.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_103.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_104.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_105.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_106.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_107.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_108.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_109.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_110.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_111.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_112.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_113.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_114.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_115.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_116.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_117.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_118.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_119.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_120.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_121.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_122.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_123.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_124.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_125.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_126.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_127.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_128.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_129.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_130.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_131.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_132.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_133.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_134.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_135.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_136.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_137.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_138.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_139.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_140.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_141.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_142.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_143.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_144.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_145.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_146.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_147.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_148.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_149.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_150.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_151.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_152.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_153.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_154.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_155.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_156.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_157.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_158.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_159.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_160.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_161.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_162.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_163.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_164.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_165.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_166.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_167.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_168.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_169.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_170.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_171.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_172.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_173.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_174.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_175.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_176.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_177.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_178.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_179.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_180.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_181.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_182.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_183.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_184.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_185.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_186.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_187.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_188.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_189.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_190.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_191.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_192.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_193.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_194.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_195.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_196.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_197.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_198.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_199.json
+  reason: 'env load/step failed: division by zero'
+- path: configs/maps/500map_v1/slight_advantage_var_200.json
+  reason: 'env load/step failed: division by zero'

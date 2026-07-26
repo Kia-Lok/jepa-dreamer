@@ -1,0 +1,58 @@
+{
+    "name": "slight_ally_adv_0403",
+    "num_allied_units": 10,
+    "num_enemy_units": 9,
+    "groups": [
+        {
+            "x": 24.5,
+            "y": 27.5,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 3,
+                "MARAUDER": 1,
+                "MEDIVAC": 1
+            }
+        },
+        {
+            "x": 24.5,
+            "y": 20.5,
+            "faction": "ALLY",
+            "units": {
+                "MARINE": 4,
+                "MEDIVAC": 1
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 4.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 3,
+                "MEDIVAC": 2
+            }
+        },
+        {
+            "x": 7.5,
+            "y": 11.5,
+            "faction": "ENEMY",
+            "units": {
+                "MARINE": 2,
+                "MARAUDER": 1,
+                "MEDIVAC": 1
+            }
+        }
+    ],
+    "attack_point": [
+        24.5,
+        27.5
+    ],
+    "terrain_preset": "CORRIDOR",
+    "num_unit_types": 3,
+    "ally_has_shields": false,
+    "enemy_has_shields": false,
+    "unit_type_ids": {
+        "MARAUDER": 0,
+        "MARINE": 1,
+        "MEDIVAC": 2
+    }
+}

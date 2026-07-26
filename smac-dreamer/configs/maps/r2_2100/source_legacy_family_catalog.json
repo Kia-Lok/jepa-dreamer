@@ -1,0 +1,886 @@
+{
+  "seen_families": [
+    {
+      "family_id": "marine_mirror_01",
+      "archetype": "marine_mirror",
+      "ally": {
+        "MARINE": 3
+      },
+      "enemy": {
+        "MARINE": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "marine_mirror_02",
+      "archetype": "marine_mirror",
+      "ally": {
+        "MARINE": 4
+      },
+      "enemy": {
+        "MARINE": 3
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "marine_mirror_03",
+      "archetype": "marine_mirror",
+      "ally": {
+        "MARINE": 5
+      },
+      "enemy": {
+        "MARINE": 4
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "marine_mirror_04",
+      "archetype": "marine_mirror",
+      "ally": {
+        "MARINE": 7
+      },
+      "enemy": {
+        "MARINE": 6
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "marine_mirror_05",
+      "archetype": "marine_mirror",
+      "ally": {
+        "MARINE": 9
+      },
+      "enemy": {
+        "MARINE": 8
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_mirror_01",
+      "archetype": "stalker_mirror",
+      "ally": {
+        "STALKER": 3
+      },
+      "enemy": {
+        "STALKER": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_mirror_02",
+      "archetype": "stalker_mirror",
+      "ally": {
+        "STALKER": 4
+      },
+      "enemy": {
+        "STALKER": 3
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_mirror_03",
+      "archetype": "stalker_mirror",
+      "ally": {
+        "STALKER": 5
+      },
+      "enemy": {
+        "STALKER": 4
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_mirror_04",
+      "archetype": "stalker_mirror",
+      "ally": {
+        "STALKER": 7
+      },
+      "enemy": {
+        "STALKER": 6
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_mirror_05",
+      "archetype": "stalker_mirror",
+      "ally": {
+        "STALKER": 9
+      },
+      "enemy": {
+        "STALKER": 8
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "zealot_vs_zergling_01",
+      "archetype": "zealot_vs_zergling",
+      "ally": {
+        "ZEALOT": 2
+      },
+      "enemy": {
+        "ZERGLING": 6
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "zealot_vs_zergling_02",
+      "archetype": "zealot_vs_zergling",
+      "ally": {
+        "ZEALOT": 2
+      },
+      "enemy": {
+        "ZERGLING": 7
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "zealot_vs_zergling_03",
+      "archetype": "zealot_vs_zergling",
+      "ally": {
+        "ZEALOT": 3
+      },
+      "enemy": {
+        "ZERGLING": 9
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "zealot_vs_zergling_04",
+      "archetype": "zealot_vs_zergling",
+      "ally": {
+        "ZEALOT": 3
+      },
+      "enemy": {
+        "ZERGLING": 10
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "zealot_vs_zergling_05",
+      "archetype": "zealot_vs_zergling",
+      "ally": {
+        "ZEALOT": 4
+      },
+      "enemy": {
+        "ZERGLING": 10
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_vs_zealot_01",
+      "archetype": "stalker_vs_zealot",
+      "ally": {
+        "STALKER": 2
+      },
+      "enemy": {
+        "ZEALOT": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_vs_zealot_02",
+      "archetype": "stalker_vs_zealot",
+      "ally": {
+        "STALKER": 3
+      },
+      "enemy": {
+        "ZEALOT": 3
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_vs_zealot_03",
+      "archetype": "stalker_vs_zealot",
+      "ally": {
+        "STALKER": 4
+      },
+      "enemy": {
+        "ZEALOT": 4
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_vs_zealot_04",
+      "archetype": "stalker_vs_zealot",
+      "ally": {
+        "STALKER": 5
+      },
+      "enemy": {
+        "ZEALOT": 5
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_vs_zealot_05",
+      "archetype": "stalker_vs_zealot",
+      "ally": {
+        "STALKER": 6
+      },
+      "enemy": {
+        "ZEALOT": 6
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "terran_vs_swarm_01",
+      "archetype": "terran_vs_swarm",
+      "ally": {
+        "MARINE": 2,
+        "MARAUDER": 1
+      },
+      "enemy": {
+        "ZERGLING": 4,
+        "BANELING": 1
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "terran_vs_swarm_02",
+      "archetype": "terran_vs_swarm",
+      "ally": {
+        "MARINE": 2,
+        "MARAUDER": 2
+      },
+      "enemy": {
+        "ZERGLING": 6,
+        "BANELING": 1
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "terran_vs_swarm_03",
+      "archetype": "terran_vs_swarm",
+      "ally": {
+        "MARINE": 3,
+        "MARAUDER": 2
+      },
+      "enemy": {
+        "ZERGLING": 6,
+        "BANELING": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "terran_vs_swarm_04",
+      "archetype": "terran_vs_swarm",
+      "ally": {
+        "MARINE": 4,
+        "MARAUDER": 2
+      },
+      "enemy": {
+        "ZERGLING": 8,
+        "BANELING": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "terran_vs_swarm_05",
+      "archetype": "terran_vs_swarm",
+      "ally": {
+        "MARINE": 5,
+        "MARAUDER": 3
+      },
+      "enemy": {
+        "ZERGLING": 7,
+        "BANELING": 3
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "mmm_mirror_01",
+      "archetype": "mmm_mirror",
+      "ally": {
+        "MARINE": 3,
+        "MARAUDER": 1,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "MARINE": 2,
+        "MARAUDER": 1,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "mmm_mirror_02",
+      "archetype": "mmm_mirror",
+      "ally": {
+        "MARINE": 3,
+        "MARAUDER": 2,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "MARINE": 3,
+        "MARAUDER": 1,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "mmm_mirror_03",
+      "archetype": "mmm_mirror",
+      "ally": {
+        "MARINE": 4,
+        "MARAUDER": 2,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "MARINE": 3,
+        "MARAUDER": 2,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "mmm_mirror_04",
+      "archetype": "mmm_mirror",
+      "ally": {
+        "MARINE": 4,
+        "MARAUDER": 3,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "MARINE": 4,
+        "MARAUDER": 2,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "mmm_mirror_05",
+      "archetype": "mmm_mirror",
+      "ally": {
+        "MARINE": 5,
+        "MARAUDER": 3,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "MARINE": 4,
+        "MARAUDER": 3,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_zealot_mirror_01",
+      "archetype": "stalker_zealot_mirror",
+      "ally": {
+        "STALKER": 2,
+        "ZEALOT": 2
+      },
+      "enemy": {
+        "STALKER": 2,
+        "ZEALOT": 1
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_zealot_mirror_02",
+      "archetype": "stalker_zealot_mirror",
+      "ally": {
+        "STALKER": 3,
+        "ZEALOT": 2
+      },
+      "enemy": {
+        "STALKER": 2,
+        "ZEALOT": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_zealot_mirror_03",
+      "archetype": "stalker_zealot_mirror",
+      "ally": {
+        "STALKER": 3,
+        "ZEALOT": 3
+      },
+      "enemy": {
+        "STALKER": 3,
+        "ZEALOT": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_zealot_mirror_04",
+      "archetype": "stalker_zealot_mirror",
+      "ally": {
+        "STALKER": 4,
+        "ZEALOT": 3
+      },
+      "enemy": {
+        "STALKER": 3,
+        "ZEALOT": 3
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_zealot_mirror_05",
+      "archetype": "stalker_zealot_mirror",
+      "ally": {
+        "STALKER": 5,
+        "ZEALOT": 4
+      },
+      "enemy": {
+        "STALKER": 4,
+        "ZEALOT": 4
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_colossus_vs_swarm_01",
+      "archetype": "stalker_colossus_vs_swarm",
+      "ally": {
+        "STALKER": 1,
+        "COLOSSUS": 1
+      },
+      "enemy": {
+        "ZERGLING": 6,
+        "BANELING": 4
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_colossus_vs_swarm_02",
+      "archetype": "stalker_colossus_vs_swarm",
+      "ally": {
+        "STALKER": 1,
+        "COLOSSUS": 1
+      },
+      "enemy": {
+        "ZERGLING": 4,
+        "BANELING": 6
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_colossus_vs_swarm_03",
+      "archetype": "stalker_colossus_vs_swarm",
+      "ally": {
+        "STALKER": 2,
+        "COLOSSUS": 1
+      },
+      "enemy": {
+        "ZERGLING": 2,
+        "BANELING": 8
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_colossus_vs_swarm_04",
+      "archetype": "stalker_colossus_vs_swarm",
+      "ally": {
+        "STALKER": 1,
+        "COLOSSUS": 2
+      },
+      "enemy": {
+        "BANELING": 10
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_colossus_vs_swarm_05",
+      "archetype": "stalker_colossus_vs_swarm",
+      "ally": {
+        "STALKER": 2,
+        "COLOSSUS": 2
+      },
+      "enemy": {
+        "BANELING": 10
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_vs_spine_01",
+      "archetype": "stalker_vs_spine",
+      "ally": {
+        "STALKER": 2
+      },
+      "enemy": {
+        "SPINE_CRAWLER": 1
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_vs_spine_02",
+      "archetype": "stalker_vs_spine",
+      "ally": {
+        "STALKER": 4
+      },
+      "enemy": {
+        "SPINE_CRAWLER": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_vs_spine_03",
+      "archetype": "stalker_vs_spine",
+      "ally": {
+        "STALKER": 5
+      },
+      "enemy": {
+        "SPINE_CRAWLER": 3
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_vs_spine_04",
+      "archetype": "stalker_vs_spine",
+      "ally": {
+        "STALKER": 7
+      },
+      "enemy": {
+        "SPINE_CRAWLER": 4
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "stalker_vs_spine_05",
+      "archetype": "stalker_vs_spine",
+      "ally": {
+        "STALKER": 9
+      },
+      "enemy": {
+        "SPINE_CRAWLER": 5
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "zealot_colossus_vs_terran_01",
+      "archetype": "zealot_colossus_vs_terran",
+      "ally": {
+        "ZEALOT": 2,
+        "COLOSSUS": 1
+      },
+      "enemy": {
+        "MARINE": 2,
+        "MARAUDER": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "zealot_colossus_vs_terran_02",
+      "archetype": "zealot_colossus_vs_terran",
+      "ally": {
+        "ZEALOT": 2,
+        "COLOSSUS": 1
+      },
+      "enemy": {
+        "MARINE": 3,
+        "MARAUDER": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "zealot_colossus_vs_terran_03",
+      "archetype": "zealot_colossus_vs_terran",
+      "ally": {
+        "ZEALOT": 3,
+        "COLOSSUS": 1
+      },
+      "enemy": {
+        "MARINE": 4,
+        "MARAUDER": 2
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "zealot_colossus_vs_terran_04",
+      "archetype": "zealot_colossus_vs_terran",
+      "ally": {
+        "ZEALOT": 3,
+        "COLOSSUS": 2
+      },
+      "enemy": {
+        "MARINE": 5,
+        "MARAUDER": 3
+      },
+      "heldout_compositional": false
+    },
+    {
+      "family_id": "zealot_colossus_vs_terran_05",
+      "archetype": "zealot_colossus_vs_terran",
+      "ally": {
+        "ZEALOT": 4,
+        "COLOSSUS": 2
+      },
+      "enemy": {
+        "MARINE": 5,
+        "MARAUDER": 4
+      },
+      "heldout_compositional": false
+    }
+  ],
+  "heldout_compositional_families": [
+    {
+      "family_id": "full_protoss_vs_mmm_01",
+      "archetype": "full_protoss_vs_mmm",
+      "ally": {
+        "STALKER": 2,
+        "ZEALOT": 2,
+        "COLOSSUS": 1
+      },
+      "enemy": {
+        "MARINE": 3,
+        "MARAUDER": 2,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "full_protoss_vs_mmm_02",
+      "archetype": "full_protoss_vs_mmm",
+      "ally": {
+        "STALKER": 3,
+        "ZEALOT": 3,
+        "COLOSSUS": 1
+      },
+      "enemy": {
+        "MARINE": 4,
+        "MARAUDER": 3,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "stalker_zealot_vs_swarm_01",
+      "archetype": "stalker_zealot_vs_swarm",
+      "ally": {
+        "STALKER": 2,
+        "ZEALOT": 2
+      },
+      "enemy": {
+        "ZERGLING": 6,
+        "BANELING": 3
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "stalker_zealot_vs_swarm_02",
+      "archetype": "stalker_zealot_vs_swarm",
+      "ally": {
+        "STALKER": 3,
+        "ZEALOT": 3
+      },
+      "enemy": {
+        "ZERGLING": 4,
+        "BANELING": 6
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "marine_medivac_vs_swarm_01",
+      "archetype": "marine_medivac_vs_swarm",
+      "ally": {
+        "MARINE": 4,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "MARINE": 1,
+        "ZERGLING": 6,
+        "BANELING": 2
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "marine_medivac_vs_swarm_02",
+      "archetype": "marine_medivac_vs_swarm",
+      "ally": {
+        "MARINE": 6,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "MARINE": 1,
+        "ZERGLING": 6,
+        "BANELING": 3
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "terran_vs_stalker_colossus_01",
+      "archetype": "terran_vs_stalker_colossus",
+      "ally": {
+        "MARINE": 4,
+        "MARAUDER": 3
+      },
+      "enemy": {
+        "STALKER": 1,
+        "COLOSSUS": 1
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "terran_vs_stalker_colossus_02",
+      "archetype": "terran_vs_stalker_colossus",
+      "ally": {
+        "MARINE": 5,
+        "MARAUDER": 4
+      },
+      "enemy": {
+        "STALKER": 2,
+        "COLOSSUS": 1
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "mmm_vs_stalker_zealot_01",
+      "archetype": "mmm_vs_stalker_zealot",
+      "ally": {
+        "MARINE": 4,
+        "MARAUDER": 2,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "STALKER": 2,
+        "ZEALOT": 2
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "mmm_vs_stalker_zealot_02",
+      "archetype": "mmm_vs_stalker_zealot",
+      "ally": {
+        "MARINE": 5,
+        "MARAUDER": 3,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "STALKER": 3,
+        "ZEALOT": 2
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "stalker_zealot_vs_mmm_01",
+      "archetype": "stalker_zealot_vs_mmm",
+      "ally": {
+        "STALKER": 3,
+        "ZEALOT": 2
+      },
+      "enemy": {
+        "MARINE": 3,
+        "MARAUDER": 1,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "stalker_zealot_vs_mmm_02",
+      "archetype": "stalker_zealot_vs_mmm",
+      "ally": {
+        "STALKER": 4,
+        "ZEALOT": 3
+      },
+      "enemy": {
+        "MARINE": 4,
+        "MARAUDER": 2,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "colossus_zealot_vs_swarm_01",
+      "archetype": "colossus_zealot_vs_swarm",
+      "ally": {
+        "COLOSSUS": 1,
+        "ZEALOT": 2
+      },
+      "enemy": {
+        "ZERGLING": 6,
+        "BANELING": 4
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "colossus_zealot_vs_swarm_02",
+      "archetype": "colossus_zealot_vs_swarm",
+      "ally": {
+        "COLOSSUS": 2,
+        "ZEALOT": 2
+      },
+      "enemy": {
+        "ZERGLING": 2,
+        "BANELING": 8
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "stalker_vs_swarm_01",
+      "archetype": "stalker_vs_swarm",
+      "ally": {
+        "STALKER": 3
+      },
+      "enemy": {
+        "ZERGLING": 6,
+        "BANELING": 2
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "stalker_vs_swarm_02",
+      "archetype": "stalker_vs_swarm",
+      "ally": {
+        "STALKER": 5
+      },
+      "enemy": {
+        "ZERGLING": 6,
+        "BANELING": 4
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "mmm_vs_stalker_colossus_01",
+      "archetype": "mmm_vs_stalker_colossus",
+      "ally": {
+        "MARINE": 4,
+        "MARAUDER": 2,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "STALKER": 1,
+        "COLOSSUS": 1
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "mmm_vs_stalker_colossus_02",
+      "archetype": "mmm_vs_stalker_colossus",
+      "ally": {
+        "MARINE": 5,
+        "MARAUDER": 3,
+        "MEDIVAC": 1
+      },
+      "enemy": {
+        "STALKER": 2,
+        "COLOSSUS": 1
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "stalker_colossus_vs_mmm_01",
+      "archetype": "stalker_colossus_vs_mmm",
+      "ally": {
+        "STALKER": 2,
+        "COLOSSUS": 1
+      },
+      "enemy": {
+        "MARINE": 3,
+        "MARAUDER": 1,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": true
+    },
+    {
+      "family_id": "stalker_colossus_vs_mmm_02",
+      "archetype": "stalker_colossus_vs_mmm",
+      "ally": {
+        "STALKER": 3,
+        "COLOSSUS": 1
+      },
+      "enemy": {
+        "MARINE": 4,
+        "MARAUDER": 2,
+        "MEDIVAC": 1
+      },
+      "heldout_compositional": true
+    }
+  ]
+}

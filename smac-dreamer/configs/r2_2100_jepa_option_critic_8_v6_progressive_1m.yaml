@@ -1,0 +1,197 @@
+maps:
+  train: configs/maps/r2_2100/configs/train
+  validation: configs/maps/r2_2100/configs/validation
+  blind_iid: configs/maps/r2_2100/configs/blind_iid
+  blind_compositional: configs/maps/r2_2100/configs/blind_compositional
+sampling_mode: shuffled_round_robin
+observation:
+  mode: structured
+action_masking: true
+mask_threshold: 0.05
+world_model:
+  backend: jepa
+  jepa:
+    checkpoint: checkpoints/jepa/model_exp40.pt
+    strict_checkpoint: true
+    freeze_core: true
+    presence_threshold: 0.5
+    feature_dim: null
+    pooling: slot_ally_enemy_global
+    latent_normalization: from_checkpoint
+reward:
+  name: dense_v3
+  params: {}
+device: cuda:0
+amp_dtype: bfloat16
+seed: 0
+gamma: 0.997
+steps: 2000000
+env_num: 8
+max_episode_steps: 200
+batch_size: 16
+batch_length: 64
+units: 256
+deter: 2048
+imag_horizon: 5
+validation:
+  every: 200000
+  run_at_start: true
+  seeds:
+  - 0
+  - 1
+  - 2
+buffer:
+  max_size: 500000
+  storage_device: cpu
+  storage_backend: memmap
+  scratch_dir: replay
+env_lifecycle:
+  max_episodes_per_worker: 25
+  shutdown_timeout_seconds: 5
+  log_worker_memory: true
+system_log_every: 10000
+wandb:
+  project: smac-dreamer-jepa
+  entity: null
+  mode: online
+  tags:
+  - r2_2100
+  - smaclite
+  - frozen_jepa
+  - exp40
+  - dense_v3
+  - permissive_imagmask
+  - eval_100k
+  run_name: tactical_v12_option_critic_v6_progressive_8slot_1m
+logdir: logs/r2dreamer/r2_2100_jepa
+checkpoint_every_minutes: 15.0
+adaptive_priority:
+  enabled: false
+  map:
+    enabled: false
+  sequence:
+    enabled: false
+tactical_mixture:
+  enabled: false
+  num_tactics: 2
+  embedding_dim: 16
+  hidden_dim: 128
+  tactic_pg_scale: 1.0
+  tactic_entropy_scale: 0.0
+  balance_loss_scale: 0.0
+  effect_loss_scale: 0.1
+  effect_target: 0.002
+  max_effect_states: 256
+  duration: 1
+  collapse_loss_scale: 0.1
+  max_usage_target: 0.75
+  min_effective_tactics: 1.6
+  symmetry_break_std: 0.01
+  eval_confidence_threshold: 0.7
+  freeze_base_actor: true
+  freeze_feature_adapter: true
+  residual_guard_scale: 0.05
+  max_residual_to_base: 0.25
+  max_abs_residual_logit: 2.0
+  selector_symmetry_break_std: 0.001
+  residual_scale: 0.25
+  min_selector_mi_normalized: 0.05
+  base_kl_target: 0.02
+  base_kl_scale: 0.1
+hierarchical_options:
+  enabled: true
+  num_options: 8
+  option_embedding_dim: 16
+  age_embedding_dim: 8
+  hidden_dim: 128
+  min_duration: 1
+  max_duration: 8
+  commitment_warmup_steps: 100000
+  commitment_full_steps: 700000
+  commitment_reselect_initial: 1.0
+  commitment_reselect_final: 0.25
+  initial_termination_probability: 0.1
+  termination_warmup_steps: 400000
+  termination_full_steps: 850000
+  termination_max_probability_during_ramp: 0.3
+  termination_max_probability_final: 0.3
+  termination_cap_full_steps: 900000
+  termination_margin_normalized: 0.02
+  termination_loss_scale: 0.02
+  termination_entropy_scale: 0.0
+  termination_collapse_scale: 0.0
+  termination_mean_min: 0.02
+  termination_mean_max: 0.6
+  termination_advantage_clip: 1.0
+  termination_min_advantage_magnitude: 0.01
+  termination_max_target_disagreement: 0.25
+  termination_unimix: 0.02
+  eval_sample_termination: false
+  eval_termination_hazard_threshold: 1.0
+  manager_unimix_initial: 0.0
+  manager_unimix_final: 0.005
+  manager_unimix_decay_steps: 600000
+  manager_pg_scale: 1.0
+  manager_pg_warmup_steps: 100000
+  manager_pg_full_steps: 500000
+  manager_entropy_scale: 0.0
+  manager_collapse_scale: 0.0
+  manager_mi_target_normalized: 0.1
+  manager_mi_scale: 0.0
+  max_usage_target: 0.95
+  min_effective_options: 1.0
+  worker_pg_scale: 1.0
+  worker_pg_warmup_steps: 20000
+  worker_pg_full_steps: 150000
+  worker_entropy_scale: 0.0
+  worker_scale_initial: 0.25
+  worker_scale_warmup_steps: 0
+  worker_scale_full_steps: 1
+  worker_scale_max: 0.25
+  max_abs_residual_logit: 2.0
+  max_residual_to_base: 0.25
+  residual_guard_scale: 0.05
+  base_kl_target: 0.002
+  base_kl_tail_target: 0.01
+  base_kl_tail_fraction: 0.1
+  base_kl_tail_relative_scale: 1.0
+  base_kl_scale: 0.5
+  action_preservation_confidence: 0.8
+  action_preservation_margin: 0.05
+  action_preservation_scale: 0.5
+  action_diversity_target: 0.002
+  action_diversity_scale: 0.0
+  residual_cosine_target: 0.95
+  residual_cosine_scale: 0.0
+  max_diversity_states: 2048
+  max_diversity_pairs: 12
+  option_critic_scale: 1.0
+  hierarchy_value_scale: 0.5
+  slow_target_update: 1
+  slow_target_fraction: 0.005
+  freeze_base_actor: true
+  freeze_feature_adapter: true
+  world_model_grad_scale_initial: 0.0
+  world_model_grad_scale_final: 0.0
+  world_model_grad_warmup_steps: 200000
+  world_model_grad_full_steps: 500000
+  imag_horizon_initial_max: 10
+  imag_horizon_final_max: 12
+  imag_horizon_window: 4
+  imag_horizon_ramp_steps: 600000
+  termination_soft_cap_temperature: 0.03
+  source_manager_group_count: 2
+  manager_group_kl_target: 0.001
+  manager_group_kl_tail_target: 0.005
+  manager_group_kl_tail_fraction: 0.1
+  manager_group_kl_tail_relative_scale: 1.0
+  manager_group_kl_scale: 0.5
+  manager_group_preservation_confidence: 0.8
+  manager_group_preservation_margin: 0.05
+  manager_group_preservation_scale: 0.5
+  slot_manager_unimix: 0.01
+  slot_pair_unlock_initial_steps: 150000
+  slot_pair_unlock_interval_steps: 200000
+  slot_unlock_ramp_steps: 150000
+  slot_pg_ramp_steps: 200000
+  slot_delta_scale_max: 0.1

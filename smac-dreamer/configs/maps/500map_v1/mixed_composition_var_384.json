@@ -1,0 +1,31 @@
+{
+    "name": "mixed_composition_var_384",
+    "num_allied_units": 7,
+    "num_enemy_units": 18,
+    "groups": [
+        {
+            "x": 7.67,
+            "y": 15.52,
+            "faction": "ALLY",
+            "units": {
+                "COLOSSUS": 7
+            }
+        },
+        {
+            "x": 20.99,
+            "y": 14.86,
+            "faction": "ENEMY",
+            "units": {
+                "COLOSSUS": 18
+            }
+        }
+    ],
+    "attack_point": [
+        6.72,
+        17.11
+    ],
+    "terrain_preset": "SIMPLE",
+    "num_unit_types": 0,
+    "ally_has_shields": true,
+    "enemy_has_shields": true
+}
