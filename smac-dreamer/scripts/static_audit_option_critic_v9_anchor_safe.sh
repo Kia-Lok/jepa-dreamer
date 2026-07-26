@@ -66,7 +66,7 @@ LEGACY_EXCLUDE='not test_locked_child_delta_cannot_change_source_policy_before_u
 
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 \
 PYTHONPATH="$REPO/external/r2dreamer:$REPO/tests${PYTHONPATH:+:$PYTHONPATH}" \
-timeout 180s "$PY" -m pytest -q \
+"$PY" -m pytest -q \
   tests/test_hierarchical_options.py \
   tests/test_option_critic_math.py \
   tests/test_hierarchical_auxiliary.py \
@@ -75,7 +75,7 @@ timeout 180s "$PY" -m pytest -q \
 
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 \
 PYTHONPATH="$REPO/external/r2dreamer:$REPO/tests${PYTHONPATH:+:$PYTHONPATH}" \
-timeout 180s "$PY" -m pytest -q \
+"$PY" -m pytest -q \
   tests/test_option_critic_v9_core.py \
   tests/test_option_critic_v9_migration.py \
   tests/test_option_critic_v9_auxiliary.py

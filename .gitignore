@@ -1,4 +1,7 @@
 
+# macOS
+.DS_Store
+
 # Python and notebooks
 **/__pycache__/
 **/*.py[cod]
@@ -20,8 +23,9 @@
 **/replay/
 **/replay_*/
 
-# Generated data and archives
-**/data/
+# Generated runtime datasets and archives
+/smac-jepa-wm/data/
+/smac-dreamer/data/
 **/local_assets/
 *.pt
 *.pth

@@ -8,7 +8,7 @@ __pycache__/
 
 wandb/
 eval_results/
-data/
+/data/
 runs/
 reports/
 checkpoints/
@@ -23,5 +23,3 @@ checkpoints/
 !splits/**
 !configs/
 !configs/**
-!smac_jepa/data/
-!smac_jepa/data/**

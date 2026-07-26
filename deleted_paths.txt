@@ -251,3 +251,17 @@ unified_priority_bundle.zip
 v9_three_stage_pipeline_patch
 v9_three_stage_pipeline_patch.zip
 v9_three_stage_pipeline_patch_v2.zip
+.DS_Store
+smac-dreamer/external/r2dreamer/tools.py.pre_bfloat16_numpy_fix
+smac-dreamer/external/r2dreamer/trainer.py.before_unified_indent_fix
+smac-dreamer/inspect_r2_run_config.py
+smac-dreamer/scripts/infer_resume_step.py
+smac-dreamer/scripts/spike_parallelenv_map_routing.py
+smac-dreamer/src/smacdreamer/jepa/checkpoint.py.before_capacity_fix
+smac-dreamer/src/smacdreamer/jepa/checkpoint.py.pre_exp33
+smac-dreamer/src/smacdreamer/jepa/feature_adapter.py.before_slot_adapter
+smac-dreamer/src/smacdreamer/jepa/world_model.py.before_slot_adapter
+smac-dreamer/src/smacdreamer/jepa/world_model.py.pre_exp33
+smac-dreamer/validate_adapter_grad.py
+smac-dreamer/validate_belief_mask_patch.py
+smac-dreamer/validate_integration_static.py

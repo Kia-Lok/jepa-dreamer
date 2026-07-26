@@ -2,7 +2,6 @@
 __pycache__/
 *.pyc
 
-data/
 runs/
 checkpoints/
 *.pt
@@ -11,6 +10,3 @@ checkpoints/
 
 .env
 .DS_Store
-
-!data/
-!data/**

@@ -1,9 +1,9 @@
 """Shared pytest fixtures and path setup for the smacdreamer test suite.
 
 These tests must run WITHOUT importing JAX, Elements, Embodied, Portal, or DreamerV3.
-Only ``src`` and ``external/smaclite`` are placed on ``sys.path``. Tests that require the
-SMAClite simulator are skipped automatically when it is not importable, so the pure-NumPy
-action-codec tests still run in any environment that has numpy.
+Only ``src``, ``external/r2dreamer``, and ``external/smaclite`` are placed on ``sys.path``.
+Tests that require the SMAClite simulator are skipped automatically when it is not importable,
+so the pure-NumPy action-codec tests still run in any environment that has numpy.
 """
 
 import pathlib
@@ -13,9 +13,13 @@ import pytest
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 # Deliberately exclude external/dreamerv3 so no JAX/Elements/Embodied is importable here.
-for _p in (ROOT / "src", ROOT / "external" / "smaclite"):
+for _p in (ROOT / "src", ROOT / "external" / "r2dreamer", ROOT / "external" / "smaclite"):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
+
+# Some isolated hierarchy tests install lightweight modules with setdefault at collection time.
+# Load the real pure-PyTorch implementation first so the complete suite is order-independent.
+import smacdreamer.masked_actions  # noqa: E402,F401
 
 
 def _smaclite_available() -> bool:
