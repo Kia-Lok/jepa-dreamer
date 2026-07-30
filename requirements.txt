@@ -1,0 +1,6 @@
+# Combined JEPA-Dreamer development and training environment.
+# Python 3.11 is required by the retained R2-Dreamer package.
+-e ./smac-jepa-wm[dev]
+-e ./smac-dreamer[test]
+-e ./smac-dreamer/external/r2dreamer
+-e ./smac-dreamer/external/smaclite[test]

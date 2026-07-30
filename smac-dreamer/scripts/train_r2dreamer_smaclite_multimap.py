@@ -455,14 +455,24 @@ def main():
             config.trainer.start_step = resume_step
             if hasattr(replay_buffer, "set_env_step"):
                 replay_buffer.set_env_step(resume_step)
-            hierarchy_load = agent.load_hierarchical_compatible_state_dict(
-                ckpt["agent_state_dict"],
-                checkpoint_metadata=ckpt.get("hierarchical_options_metadata"),
-                tactical_metadata=ckpt.get("tactical_mixture_metadata"),
-            )
-            tactical_load = {
-                'migrated_legacy': bool(hierarchy_load.get('migrated', False))
-            }
+            if agent.hierarchical_enabled:
+                hierarchy_load = agent.load_hierarchical_compatible_state_dict(
+                    ckpt["agent_state_dict"],
+                    checkpoint_metadata=ckpt.get("hierarchical_options_metadata"),
+                    tactical_metadata=ckpt.get("tactical_mixture_metadata"),
+                )
+                tactical_load = {
+                    'migrated_legacy': bool(
+                        hierarchy_load.get('migrated', False)
+                    )
+                }
+            else:
+                tactical_load = agent.load_tactical_compatible_state_dict(
+                    ckpt["agent_state_dict"],
+                    checkpoint_metadata=ckpt.get(
+                        "tactical_mixture_metadata"
+                    ),
+                )
             can_restore_training = (
                 not tactical_load.get("migrated_legacy", False)
                 and ckpt.get("agent_training_state")
